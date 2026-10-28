@@ -1,0 +1,72 @@
+{
+  "material": "GaAs q21/q5",
+  "dimension": "3D",
+  "k_mesh": "12×12×12",
+  "basis": "aug-DZ1",
+  "method": "G0W0 fundamental",
+  "gap_eV": "1.019",
+  "reference_gaps_eV_and_citations": "1.23 [1]; 1.34 [4]",
+  "core_hours": "79.324",
+  "slurm_job": "3740420",
+  "elapsed_seconds": "8924",
+  "allocated_cpus": "32",
+  "source_directory": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/zn_ga_dztz_evgw0_48h_20261018_v2/GaAs/dz1",
+  "slurm_state": "COMPLETED",
+  "included_files": [
+    {
+      "name": "assets/BASIS",
+      "bytes": 430661,
+      "sha256": "41eafcae651919a88409466a84ac9c80417672406abcb0cc90580831304b8c51"
+    },
+    {
+      "name": "assets/POTENTIALS",
+      "bytes": 255046,
+      "sha256": "e8ac510aaef493e586cdca9a7f2fcce63f16d0bb07cc2b7ae908a6fd8a884e63"
+    },
+    {
+      "name": "bandstructure_DFT",
+      "bytes": 805443,
+      "sha256": "346693042aeeb1694232fc2ecf0db012782bd0ad260d7716b24c46abbb11baca"
+    },
+    {
+      "name": "bandstructure_SCF_and_G0W0",
+      "bytes": 4470329,
+      "sha256": "969042c6d94c196f71b96de94a5a1023af032fd1760b2cd60d50561ba6cbe524"
+    },
+    {
+      "name": "cp2k.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "cp2k.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "input.inp",
+      "bytes": 2876,
+      "sha256": "c652ec39a87df90e7ed0358aaca8552076f01cb84ea72446bb0f9811fccd5241"
+    },
+    {
+      "name": "output.out",
+      "bytes": 220057,
+      "sha256": "c2d7cc6958ed175c1c86618a66aa3c8fd99c0fc96f27ffb3b1e423ca07cbd536"
+    },
+    {
+      "name": "run.sbatch",
+      "bytes": 2233,
+      "sha256": "35b06b9d9d4c43dcad689a1371c38dae4a2f04752ab59dc39e41f8aadf5d5f47"
+    },
+    {
+      "name": "slurm-3740420.err",
+      "bytes": 321,
+      "sha256": "70b196c8b47f6634980bf9b387308c01a609d1b79340ba1c26f5d48e52136476"
+    },
+    {
+      "name": "slurm-3740420.out",
+      "bytes": 852,
+      "sha256": "e3d2a57e27bc7faebc9ca68ce20f0c743bcca8c00c4f32b8f30b2d59cb6d6b20"
+    }
+  ]
+}

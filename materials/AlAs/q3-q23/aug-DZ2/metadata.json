@@ -1,0 +1,82 @@
+{
+  "material": "AlAs q3/q23",
+  "dimension": "3D",
+  "k_mesh": "12×12×12",
+  "basis": "aug-DZ2",
+  "method": "G0W0 fundamental",
+  "gap_eV": "2.025",
+  "reference_gaps_eV_and_citations": "2.31 [1]; 2.36 [4]",
+  "core_hours": "67.840",
+  "slurm_job": "3793625",
+  "elapsed_seconds": "159",
+  "allocated_cpus": "1536",
+  "source_directory": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/alas_q3q23_g0w0_completion_20261021_v1/dz2",
+  "slurm_state": "COMPLETED",
+  "included_files": [
+    {
+      "name": "BASIS",
+      "bytes": 1965,
+      "sha256": "e29a4104194dd676eafdf0a03ea243177a344259715b8369211cdc8546318665"
+    },
+    {
+      "name": "POTENTIALS",
+      "bytes": 474,
+      "sha256": "8ac59a3ec8b2c6a447478949ce9903f334dabc985f4a6289b7891611bc17f4b1"
+    },
+    {
+      "name": "assets/BASIS",
+      "bytes": 1965,
+      "sha256": "e29a4104194dd676eafdf0a03ea243177a344259715b8369211cdc8546318665"
+    },
+    {
+      "name": "assets/POTENTIALS",
+      "bytes": 474,
+      "sha256": "8ac59a3ec8b2c6a447478949ce9903f334dabc985f4a6289b7891611bc17f4b1"
+    },
+    {
+      "name": "bandstructure_DFT",
+      "bytes": 754868,
+      "sha256": "f6479e2a0709c135b95a46430fa4cad177183f59789249dfcdce654a3e1c36a8"
+    },
+    {
+      "name": "bandstructure_SCF_and_G0W0",
+      "bytes": 2092071,
+      "sha256": "3617539b967a6fa7544e2e2ac755768d9f6dfc31f70bfa9943189666362be073"
+    },
+    {
+      "name": "cp2k.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "cp2k.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "input.inp",
+      "bytes": 2895,
+      "sha256": "14b12291c08dbb4c5002149e51d43ab1d26b8b2378e357382d5af594bb7ce78a"
+    },
+    {
+      "name": "output.out",
+      "bytes": 176634,
+      "sha256": "9e21efc22eea01f06dcadc9b14957d182c9fbfabbe91b48d8b02e0b9f84cc920"
+    },
+    {
+      "name": "run.sbatch",
+      "bytes": 2762,
+      "sha256": "edd10b6cac3abe0661a97b4031b2b0b7629378b6c995e2e4937d76e27938711f"
+    },
+    {
+      "name": "slurm-3793625.err",
+      "bytes": 321,
+      "sha256": "368bb03584110d8a6f8b0199d5fd612a68cc91481fabc6024154308d548cc130"
+    },
+    {
+      "name": "slurm-3793625.out",
+      "bytes": 1070,
+      "sha256": "abe3d18301d359ea70030330314bb8d15e8b1f21d845129b2ef5d3427e7321d2"
+    }
+  ]
+}

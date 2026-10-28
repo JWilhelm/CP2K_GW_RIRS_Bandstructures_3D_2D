@@ -1,0 +1,87 @@
+{
+  "material": "ZnTe Zinkblende q20/q6",
+  "dimension": "3D",
+  "k_mesh": "12×12×12",
+  "basis": "aug-TZ2",
+  "method": "G0W0 fundamental",
+  "gap_eV": "2.097",
+  "reference_gaps_eV_and_citations": "2.27 [1]; 2.33 [4]",
+  "core_hours": "510.720",
+  "slurm_job": "3780932",
+  "elapsed_seconds": "1197",
+  "allocated_cpus": "1536",
+  "source_directory": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_material_completion_20261020_v1/runs/ZnTe_q20q6_tz2",
+  "slurm_state": "COMPLETED",
+  "included_files": [
+    {
+      "name": "assets/BASIS",
+      "bytes": 2640,
+      "sha256": "6b38b7f5934633d3a9f6f713fdc92964ed1b40c3128b4ea4327320ae9596172c"
+    },
+    {
+      "name": "assets/POTENTIALS",
+      "bytes": 583,
+      "sha256": "16f09d182e19762fb7502038c1614be67a6844eddbd164d3837af52deee36568"
+    },
+    {
+      "name": "bandstructure_DFT",
+      "bytes": 1351653,
+      "sha256": "4f990b2028321489b35972e95b6d4b0bd3ca47fe3ebccfd274c7f15af2a40543"
+    },
+    {
+      "name": "bandstructure_DFT_plus_SOC",
+      "bytes": 2588573,
+      "sha256": "cd4dffee62ea97aa2c6247473a3d38be403a458c6dc40deeebef2dcb88df4f47"
+    },
+    {
+      "name": "bandstructure_SCF_and_G0W0",
+      "bytes": 3780120,
+      "sha256": "f9f26aa085b4b6ffc5452a98642a0148abd4007b5a567d7104c92bb3a11dc339"
+    },
+    {
+      "name": "bandstructure_SCF_and_G0W0_plus_SOC",
+      "bytes": 3797171,
+      "sha256": "7af94d0ec8e639bb8e88351856e0b772d017c9a95dc879f9dfd612f0dbdadb68"
+    },
+    {
+      "name": "cp2k.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "cp2k.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "input.inp",
+      "bytes": 2947,
+      "sha256": "ed3c53d38fe7eff4cc5df6a19e2a66c54d2602aea47aae8bba07b041876e1ccd"
+    },
+    {
+      "name": "output.out",
+      "bytes": 237686,
+      "sha256": "a11d3bd508d17fa1eefa6a49a97c64e7ffae70c7949bfc8ea40af79a5e0e2e72"
+    },
+    {
+      "name": "run.metdyn.sbatch",
+      "bytes": 2833,
+      "sha256": "49911905227f32fd01f212714b7b531b969165feaca365d3cf7f9a14907b229d"
+    },
+    {
+      "name": "run.sbatch",
+      "bytes": 2834,
+      "sha256": "cefd47e113f7df8e9950bcbd2837b9f3164642dccbafca7dedaba5a93d301955"
+    },
+    {
+      "name": "slurm-3780932.err",
+      "bytes": 320,
+      "sha256": "f7a6c7149bdc7164e17c5549b908b96bfb228fd913332ec8412daf296e127e5c"
+    },
+    {
+      "name": "slurm-3780932.out",
+      "bytes": 1084,
+      "sha256": "59eb30cd5b4de95d77758db7a353048bc679cb15f1de27e5de321f095af05dc6"
+    }
+  ]
+}

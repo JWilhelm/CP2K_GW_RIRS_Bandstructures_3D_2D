@@ -1,0 +1,102 @@
+{
+  "material": "BAs",
+  "dimension": "3D",
+  "k_mesh": "12×12×12",
+  "basis": "aug-DZ2",
+  "method": "G0W0 fundamental",
+  "gap_eV": "1.824",
+  "reference_gaps_eV_and_citations": "1.91 / 1.83 [2]",
+  "core_hours": "184.640",
+  "slurm_job": "3759601",
+  "elapsed_seconds": "577",
+  "allocated_cpus": "1152",
+  "source_directory": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp_queue_migration_20261019_v1/runs/3748328",
+  "slurm_state": "COMPLETED",
+  "included_files": [
+    {
+      "name": "BASIS",
+      "bytes": 1188,
+      "sha256": "e4c80ccaf1dc41513391034b39b04b69c9eca7a595935917244625cb12f08c85"
+    },
+    {
+      "name": "POTENTIALS",
+      "bytes": 444,
+      "sha256": "aca69b62bec7dff5b6f6b4ab23679a5d80f8ab4ce0ed2015e060c1d4a571c2b5"
+    },
+    {
+      "name": "assets/BASIS",
+      "bytes": 1188,
+      "sha256": "e4c80ccaf1dc41513391034b39b04b69c9eca7a595935917244625cb12f08c85"
+    },
+    {
+      "name": "assets/POTENTIALS",
+      "bytes": 444,
+      "sha256": "aca69b62bec7dff5b6f6b4ab23679a5d80f8ab4ce0ed2015e060c1d4a571c2b5"
+    },
+    {
+      "name": "bandstructure_DFT",
+      "bytes": 623373,
+      "sha256": "7ccc85fc07bf37c7502474a2d061fc09f5f9d41bfc1f555ed1d086a2c919003d"
+    },
+    {
+      "name": "bandstructure_DFT_plus_SOC",
+      "bytes": 1173629,
+      "sha256": "003b31a24d9a22dc9afc10591d5d2288626cbb6626c288cad87eb51774696ab1"
+    },
+    {
+      "name": "bandstructure_G0W0_first_cycle_plus_SOC",
+      "bytes": 1716371,
+      "sha256": "9bea77f13bae24c7e253d661f126dbed769f03df102b04736933927b74626433"
+    },
+    {
+      "name": "bandstructure_SCF_and_G0W0",
+      "bytes": 3440333,
+      "sha256": "33ff871f9e1b8a70d1399995af8aa9029fbacb7bd876934c8b6d0986a9f9d704"
+    },
+    {
+      "name": "bandstructure_SCF_and_G0W0_plus_SOC",
+      "bytes": 1716371,
+      "sha256": "8ca82938783922332e10f20b9702bf53fa007a3901138243589d97584ca33c0d"
+    },
+    {
+      "name": "gw-slurm-3759601.err",
+      "bytes": 320,
+      "sha256": "6b8936a3f836764abd9d0a4d529eeacfbd9397237ee63407d8a6182923578f3a"
+    },
+    {
+      "name": "gw-slurm-3759601.out",
+      "bytes": 1251,
+      "sha256": "250b608b202a4651a5c75b9c112f4c8d00f742c3c1333a5bc28137383f5d3b23"
+    },
+    {
+      "name": "gw.inp",
+      "bytes": 3153,
+      "sha256": "1534c9dcdb55dd606bf16e1e3e967e7bd993438f4eefad471fc4034df1413005"
+    },
+    {
+      "name": "gw.out",
+      "bytes": 184153,
+      "sha256": "47ec97f2cd8ffe979aee17d09c9402f6c8b8c0b5c1760d19767215eda1e95412"
+    },
+    {
+      "name": "gw.sbatch",
+      "bytes": 2473,
+      "sha256": "81f85580abaefc9a43ac0bc595301faedd27594309303eab70d3ffc34b968e7b"
+    },
+    {
+      "name": "scf.inp",
+      "bytes": 1751,
+      "sha256": "186c7ade9159f4fa5c0061a3b0e602de15215f71de363a8947fb51132389824c"
+    },
+    {
+      "name": "scf.out",
+      "bytes": 152595,
+      "sha256": "f8beaee9ec055de03ff0612d3297e5d55498a9f39512aa99556bfa54b2dac2c6"
+    },
+    {
+      "name": "scf.sbatch",
+      "bytes": 2666,
+      "sha256": "5cfd35f409d2ce7db85c7b0289fa1e9ec182988f44e96e29b89b900f2b62b7e6"
+    }
+  ]
+}

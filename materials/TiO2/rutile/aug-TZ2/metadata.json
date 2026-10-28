@@ -1,0 +1,82 @@
+{
+  "material": "TiO₂ Rutil, indirekt",
+  "dimension": "3D",
+  "k_mesh": "12×12×12",
+  "basis": "aug-TZ2",
+  "method": "G0W0 fundamental",
+  "gap_eV": "3.397",
+  "reference_gaps_eV_and_citations": "3.46 [3] direkt; 3.39 [4]",
+  "core_hours": "6318.933",
+  "slurm_job": "3772038",
+  "elapsed_seconds": "14810",
+  "allocated_cpus": "1536",
+  "source_directory": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tio2_oom_recovery_8n_20261020_v1/TiO2_rutile_tz2_8n",
+  "slurm_state": "COMPLETED",
+  "included_files": [
+    {
+      "name": "BASIS",
+      "bytes": 97635,
+      "sha256": "7c624c8ba82d922de5ca84f2a94e2129c5185dd9ffba47e4818c9ce3e9f738f1"
+    },
+    {
+      "name": "POTENTIALS",
+      "bytes": 80460,
+      "sha256": "fb8cd9cd05244e8ad97f7f1dd8040d1797f7facd1c6a757bcf9d7aafa7bef3fe"
+    },
+    {
+      "name": "assets/BASIS",
+      "bytes": 97635,
+      "sha256": "7c624c8ba82d922de5ca84f2a94e2129c5185dd9ffba47e4818c9ce3e9f738f1"
+    },
+    {
+      "name": "assets/POTENTIALS",
+      "bytes": 80460,
+      "sha256": "fb8cd9cd05244e8ad97f7f1dd8040d1797f7facd1c6a757bcf9d7aafa7bef3fe"
+    },
+    {
+      "name": "bandstructure_DFT",
+      "bytes": 2784825,
+      "sha256": "773fdb6527b4168075e61d65737ef54f600692661cdeb55c659eb0505d7dd390"
+    },
+    {
+      "name": "bandstructure_SCF_and_G0W0",
+      "bytes": 15687077,
+      "sha256": "9d3971a198d17bbc37bddd5b8df0478c3e6462193509d6073b35a07350346bd3"
+    },
+    {
+      "name": "cp2k.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "cp2k.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "input.inp",
+      "bytes": 3230,
+      "sha256": "3dde2a869da753a6eac900eba17556281f84a072154fbfcd75da65a0abefe1e3"
+    },
+    {
+      "name": "output.out",
+      "bytes": 262026,
+      "sha256": "ece39b77fc18ca23ef40f4cc0de9f5e9694b3e97922fd18c97f51a6321fc72a0"
+    },
+    {
+      "name": "run.sbatch",
+      "bytes": 2485,
+      "sha256": "9e225e66dd4a77a2e41512e51b2bb733955663df9056546412b704c55b97659e"
+    },
+    {
+      "name": "slurm-3772038.err",
+      "bytes": 321,
+      "sha256": "f2f3f5188f5667a765c185478f3a8e71d1f5a5ce1454f9fdf2d4e5a1aa07238a"
+    },
+    {
+      "name": "slurm-3772038.out",
+      "bytes": 957,
+      "sha256": "5acb4cd65f32b42649bec07aa315919ff1568eb133c786fe68c7935a7159c794"
+    }
+  ]
+}

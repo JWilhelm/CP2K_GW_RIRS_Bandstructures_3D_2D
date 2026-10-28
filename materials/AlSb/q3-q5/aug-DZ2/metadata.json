@@ -1,0 +1,107 @@
+{
+  "material": "AlSb q3/q5",
+  "dimension": "3D",
+  "k_mesh": "12×12×12",
+  "basis": "aug-DZ2",
+  "method": "G0W0 fundamental",
+  "gap_eV": "1.564",
+  "reference_gaps_eV_and_citations": "1.87 [1]; 1.88 [4]",
+  "core_hours": "17.240",
+  "slurm_job": "3744186",
+  "elapsed_seconds": "1293",
+  "allocated_cpus": "48",
+  "source_directory": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_dz12_qcompare_metdyn_6n6h_20261018_v1/runs/AlSb/dz2/low",
+  "slurm_state": "COMPLETED",
+  "included_files": [
+    {
+      "name": "BASIS",
+      "bytes": 1188,
+      "sha256": "51f071ff1b2677753abfe62f413470f2076284859a5e86cddd37a28b8495d377"
+    },
+    {
+      "name": "POTENTIALS",
+      "bytes": 523,
+      "sha256": "14998e4c411d32343a6190087bcc769cb58ab3bd073b84e57bae15cca44b77f4"
+    },
+    {
+      "name": "assets/BASIS",
+      "bytes": 1188,
+      "sha256": "51f071ff1b2677753abfe62f413470f2076284859a5e86cddd37a28b8495d377"
+    },
+    {
+      "name": "assets/POTENTIALS",
+      "bytes": 523,
+      "sha256": "14998e4c411d32343a6190087bcc769cb58ab3bd073b84e57bae15cca44b77f4"
+    },
+    {
+      "name": "bandstructure_DFT",
+      "bytes": 623373,
+      "sha256": "144e6f21630d7da415ec1f416cbdf167b3ac77c14f41d102f3e73173d4a6eb08"
+    },
+    {
+      "name": "bandstructure_DFT_plus_SOC",
+      "bytes": 1173629,
+      "sha256": "1ee2660dcfe1bb7c274e946cda6268c49e5e2ad5858a0a714bbcc2e78a387f98"
+    },
+    {
+      "name": "bandstructure_G0W0_first_cycle_plus_SOC",
+      "bytes": 1716371,
+      "sha256": "c9d00af65ad7d8b000bbe0efaa75ac9ad6c1dbb41592a3be6166dc942e02b41a"
+    },
+    {
+      "name": "bandstructure_SCF_and_G0W0",
+      "bytes": 3440333,
+      "sha256": "146e5226e894f696befd730d76a76713bafc353b9f478cdec0ce5486c9634f82"
+    },
+    {
+      "name": "bandstructure_SCF_and_G0W0_plus_SOC",
+      "bytes": 1716371,
+      "sha256": "5a081497f19abf5ca502154f684cbfd114b0119be6e0afefaf3617031af85b35"
+    },
+    {
+      "name": "cp2k.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "cp2k.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "gw.inp",
+      "bytes": 3050,
+      "sha256": "221eef1899829a5767368075eff4c8f603dc475062ede19a7b7c2dd43ae17508"
+    },
+    {
+      "name": "gw.sbatch",
+      "bytes": 2407,
+      "sha256": "8fd1b213a253b3932a8ff2565a8be0f1d6a9d4b3f9670b772be3bebb9a909d89"
+    },
+    {
+      "name": "output.out",
+      "bytes": 183348,
+      "sha256": "c08a3f34e41e617ef3d7266245e3f0adb0cc2a09e70c0ebe6d5499446ec47d01"
+    },
+    {
+      "name": "scf.inp",
+      "bytes": 1783,
+      "sha256": "e7df5d244d6a242f24bef87ccffd0c889827e87fb9986c874c754a6b235fbb3d"
+    },
+    {
+      "name": "scf.sbatch",
+      "bytes": 2412,
+      "sha256": "72c92fdc2d2b94332404cc42cf6abe59fdf13df287b21bf32b2db46c48c70945"
+    },
+    {
+      "name": "slurm-3744186.err",
+      "bytes": 321,
+      "sha256": "dc06ed15ce5195dbccb4ed9a4b252ce96a24cd4edd923047d8488dbb158d177a"
+    },
+    {
+      "name": "slurm-3744186.out",
+      "bytes": 1062,
+      "sha256": "e66b873d9bd477494d3e082e6b9a8b3f720c42aac1177c376d87235fa084cef5"
+    }
+  ]
+}

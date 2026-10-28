@@ -1,0 +1,72 @@
+{
+  "material": "CdSe q20/q6",
+  "dimension": "3D",
+  "k_mesh": "12×12×12",
+  "basis": "aug-SZ2",
+  "method": "G0W0 fundamental",
+  "gap_eV": "1.113",
+  "reference_gaps_eV_and_citations": "1.52 [1]; 1.71 [4]",
+  "core_hours": "65.707",
+  "slurm_job": "3784622",
+  "elapsed_seconds": "154",
+  "allocated_cpus": "1536",
+  "source_directory": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdSe_q20q6_sz2",
+  "slurm_state": "COMPLETED",
+  "included_files": [
+    {
+      "name": "assets/BASIS",
+      "bytes": 1479,
+      "sha256": "e16947e57784c30d77745862d81315e78f7401745425588232fd72ef27ab3131"
+    },
+    {
+      "name": "assets/POTENTIALS",
+      "bytes": 615,
+      "sha256": "6dd78e9d4d3a4e72deaecd5d82eb1f9f8749f101992ae96d304287bb59a8fc04"
+    },
+    {
+      "name": "bandstructure_DFT",
+      "bytes": 522223,
+      "sha256": "e0d6076b352efe8835d9de0ca6c5145d496b9a0919eab312e5312642f736b645"
+    },
+    {
+      "name": "bandstructure_SCF_and_G0W0",
+      "bytes": 1434018,
+      "sha256": "f7042cd692cfafa5004903c80fd59b6c691dc235e386fdcd9a85d870f7dac8d5"
+    },
+    {
+      "name": "cp2k.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "cp2k.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "input.inp",
+      "bytes": 2904,
+      "sha256": "0e18de4e5987ee7aa770739d5c73ad2289a446551cdb6655170518d73d1004b8"
+    },
+    {
+      "name": "output.out",
+      "bytes": 178926,
+      "sha256": "72a2b35af7f7d5b8b872c3b1e119e19edcaff259b8ed66de5b63e7d3f57045a0"
+    },
+    {
+      "name": "run.sbatch",
+      "bytes": 2810,
+      "sha256": "be87025e5b87462307ac0760c18277df70ad0e6feb09f533f9379d4b18ce9de5"
+    },
+    {
+      "name": "slurm-3784622.err",
+      "bytes": 321,
+      "sha256": "c4bcfc4b6e0e2da7320da5c5c15945a083475e2e97fc9789154865fd83e07ca3"
+    },
+    {
+      "name": "slurm-3784622.out",
+      "bytes": 1080,
+      "sha256": "ea90687227a2a71608c81f1e2616364532266b8fedd8c035e2ddaf656c05ac13"
+    }
+  ]
+}
