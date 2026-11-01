@@ -24,7 +24,7 @@
   "source_directory": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/WSe2_04_aug-TZVP_T1_k12",
   "slurm_state": "COMPLETED",
   "slurm_exit_code": "0:0",
-  "accounting_source": "benchmark/monolayers_20261020/completed_accounting.txt (20 October 2026)",
+  "accounting_source": "Slurm accounting for 20 October 2026 calculations",
   "normal_cp2k_end": true,
   "scf_converged": true,
   "cp2k_stderr_bytes": 0,
