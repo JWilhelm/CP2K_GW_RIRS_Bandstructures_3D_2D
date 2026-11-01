@@ -1,0 +1,112 @@
+{
+  "case": "MoS2_04_aug-TZVP_T1_k16",
+  "material": "MoS2",
+  "basis": "aug-TZVP-MOLOPT-GTH-tier-1",
+  "k": 16,
+  "nodes": 1,
+  "mpi_per_node": 48,
+  "omp": 4,
+  "cp2k_seconds": 216.054,
+  "slurm_seconds": 225,
+  "node_hours": 0.0625,
+  "gap_soc_eV": 2.1890000000000005,
+  "vbm_soc_eV": -5.892,
+  "cbm_soc_eV": -3.703,
+  "job_id": "3771760",
+  "numerical_status": "full-spectrum reproducibility unresolved",
+  "max_rank_rss": "5657964K",
+  "dimension": "2D",
+  "k_mesh": "16x16x1",
+  "basis_short": "aug-TZ1",
+  "method": "G0W0+SOC path gap from printed band energies",
+  "allocated_cpus": 192,
+  "core_hours": 12.0,
+  "source_directory": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/MoS2_04_aug-TZVP_T1_k16",
+  "slurm_state": "COMPLETED",
+  "slurm_exit_code": "0:0",
+  "accounting_source": "benchmark/monolayers_20261020/completed_accounting.txt (20 October 2026)",
+  "normal_cp2k_end": true,
+  "scf_converged": true,
+  "cp2k_stderr_bytes": 0,
+  "warnings": [
+    " *** WARNING in post_scf_bandstructure_utils.F:4091 :: G0W0 reorders the  ***\n *** occupied levels: the SCF valence band maximum (SCF HOMO) is level 13 ***\n *** at k-point 1, whereas the G0W0 valence band maximum (G0W0 HOMO) is   ***\n *** level 13 at k-point 50. The SCF and G0W0 band edges printed below    ***\n *** therefore belong to different orbitals; see the eigenvalues in the   ***\n *** file bandstructure_SCF_and_G0W0.                                     ***"
+  ],
+  "included_files": [
+    {
+      "name": "assets/BASIS",
+      "bytes": 24528,
+      "sha256": "c2a0ea86a6a4fac168c77874cbe27eb5153bedd2f4dbf4fb78c8835520f4f2d7"
+    },
+    {
+      "name": "assets/POTENTIALS",
+      "bytes": 254486,
+      "sha256": "cb8671959ad5dd1c0f403786a69af3f155157ed1af8e5701e63de23ec4b0742e"
+    },
+    {
+      "name": "bandstructure_DFT",
+      "bytes": 780256,
+      "sha256": "8223b8ff083a85814e623750222f3af9a7a08866e444221747948ccef63b23af"
+    },
+    {
+      "name": "bandstructure_DFT_plus_SOC",
+      "bytes": 1506788,
+      "sha256": "61779fbcd7621377065854504d67b6cbd0dd8a9cfe63aa53df74c8bfae3ea78c"
+    },
+    {
+      "name": "bandstructure_SCF_and_G0W0",
+      "bytes": 2199576,
+      "sha256": "cee41d424fa98a29605c985fd1c94018eb9e40f9e5ffad882ae1cfb14924f8a5"
+    },
+    {
+      "name": "bandstructure_SCF_and_G0W0_plus_SOC",
+      "bytes": 2210972,
+      "sha256": "e9d1e5270d9bf579e7a71500cf50a3c5fce4eb90e5fbedcac87980780fd7c319"
+    },
+    {
+      "name": "cp2k.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "cp2k.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "input.inp",
+      "bytes": 2629,
+      "sha256": "670035651a19aeb73d5a66d832aa987015c0dfc11a7cbf0c440f986504e72e7d"
+    },
+    {
+      "name": "ldd.txt",
+      "bytes": 5018,
+      "sha256": "2dd758f31800883320dfb9f1395d7113a53e2119825919abb5bee82e24d33fc6"
+    },
+    {
+      "name": "output.out",
+      "bytes": 198765,
+      "sha256": "b2d621c8f64ab1606e80364981cf86ae349a44325a6ca3fa2d00f4d4db158efe"
+    },
+    {
+      "name": "preflight.sha256",
+      "bytes": 887,
+      "sha256": "a4f5942b4308d9c8f4ca92eee52ceede5bd478201e20041a8b5638ab96297170"
+    },
+    {
+      "name": "run.sbatch",
+      "bytes": 2323,
+      "sha256": "f8de98cac25e7da377659874cbfb8c5bc90afe5400c0082c878e0810eef4e447"
+    },
+    {
+      "name": "slurm-3771760.err",
+      "bytes": 321,
+      "sha256": "d2f826bf5497e61f1fcf643cc08d01de5b386dfd7aeeef14e19aa95b996a9a93"
+    },
+    {
+      "name": "slurm-3771760.out",
+      "bytes": 595,
+      "sha256": "1d134a0e61cd1ceeb60c45812dc92a2795e4d4d9e5787b6fd4f33d458f9dabc0"
+    }
+  ],
+  "limitations": "The k12 and k16 gaps differ by 29–44 meV across this series. Full-spectrum reproducibility and k convergence remain unresolved."
+}

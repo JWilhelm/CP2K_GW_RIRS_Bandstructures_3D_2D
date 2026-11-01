@@ -220,7 +220,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlP/standard/aug-SZ2",
+    "path": "AlP/aug-SZ2",
     "original_archive_path": "AlP/standard/aug-SZ2",
     "job": "3743263",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_sz2_gw_3nodes_6h_rqsued_20261018_v1/runs/AlP",
@@ -231,7 +231,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlP/standard/aug-DZ1",
+    "path": "AlP/aug-DZ1",
     "original_archive_path": "AlP/standard/aug-DZ1",
     "job": "3744136",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_dz12_qcompare_metdyn_6n6h_20261018_v1/runs/AlP/dz1/standard",
@@ -242,7 +242,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlP/standard/aug-DZ2",
+    "path": "AlP/aug-DZ2",
     "original_archive_path": "AlP/standard/aug-DZ2",
     "job": "3744137",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_dz12_qcompare_metdyn_6n6h_20261018_v1/runs/AlP/dz2/standard",
@@ -253,7 +253,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlP/standard/aug-TZ1",
+    "path": "AlP/aug-TZ1",
     "original_archive_path": "AlP/standard/aug-TZ1",
     "job": "3745627",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/semiconductor_g0_recovery_dz_6n48h_20261019_v1/AlP/tz1",
@@ -264,7 +264,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlP/standard/aug-TZ2",
+    "path": "AlP/aug-TZ2",
     "original_archive_path": "AlP/standard/aug-TZ2",
     "job": "3745628",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/semiconductor_g0_recovery_dz_6n48h_20261019_v1/AlP/tz2",
@@ -275,7 +275,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlAs/q3-q5/aug-SZ2",
+    "path": "AlAs_GTH_Q3_Q5/aug-SZ2",
     "original_archive_path": "AlAs/q3-q5/aug-SZ2",
     "job": "3743282",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_sz2_gw_3nodes_6h_rqsued_20261018_v1/runs/AlAs",
@@ -286,7 +286,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlAs/q3-q5/aug-DZ1",
+    "path": "AlAs_GTH_Q3_Q5/aug-DZ1",
     "original_archive_path": "AlAs/q3-q5/aug-DZ1",
     "job": "3744182",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_dz12_qcompare_metdyn_6n6h_20261018_v1/runs/AlAs/dz1/low",
@@ -297,7 +297,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlAs/q3-q5/aug-DZ2",
+    "path": "AlAs_GTH_Q3_Q5/aug-DZ2",
     "original_archive_path": "AlAs/q3-q5/aug-DZ2",
     "job": "3744183",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_dz12_qcompare_metdyn_6n6h_20261018_v1/runs/AlAs/dz2/low",
@@ -308,7 +308,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlAs/q3-q5/aug-TZ1",
+    "path": "AlAs_GTH_Q3_Q5/aug-TZ1",
     "original_archive_path": "AlAs/q3-q5/aug-TZ1",
     "job": "3748942",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp4_queue_correction_20261019_v1/runs/3748522",
@@ -319,7 +319,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlAs/q3-q5/aug-TZ2",
+    "path": "AlAs_GTH_Q3_Q5/aug-TZ2",
     "original_archive_path": "AlAs/q3-q5/aug-TZ2",
     "job": "3748883",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp4_queue_correction_20261019_v1/runs/3748516",
@@ -330,7 +330,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlAs/q3-q23/aug-SZ2",
+    "path": "AlAs_GTH_Q3_Q23/aug-SZ2",
     "original_archive_path": "AlAs/q3-q23/aug-SZ2",
     "job": "3743668",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw14_sz2_semicore_evgw0_3nodes_6h_rqsued_20261018_v1/runs/AlAs",
@@ -341,7 +341,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlAs/q3-q23/aug-DZ1",
+    "path": "AlAs_GTH_Q3_Q23/aug-DZ1",
     "original_archive_path": "AlAs/q3-q23/aug-DZ1",
     "job": "3793624",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/alas_q3q23_g0w0_completion_20261021_v1/dz1",
@@ -352,7 +352,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlAs/q3-q23/aug-DZ2",
+    "path": "AlAs_GTH_Q3_Q23/aug-DZ2",
     "original_archive_path": "AlAs/q3-q23/aug-DZ2",
     "job": "3793625",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/alas_q3q23_g0w0_completion_20261021_v1/dz2",
@@ -363,7 +363,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlAs/q3-q23/aug-TZ1",
+    "path": "AlAs_GTH_Q3_Q23/aug-TZ1",
     "original_archive_path": "AlAs/q3-q23/aug-TZ1",
     "job": "3793626",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/alas_q3q23_g0w0_completion_20261021_v1/tz1",
@@ -374,7 +374,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlAs/q3-q23/aug-TZ2",
+    "path": "AlAs_GTH_Q3_Q23/aug-TZ2",
     "original_archive_path": "AlAs/q3-q23/aug-TZ2",
     "job": "3793627",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/alas_q3q23_g0w0_completion_20261021_v1/tz2",
@@ -385,7 +385,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlSb/q3-q5/aug-SZ2",
+    "path": "AlSb_GTH_Q3_Q5/aug-SZ2",
     "original_archive_path": "AlSb/q3-q5/aug-SZ2",
     "job": "3743283",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_sz2_gw_3nodes_6h_rqsued_20261018_v1/runs/AlSb",
@@ -396,7 +396,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlSb/q3-q5/aug-DZ1",
+    "path": "AlSb_GTH_Q3_Q5/aug-DZ1",
     "original_archive_path": "AlSb/q3-q5/aug-DZ1",
     "job": "3744184",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_dz12_qcompare_metdyn_6n6h_20261018_v1/runs/AlSb/dz1/low",
@@ -407,7 +407,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlSb/q3-q5/aug-DZ2",
+    "path": "AlSb_GTH_Q3_Q5/aug-DZ2",
     "original_archive_path": "AlSb/q3-q5/aug-DZ2",
     "job": "3744186",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_dz12_qcompare_metdyn_6n6h_20261018_v1/runs/AlSb/dz2/low",
@@ -418,7 +418,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlSb/q3-q5/aug-TZ1",
+    "path": "AlSb_GTH_Q3_Q5/aug-TZ1",
     "original_archive_path": "AlSb/q3-q5/aug-TZ1",
     "job": "3748884",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp4_queue_correction_20261019_v1/runs/3748517",
@@ -429,7 +429,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlSb/q3-q5/aug-TZ2",
+    "path": "AlSb_GTH_Q3_Q5/aug-TZ2",
     "original_archive_path": "AlSb/q3-q5/aug-TZ2",
     "job": "3748881",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp4_queue_correction_20261019_v1/runs/3748514",
@@ -440,7 +440,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlSb/q3-q23/aug-SZ2",
+    "path": "AlSb_GTH_Q3_Q23/aug-SZ2",
     "original_archive_path": "AlSb/q3-q23/aug-SZ2",
     "job": "3743669",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw14_sz2_semicore_evgw0_3nodes_6h_rqsued_20261018_v1/runs/AlSb",
@@ -451,7 +451,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlSb/q3-q23/aug-DZ1",
+    "path": "AlSb_GTH_Q3_Q23/aug-DZ1",
     "original_archive_path": "AlSb/q3-q23/aug-DZ1",
     "job": "3761033",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/semiconductor_user_extension_20261019_v1/runs/AlSb/3_23/dz1",
@@ -462,7 +462,7 @@
     "application_output": "gw.out"
   },
   {
-    "path": "AlSb/q3-q23/aug-DZ2",
+    "path": "AlSb_GTH_Q3_Q23/aug-DZ2",
     "original_archive_path": "AlSb/q3-q23/aug-DZ2",
     "job": "3784654",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/AlSb_q3q23_dz2",
@@ -473,7 +473,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlSb/q3-q23/aug-TZ1",
+    "path": "AlSb_GTH_Q3_Q23/aug-TZ1",
     "original_archive_path": "AlSb/q3-q23/aug-TZ1",
     "job": "3762558",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/semiconductor_published_semicore_20261019_v1/runs/AlSb/3_23/tz1/gw_current_v1",
@@ -484,7 +484,7 @@
     "application_output": "gw.out"
   },
   {
-    "path": "AlSb/q3-q23/aug-TZ2",
+    "path": "AlSb_GTH_Q3_Q23/aug-TZ2",
     "original_archive_path": "AlSb/q3-q23/aug-TZ2",
     "job": "3762567",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/semiconductor_published_semicore_20261019_v1/runs/AlSb/3_23/tz2/gw_current_v1",
@@ -495,7 +495,7 @@
     "application_output": "gw.out"
   },
   {
-    "path": "GaP/q21-q5/aug-SZ2",
+    "path": "GaP_GTH_Q21_Q5/aug-SZ2",
     "original_archive_path": "GaP/q21-q5/aug-SZ2",
     "job": "3743264",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_sz2_gw_3nodes_6h_rqsued_20261018_v1/runs/GaP",
@@ -506,7 +506,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "GaP/q21-q5/aug-DZ1",
+    "path": "GaP_GTH_Q21_Q5/aug-DZ1",
     "original_archive_path": "GaP/q21-q5/aug-DZ1",
     "job": "3740416",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/zn_ga_dztz_evgw0_48h_20261018_v2/GaP/dz1",
@@ -517,7 +517,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "GaP/q21-q5/aug-DZ2",
+    "path": "GaP_GTH_Q21_Q5/aug-DZ2",
     "original_archive_path": "GaP/q21-q5/aug-DZ2",
     "job": "3744286",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/zn_ga_dz_gw_from_ot_6nodes_20261019_v1/GaP/dz2",
@@ -528,7 +528,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "GaP/q21-q5/aug-TZ1",
+    "path": "GaP_GTH_Q21_Q5/aug-TZ1",
     "original_archive_path": "GaP/q21-q5/aug-TZ1",
     "job": "3740418",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/zn_ga_dztz_evgw0_48h_20261018_v2/GaP/tz1",
@@ -539,7 +539,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "GaP/q21-q5/aug-TZ2",
+    "path": "GaP_GTH_Q21_Q5/aug-TZ2",
     "original_archive_path": "GaP/q21-q5/aug-TZ2",
     "job": "3740419",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/zn_ga_dztz_evgw0_48h_20261018_v2/GaP/tz2",
@@ -550,7 +550,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "GaAs/q21-q5/aug-SZ2",
+    "path": "GaAs_GTH_Q21_Q5/aug-SZ2",
     "original_archive_path": "GaAs/q21-q5/aug-SZ2",
     "job": "3743281",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_sz2_gw_3nodes_6h_rqsued_20261018_v1/runs/GaAs",
@@ -561,7 +561,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "GaAs/q21-q5/aug-DZ1",
+    "path": "GaAs_GTH_Q21_Q5/aug-DZ1",
     "original_archive_path": "GaAs/q21-q5/aug-DZ1",
     "job": "3740420",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/zn_ga_dztz_evgw0_48h_20261018_v2/GaAs/dz1",
@@ -572,7 +572,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "GaAs/q21-q5/aug-DZ2",
+    "path": "GaAs_GTH_Q21_Q5/aug-DZ2",
     "original_archive_path": "GaAs/q21-q5/aug-DZ2",
     "job": "3744287",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/zn_ga_dz_gw_from_ot_6nodes_20261019_v1/GaAs/dz2",
@@ -583,7 +583,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "GaAs/q21-q5/aug-TZ1",
+    "path": "GaAs_GTH_Q21_Q5/aug-TZ1",
     "original_archive_path": "GaAs/q21-q5/aug-TZ1",
     "job": "3740422",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/zn_ga_dztz_evgw0_48h_20261018_v2/GaAs/tz1",
@@ -594,7 +594,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "GaAs/q21-q5/aug-TZ2",
+    "path": "GaAs_GTH_Q21_Q5/aug-TZ2",
     "original_archive_path": "GaAs/q21-q5/aug-TZ2",
     "job": "3740423",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/zn_ga_dztz_evgw0_48h_20261018_v2/GaAs/tz2",
@@ -605,7 +605,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "InP/q21-q5/aug-SZ2",
+    "path": "InP_GTH_Q21_Q5/aug-SZ2",
     "original_archive_path": "InP/q21-q5/aug-SZ2",
     "job": "3743671",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw14_sz2_semicore_evgw0_3nodes_6h_rqsued_20261018_v1/runs/InP",
@@ -616,7 +616,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "InP/q21-q5/aug-DZ1",
+    "path": "InP_GTH_Q21_Q5/aug-DZ1",
     "original_archive_path": "InP/q21-q5/aug-DZ1",
     "job": "3784641",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/InP_q21q5_dz1",
@@ -627,7 +627,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "InP/q21-q5/aug-DZ2",
+    "path": "InP_GTH_Q21_Q5/aug-DZ2",
     "original_archive_path": "InP/q21-q5/aug-DZ2",
     "job": "3784642",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/InP_q21q5_dz2",
@@ -638,7 +638,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "InP/q21-q5/aug-TZ1",
+    "path": "InP_GTH_Q21_Q5/aug-TZ1",
     "original_archive_path": "InP/q21-q5/aug-TZ1",
     "job": "3784643",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/InP_q21q5_tz1",
@@ -649,7 +649,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "InP/q21-q5/aug-TZ2",
+    "path": "InP_GTH_Q21_Q5/aug-TZ2",
     "original_archive_path": "InP/q21-q5/aug-TZ2",
     "job": "3784644",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/InP_q21q5_tz2",
@@ -660,7 +660,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnS/zincblende/q20-q6/aug-SZ2",
+    "path": "ZnS_GTH_Q20_Q6/aug-SZ2",
     "original_archive_path": "ZnS/zincblende/q20-q6/aug-SZ2",
     "job": "3743267",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_sz2_gw_3nodes_6h_rqsued_20261018_v1/runs/ZnS",
@@ -671,7 +671,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnS/zincblende/q20-q6/aug-DZ1",
+    "path": "ZnS_GTH_Q20_Q6/aug-DZ1",
     "original_archive_path": "ZnS/zincblende/q20-q6/aug-DZ1",
     "job": "3740412",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/zn_ga_dztz_evgw0_48h_20261018_v2/ZnS/dz1",
@@ -682,7 +682,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnS/zincblende/q20-q6/aug-DZ2",
+    "path": "ZnS_GTH_Q20_Q6/aug-DZ2",
     "original_archive_path": "ZnS/zincblende/q20-q6/aug-DZ2",
     "job": "3744151",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_dz12_qcompare_metdyn_6n6h_20261018_v1/runs/ZnS/dz2/high",
@@ -693,7 +693,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnS/zincblende/q20-q6/aug-TZ1",
+    "path": "ZnS_GTH_Q20_Q6/aug-TZ1",
     "original_archive_path": "ZnS/zincblende/q20-q6/aug-TZ1",
     "job": "3740414",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/zn_ga_dztz_evgw0_48h_20261018_v2/ZnS/tz1",
@@ -704,7 +704,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnS/zincblende/q20-q6/aug-TZ2",
+    "path": "ZnS_GTH_Q20_Q6/aug-TZ2",
     "original_archive_path": "ZnS/zincblende/q20-q6/aug-TZ2",
     "job": "3740415",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/zn_ga_dztz_evgw0_48h_20261018_v2/ZnS/tz2",
@@ -715,7 +715,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnSe/zincblende/q20-q6/aug-SZ2",
+    "path": "ZnSe_GTH_Q20_Q6/aug-SZ2",
     "original_archive_path": "ZnSe/zincblende/q20-q6/aug-SZ2",
     "job": "3743288",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_sz2_gw_3nodes_6h_rqsued_20261018_v1/runs/ZnSe",
@@ -726,7 +726,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnSe/zincblende/q20-q6/aug-DZ1",
+    "path": "ZnSe_GTH_Q20_Q6/aug-DZ1",
     "original_archive_path": "ZnSe/zincblende/q20-q6/aug-DZ1",
     "job": "3745631",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/semiconductor_g0_recovery_dz_6n48h_20261019_v1/ZnSe/dz1",
@@ -737,7 +737,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnSe/zincblende/q20-q6/aug-DZ2",
+    "path": "ZnSe_GTH_Q20_Q6/aug-DZ2",
     "original_archive_path": "ZnSe/zincblende/q20-q6/aug-DZ2",
     "job": "3745632",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/semiconductor_g0_recovery_dz_6n48h_20261019_v1/ZnSe/dz2",
@@ -748,7 +748,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnSe/zincblende/q20-q6/aug-TZ1",
+    "path": "ZnSe_GTH_Q20_Q6/aug-TZ1",
     "original_archive_path": "ZnSe/zincblende/q20-q6/aug-TZ1",
     "job": "3780929",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_material_completion_20261020_v1/runs/ZnSe_q20q6_tz1",
@@ -759,7 +759,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnSe/zincblende/q20-q6/aug-TZ2",
+    "path": "ZnSe_GTH_Q20_Q6/aug-TZ2",
     "original_archive_path": "ZnSe/zincblende/q20-q6/aug-TZ2",
     "job": "3780930",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_material_completion_20261020_v1/runs/ZnSe_q20q6_tz2",
@@ -770,7 +770,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnTe/zincblende/q20-q6/aug-SZ2",
+    "path": "ZnTe_GTH_Q20_Q6/aug-SZ2",
     "original_archive_path": "ZnTe/zincblende/q20-q6/aug-SZ2",
     "job": "3743289",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_sz2_gw_3nodes_6h_rqsued_20261018_v1/runs/ZnTe",
@@ -781,7 +781,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnTe/zincblende/q20-q6/aug-DZ1",
+    "path": "ZnTe_GTH_Q20_Q6/aug-DZ1",
     "original_archive_path": "ZnTe/zincblende/q20-q6/aug-DZ1",
     "job": "3745633",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/semiconductor_g0_recovery_dz_6n48h_20261019_v1/ZnTe/dz1",
@@ -792,7 +792,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnTe/zincblende/q20-q6/aug-DZ2",
+    "path": "ZnTe_GTH_Q20_Q6/aug-DZ2",
     "original_archive_path": "ZnTe/zincblende/q20-q6/aug-DZ2",
     "job": "3745634",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/semiconductor_g0_recovery_dz_6n48h_20261019_v1/ZnTe/dz2",
@@ -803,7 +803,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnTe/zincblende/q20-q6/aug-TZ1",
+    "path": "ZnTe_GTH_Q20_Q6/aug-TZ1",
     "original_archive_path": "ZnTe/zincblende/q20-q6/aug-TZ1",
     "job": "3780931",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_material_completion_20261020_v1/runs/ZnTe_q20q6_tz1",
@@ -814,7 +814,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnTe/zincblende/q20-q6/aug-TZ2",
+    "path": "ZnTe_GTH_Q20_Q6/aug-TZ2",
     "original_archive_path": "ZnTe/zincblende/q20-q6/aug-TZ2",
     "job": "3780932",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_material_completion_20261020_v1/runs/ZnTe_q20q6_tz2",
@@ -825,7 +825,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdS/zincblende/q20-q6/aug-SZ2",
+    "path": "CdS_zincblende_GTH_Q20_Q6/aug-SZ2",
     "original_archive_path": "CdS/zincblende/q20-q6/aug-SZ2",
     "job": "3743677",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw14_sz2_semicore_evgw0_3nodes_6h_rqsued_20261018_v1/runs/CdS",
@@ -836,7 +836,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdS/zincblende/q20-q6/aug-DZ1",
+    "path": "CdS_zincblende_GTH_Q20_Q6/aug-DZ1",
     "original_archive_path": "CdS/zincblende/q20-q6/aug-DZ1",
     "job": "3784616",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdS_zb_q20q6_dz1",
@@ -847,7 +847,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdS/zincblende/q20-q6/aug-DZ2",
+    "path": "CdS_zincblende_GTH_Q20_Q6/aug-DZ2",
     "original_archive_path": "CdS/zincblende/q20-q6/aug-DZ2",
     "job": "3784617",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdS_zb_q20q6_dz2",
@@ -858,7 +858,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdS/zincblende/q20-q6/aug-TZ1",
+    "path": "CdS_zincblende_GTH_Q20_Q6/aug-TZ1",
     "original_archive_path": "CdS/zincblende/q20-q6/aug-TZ1",
     "job": "3784618",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdS_zb_q20q6_tz1",
@@ -869,7 +869,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdS/zincblende/q20-q6/aug-TZ2",
+    "path": "CdS_zincblende_GTH_Q20_Q6/aug-TZ2",
     "original_archive_path": "CdS/zincblende/q20-q6/aug-TZ2",
     "job": "3784619",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdS_zb_q20q6_tz2",
@@ -880,7 +880,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdS/wurtzite/q20-q6/aug-SZ2",
+    "path": "CdS_wurtzite_GTH_Q20_Q6/aug-SZ2",
     "original_archive_path": "CdS/wurtzite/q20-q6/aug-SZ2",
     "job": "3759589",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp_queue_migration_20261019_v1/runs/3748346",
@@ -891,7 +891,7 @@
     "application_output": "gw.out"
   },
   {
-    "path": "CdS/wurtzite/q20-q6/aug-DZ1",
+    "path": "CdS_wurtzite_GTH_Q20_Q6/aug-DZ1",
     "original_archive_path": "CdS/wurtzite/q20-q6/aug-DZ1",
     "job": "3759595",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp_queue_migration_20261019_v1/runs/3748347",
@@ -902,7 +902,7 @@
     "application_output": "gw.out"
   },
   {
-    "path": "CdS/wurtzite/q20-q6/aug-DZ2",
+    "path": "CdS_wurtzite_GTH_Q20_Q6/aug-DZ2",
     "original_archive_path": "CdS/wurtzite/q20-q6/aug-DZ2",
     "job": "3749379",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp_queue_migration_20261019_v1/runs/3748348",
@@ -913,7 +913,7 @@
     "application_output": "gw.out"
   },
   {
-    "path": "CdS/wurtzite/q20-q6/aug-TZ1",
+    "path": "CdS_wurtzite_GTH_Q20_Q6/aug-TZ1",
     "original_archive_path": "CdS/wurtzite/q20-q6/aug-TZ1",
     "job": "3784620",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdS_wz_q20q6_tz1",
@@ -924,7 +924,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdS/wurtzite/q20-q6/aug-TZ2",
+    "path": "CdS_wurtzite_GTH_Q20_Q6/aug-TZ2",
     "original_archive_path": "CdS/wurtzite/q20-q6/aug-TZ2",
     "job": "3784621",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdS_wz_q20q6_tz2",
@@ -935,7 +935,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdSe/q20-q6/aug-SZ2",
+    "path": "CdSe_GTH_Q20_Q6/aug-SZ2",
     "original_archive_path": "CdSe/q20-q6/aug-SZ2",
     "job": "3784622",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdSe_q20q6_sz2",
@@ -946,7 +946,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdSe/q20-q6/aug-DZ1",
+    "path": "CdSe_GTH_Q20_Q6/aug-DZ1",
     "original_archive_path": "CdSe/q20-q6/aug-DZ1",
     "job": "3784623",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdSe_q20q6_dz1",
@@ -957,7 +957,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdSe/q20-q6/aug-DZ2",
+    "path": "CdSe_GTH_Q20_Q6/aug-DZ2",
     "original_archive_path": "CdSe/q20-q6/aug-DZ2",
     "job": "3784624",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdSe_q20q6_dz2",
@@ -968,7 +968,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdSe/q20-q6/aug-TZ1",
+    "path": "CdSe_GTH_Q20_Q6/aug-TZ1",
     "original_archive_path": "CdSe/q20-q6/aug-TZ1",
     "job": "3784625",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdSe_q20q6_tz1",
@@ -979,7 +979,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdSe/q20-q6/aug-TZ2",
+    "path": "CdSe_GTH_Q20_Q6/aug-TZ2",
     "original_archive_path": "CdSe/q20-q6/aug-TZ2",
     "job": "3784626",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdSe_q20q6_tz2",
@@ -990,7 +990,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdTe/q20-q6/aug-SZ2",
+    "path": "CdTe_GTH_Q20_Q6/aug-SZ2",
     "original_archive_path": "CdTe/q20-q6/aug-SZ2",
     "job": "3784632",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdTe_q20q6_sz2",
@@ -1001,7 +1001,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdTe/q20-q6/aug-DZ1",
+    "path": "CdTe_GTH_Q20_Q6/aug-DZ1",
     "original_archive_path": "CdTe/q20-q6/aug-DZ1",
     "job": "3784633",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdTe_q20q6_dz1",
@@ -1012,7 +1012,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdTe/q20-q6/aug-DZ2",
+    "path": "CdTe_GTH_Q20_Q6/aug-DZ2",
     "original_archive_path": "CdTe/q20-q6/aug-DZ2",
     "job": "3784634",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdTe_q20q6_dz2",
@@ -1023,7 +1023,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdTe/q20-q6/aug-TZ1",
+    "path": "CdTe_GTH_Q20_Q6/aug-TZ1",
     "original_archive_path": "CdTe/q20-q6/aug-TZ1",
     "job": "3784635",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdTe_q20q6_tz1",
@@ -1034,7 +1034,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdTe/q20-q6/aug-TZ2",
+    "path": "CdTe_GTH_Q20_Q6/aug-TZ2",
     "original_archive_path": "CdTe/q20-q6/aug-TZ2",
     "job": "3784636",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdTe_q20q6_tz2",
@@ -1045,7 +1045,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "BN/cubic/aug-SZ2",
+    "path": "BN_cubic/aug-SZ2",
     "original_archive_path": "BN/cubic/aug-SZ2",
     "job": "3743268",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_sz2_gw_3nodes_6h_rqsued_20261018_v1/runs/cBN",
@@ -1056,7 +1056,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "BN/cubic/aug-DZ1",
+    "path": "BN_cubic/aug-DZ1",
     "original_archive_path": "BN/cubic/aug-DZ1",
     "job": "3744152",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_dz12_qcompare_metdyn_6n6h_20261018_v1/runs/cBN/dz1/standard",
@@ -1067,7 +1067,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "BN/cubic/aug-DZ2",
+    "path": "BN_cubic/aug-DZ2",
     "original_archive_path": "BN/cubic/aug-DZ2",
     "job": "3744153",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_dz12_qcompare_metdyn_6n6h_20261018_v1/runs/cBN/dz2/standard",
@@ -1078,7 +1078,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "BN/cubic/aug-TZ1",
+    "path": "BN_cubic/aug-TZ1",
     "original_archive_path": "BN/cubic/aug-TZ1",
     "job": "3747312",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/semiconductor_completed_series_tz_6n48h_20261019_v1/cBN/tz1",
@@ -1089,7 +1089,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "BN/cubic/aug-TZ2",
+    "path": "BN_cubic/aug-TZ2",
     "original_archive_path": "BN/cubic/aug-TZ2",
     "job": "3784645",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/cBN_q3q5_tz2",
@@ -1100,7 +1100,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "BN/hexagonal_bulk/aug-SZ2",
+    "path": "BN_hexagonal_bulk/aug-SZ2",
     "original_archive_path": "BN/hexagonal_bulk/aug-SZ2",
     "job": "3743277",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_sz2_gw_3nodes_6h_rqsued_20261018_v1/runs/hBN",
@@ -1111,7 +1111,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "BN/hexagonal_bulk/aug-DZ1",
+    "path": "BN_hexagonal_bulk/aug-DZ1",
     "original_archive_path": "BN/hexagonal_bulk/aug-DZ1",
     "job": "3744172",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_dz12_qcompare_metdyn_6n6h_20261018_v1/runs/hBN/dz1/standard",
@@ -1122,7 +1122,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "BN/hexagonal_bulk/aug-DZ2",
+    "path": "BN_hexagonal_bulk/aug-DZ2",
     "original_archive_path": "BN/hexagonal_bulk/aug-DZ2",
     "job": "3744173",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_dz12_qcompare_metdyn_6n6h_20261018_v1/runs/hBN/dz2/standard",
@@ -1133,7 +1133,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "BN/hexagonal_bulk/aug-TZ1",
+    "path": "BN_hexagonal_bulk/aug-TZ1",
     "original_archive_path": "BN/hexagonal_bulk/aug-TZ1",
     "job": "3784646",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/hBN_q3q5_tz1",
@@ -1144,7 +1144,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "BN/hexagonal_bulk/aug-TZ2",
+    "path": "BN_hexagonal_bulk/aug-TZ2",
     "original_archive_path": "BN/hexagonal_bulk/aug-TZ2",
     "job": "3784647",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/hBN_q3q5_tz2",
@@ -1155,7 +1155,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "BP/standard/aug-SZ2",
+    "path": "BP/aug-SZ2",
     "original_archive_path": "BP/standard/aug-SZ2",
     "job": "3743273",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_sz2_gw_3nodes_6h_rqsued_20261018_v1/runs/BP",
@@ -1166,7 +1166,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "BP/standard/aug-DZ1",
+    "path": "BP/aug-DZ1",
     "original_archive_path": "BP/standard/aug-DZ1",
     "job": "3744164",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_dz12_qcompare_metdyn_6n6h_20261018_v1/runs/BP/dz1/standard",
@@ -1177,7 +1177,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "BP/standard/aug-DZ2",
+    "path": "BP/aug-DZ2",
     "original_archive_path": "BP/standard/aug-DZ2",
     "job": "3744165",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_dz12_qcompare_metdyn_6n6h_20261018_v1/runs/BP/dz2/standard",
@@ -1188,7 +1188,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "BP/standard/aug-TZ1",
+    "path": "BP/aug-TZ1",
     "original_archive_path": "BP/standard/aug-TZ1",
     "job": "3747318",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/semiconductor_completed_series_tz_6n48h_20261019_v1/BP/tz1",
@@ -1199,7 +1199,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "BP/standard/aug-TZ2",
+    "path": "BP/aug-TZ2",
     "original_archive_path": "BP/standard/aug-TZ2",
     "job": "3747319",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/semiconductor_completed_series_tz_6n48h_20261019_v1/BP/tz2",
@@ -1210,7 +1210,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "BAs/standard/aug-SZ2",
+    "path": "BAs/aug-SZ2",
     "original_archive_path": "BAs/standard/aug-SZ2",
     "job": "3759600",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp_queue_migration_20261019_v1/runs/3748326",
@@ -1221,7 +1221,7 @@
     "application_output": "gw.out"
   },
   {
-    "path": "BAs/standard/aug-DZ1",
+    "path": "BAs/aug-DZ1",
     "original_archive_path": "BAs/standard/aug-DZ1",
     "job": "3759603",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp_queue_migration_20261019_v1/runs/3748327",
@@ -1232,7 +1232,7 @@
     "application_output": "gw.out"
   },
   {
-    "path": "BAs/standard/aug-DZ2",
+    "path": "BAs/aug-DZ2",
     "original_archive_path": "BAs/standard/aug-DZ2",
     "job": "3759601",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp_queue_migration_20261019_v1/runs/3748328",
@@ -1243,7 +1243,7 @@
     "application_output": "gw.out"
   },
   {
-    "path": "BAs/standard/aug-TZ1",
+    "path": "BAs/aug-TZ1",
     "original_archive_path": "BAs/standard/aug-TZ1",
     "job": "3759622",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp_queue_migration_20261019_v1/runs/3748329",
@@ -1254,7 +1254,7 @@
     "application_output": "gw.out"
   },
   {
-    "path": "BAs/standard/aug-TZ2",
+    "path": "BAs/aug-TZ2",
     "original_archive_path": "BAs/standard/aug-TZ2",
     "job": "3759632",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp_queue_migration_20261019_v1/runs/3748330",
@@ -1265,7 +1265,7 @@
     "application_output": "gw.out"
   },
   {
-    "path": "AlN/wurtzite/aug-SZ2",
+    "path": "AlN/aug-SZ2",
     "original_archive_path": "AlN/wurtzite/aug-SZ2",
     "job": "3743276",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_sz2_gw_3nodes_6h_rqsued_20261018_v1/runs/AlN_wz",
@@ -1276,7 +1276,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlN/wurtzite/aug-DZ1",
+    "path": "AlN/aug-DZ1",
     "original_archive_path": "AlN/wurtzite/aug-DZ1",
     "job": "3744170",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_dz12_qcompare_metdyn_6n6h_20261018_v1/runs/AlN_wz/dz1/standard",
@@ -1287,7 +1287,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlN/wurtzite/aug-DZ2",
+    "path": "AlN/aug-DZ2",
     "original_archive_path": "AlN/wurtzite/aug-DZ2",
     "job": "3744171",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_dz12_qcompare_metdyn_6n6h_20261018_v1/runs/AlN_wz/dz2/standard",
@@ -1298,7 +1298,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlN/wurtzite/aug-TZ1",
+    "path": "AlN/aug-TZ1",
     "original_archive_path": "AlN/wurtzite/aug-TZ1",
     "job": "3784648",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/AlN_wz_q3q5_tz1",
@@ -1309,7 +1309,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlN/wurtzite/aug-TZ2",
+    "path": "AlN/aug-TZ2",
     "original_archive_path": "AlN/wurtzite/aug-TZ2",
     "job": "3784649",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/AlN_wz_q3q5_tz2",
@@ -1320,7 +1320,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "MgO/standard/aug-SZ2",
+    "path": "MgO/aug-SZ2",
     "original_archive_path": "MgO/standard/aug-SZ2",
     "job": "3743269",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_sz2_gw_3nodes_6h_rqsued_20261018_v1/runs/MgO",
@@ -1331,7 +1331,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "MgO/standard/aug-DZ1",
+    "path": "MgO/aug-DZ1",
     "original_archive_path": "MgO/standard/aug-DZ1",
     "job": "3744154",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_dz12_qcompare_metdyn_6n6h_20261018_v1/runs/MgO/dz1/standard",
@@ -1342,7 +1342,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "MgO/standard/aug-DZ2",
+    "path": "MgO/aug-DZ2",
     "original_archive_path": "MgO/standard/aug-DZ2",
     "job": "3744155",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_dz12_qcompare_metdyn_6n6h_20261018_v1/runs/MgO/dz2/standard",
@@ -1353,7 +1353,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "MgO/standard/aug-TZ1",
+    "path": "MgO/aug-TZ1",
     "original_archive_path": "MgO/standard/aug-TZ1",
     "job": "3747314",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/semiconductor_completed_series_tz_6n48h_20261019_v1/MgO/tz1",
@@ -1364,7 +1364,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "MgO/standard/aug-TZ2",
+    "path": "MgO/aug-TZ2",
     "original_archive_path": "MgO/standard/aug-TZ2",
     "job": "3784650",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/MgO_q10q6_tz2",
@@ -1375,7 +1375,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "LiF/standard/aug-SZ2",
+    "path": "LiF/aug-SZ2",
     "original_archive_path": "LiF/standard/aug-SZ2",
     "job": "3743270",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_sz2_gw_3nodes_6h_rqsued_20261018_v1/runs/LiF",
@@ -1386,7 +1386,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "LiF/standard/aug-DZ1",
+    "path": "LiF/aug-DZ1",
     "original_archive_path": "LiF/standard/aug-DZ1",
     "job": "3744156",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_dz12_qcompare_metdyn_6n6h_20261018_v1/runs/LiF/dz1/standard",
@@ -1397,7 +1397,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "LiF/standard/aug-DZ2",
+    "path": "LiF/aug-DZ2",
     "original_archive_path": "LiF/standard/aug-DZ2",
     "job": "3744157",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_dz12_qcompare_metdyn_6n6h_20261018_v1/runs/LiF/dz2/standard",
@@ -1408,7 +1408,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "LiF/standard/aug-TZ1",
+    "path": "LiF/aug-TZ1",
     "original_archive_path": "LiF/standard/aug-TZ1",
     "job": "3747316",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/semiconductor_completed_series_tz_6n48h_20261019_v1/LiF/tz1",
@@ -1419,7 +1419,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "LiF/standard/aug-TZ2",
+    "path": "LiF/aug-TZ2",
     "original_archive_path": "LiF/standard/aug-TZ2",
     "job": "3784651",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/LiF_q3q7_tz2",
@@ -1430,7 +1430,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "LiCl/standard/aug-SZ2",
+    "path": "LiCl/aug-SZ2",
     "original_archive_path": "LiCl/standard/aug-SZ2",
     "job": "3759594",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp_queue_migration_20261019_v1/runs/3748331",
@@ -1441,7 +1441,7 @@
     "application_output": "gw.out"
   },
   {
-    "path": "LiCl/standard/aug-DZ1",
+    "path": "LiCl/aug-DZ1",
     "original_archive_path": "LiCl/standard/aug-DZ1",
     "job": "3759593",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp_queue_migration_20261019_v1/runs/3748332",
@@ -1452,7 +1452,7 @@
     "application_output": "gw.out"
   },
   {
-    "path": "LiCl/standard/aug-DZ2",
+    "path": "LiCl/aug-DZ2",
     "original_archive_path": "LiCl/standard/aug-DZ2",
     "job": "3759596",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp_queue_migration_20261019_v1/runs/3748333",
@@ -1463,7 +1463,7 @@
     "application_output": "gw.out"
   },
   {
-    "path": "LiCl/standard/aug-TZ1",
+    "path": "LiCl/aug-TZ1",
     "original_archive_path": "LiCl/standard/aug-TZ1",
     "job": "3759581",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp_queue_migration_20261019_v1/runs/3748334",
@@ -1474,7 +1474,7 @@
     "application_output": "gw.out"
   },
   {
-    "path": "LiCl/standard/aug-TZ2",
+    "path": "LiCl/aug-TZ2",
     "original_archive_path": "LiCl/standard/aug-TZ2",
     "job": "3759605",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp_queue_migration_20261019_v1/runs/3748335",
@@ -1485,7 +1485,7 @@
     "application_output": "gw.out"
   },
   {
-    "path": "NaCl/standard/aug-SZ2",
+    "path": "NaCl/aug-SZ2",
     "original_archive_path": "NaCl/standard/aug-SZ2",
     "job": "3759585",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp_queue_migration_20261019_v1/runs/3748336",
@@ -1496,7 +1496,7 @@
     "application_output": "gw.out"
   },
   {
-    "path": "NaCl/standard/aug-DZ1",
+    "path": "NaCl/aug-DZ1",
     "original_archive_path": "NaCl/standard/aug-DZ1",
     "job": "3759584",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp_queue_migration_20261019_v1/runs/3748337",
@@ -1507,7 +1507,7 @@
     "application_output": "gw.out"
   },
   {
-    "path": "NaCl/standard/aug-DZ2",
+    "path": "NaCl/aug-DZ2",
     "original_archive_path": "NaCl/standard/aug-DZ2",
     "job": "3759587",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp_queue_migration_20261019_v1/runs/3748338",
@@ -1518,7 +1518,7 @@
     "application_output": "gw.out"
   },
   {
-    "path": "NaCl/standard/aug-TZ1",
+    "path": "NaCl/aug-TZ1",
     "original_archive_path": "NaCl/standard/aug-TZ1",
     "job": "3759616",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp_queue_migration_20261019_v1/runs/3748339",
@@ -1529,7 +1529,7 @@
     "application_output": "gw.out"
   },
   {
-    "path": "NaCl/standard/aug-TZ2",
+    "path": "NaCl/aug-TZ2",
     "original_archive_path": "NaCl/standard/aug-TZ2",
     "job": "3759627",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp_queue_migration_20261019_v1/runs/3748340",
@@ -1540,7 +1540,7 @@
     "application_output": "gw.out"
   },
   {
-    "path": "Ne/standard/aug-SZ2",
+    "path": "Ne/aug-SZ2",
     "original_archive_path": "Ne/standard/aug-SZ2",
     "job": "3743274",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_sz2_gw_3nodes_6h_rqsued_20261018_v1/runs/Ne",
@@ -1551,7 +1551,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "Ne/standard/aug-DZ1",
+    "path": "Ne/aug-DZ1",
     "original_archive_path": "Ne/standard/aug-DZ1",
     "job": "3744166",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_dz12_qcompare_metdyn_6n6h_20261018_v1/runs/Ne/dz1/standard",
@@ -1562,7 +1562,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "Ne/standard/aug-DZ2",
+    "path": "Ne/aug-DZ2",
     "original_archive_path": "Ne/standard/aug-DZ2",
     "job": "3744167",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_dz12_qcompare_metdyn_6n6h_20261018_v1/runs/Ne/dz2/standard",
@@ -1573,7 +1573,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "Ne/standard/aug-TZ1",
+    "path": "Ne/aug-TZ1",
     "original_archive_path": "Ne/standard/aug-TZ1",
     "job": "3747320",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/semiconductor_completed_series_tz_6n48h_20261019_v1/Ne/tz1",
@@ -1584,7 +1584,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "Ne/standard/aug-TZ2",
+    "path": "Ne/aug-TZ2",
     "original_archive_path": "Ne/standard/aug-TZ2",
     "job": "3747321",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/semiconductor_completed_series_tz_6n48h_20261019_v1/Ne/tz2",
@@ -1595,7 +1595,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "Ar/standard/aug-SZ2",
+    "path": "Ar/aug-SZ2",
     "original_archive_path": "Ar/standard/aug-SZ2",
     "job": "3743275",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_sz2_gw_3nodes_6h_rqsued_20261018_v1/runs/Ar",
@@ -1606,7 +1606,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "Ar/standard/aug-DZ1",
+    "path": "Ar/aug-DZ1",
     "original_archive_path": "Ar/standard/aug-DZ1",
     "job": "3744168",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_dz12_qcompare_metdyn_6n6h_20261018_v1/runs/Ar/dz1/standard",
@@ -1617,7 +1617,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "Ar/standard/aug-DZ2",
+    "path": "Ar/aug-DZ2",
     "original_archive_path": "Ar/standard/aug-DZ2",
     "job": "3744169",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_dz12_qcompare_metdyn_6n6h_20261018_v1/runs/Ar/dz2/standard",
@@ -1628,7 +1628,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "Ar/standard/aug-TZ1",
+    "path": "Ar/aug-TZ1",
     "original_archive_path": "Ar/standard/aug-TZ1",
     "job": "3747322",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/semiconductor_completed_series_tz_6n48h_20261019_v1/Ar/tz1",
@@ -1639,7 +1639,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "Ar/standard/aug-TZ2",
+    "path": "Ar/aug-TZ2",
     "original_archive_path": "Ar/standard/aug-TZ2",
     "job": "3747323",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/semiconductor_completed_series_tz_6n48h_20261019_v1/Ar/tz2",
@@ -1650,7 +1650,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "TiO2/rutile/aug-SZ2",
+    "path": "TiO2_rutile/aug-SZ2",
     "original_archive_path": "TiO2/rutile/aug-SZ2",
     "job": "3769580",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tio2_all_gw_scaling_20261020_v1/TiO2_rutile_sz2_2n",
@@ -1661,7 +1661,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "TiO2/rutile/aug-DZ1",
+    "path": "TiO2_rutile/aug-DZ1",
     "original_archive_path": "TiO2/rutile/aug-DZ1",
     "job": "3769581",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tio2_all_gw_scaling_20261020_v1/TiO2_rutile_dz1_2n",
@@ -1672,7 +1672,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "TiO2/rutile/aug-DZ2",
+    "path": "TiO2_rutile/aug-DZ2",
     "original_archive_path": "TiO2/rutile/aug-DZ2",
     "job": "3769582",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tio2_all_gw_scaling_20261020_v1/TiO2_rutile_dz2_2n",
@@ -1683,7 +1683,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "TiO2/rutile/aug-TZ1",
+    "path": "TiO2_rutile/aug-TZ1",
     "original_archive_path": "TiO2/rutile/aug-TZ1",
     "job": "3771749",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tio2_all_gw_scaling_20261020_v2/TiO2_rutile_tz1_4n",
@@ -1694,7 +1694,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "TiO2/rutile/aug-TZ2",
+    "path": "TiO2_rutile/aug-TZ2",
     "original_archive_path": "TiO2/rutile/aug-TZ2",
     "job": "3772038",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tio2_oom_recovery_8n_20261020_v1/TiO2_rutile_tz2_8n",
@@ -1705,7 +1705,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "TiO2/anatase/aug-SZ2",
+    "path": "TiO2_anatase/aug-SZ2",
     "original_archive_path": "TiO2/anatase/aug-SZ2",
     "job": "3769587",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tio2_all_gw_scaling_20261020_v1/TiO2_anatase_sz2_2n",
@@ -1716,7 +1716,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "TiO2/anatase/aug-DZ1",
+    "path": "TiO2_anatase/aug-DZ1",
     "original_archive_path": "TiO2/anatase/aug-DZ1",
     "job": "3772039",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tio2_oom_recovery_8n_20261020_v1/TiO2_anatase_dz1_8n",
@@ -1727,7 +1727,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "TiO2/anatase/aug-DZ2",
+    "path": "TiO2_anatase/aug-DZ2",
     "original_archive_path": "TiO2/anatase/aug-DZ2",
     "job": "3772040",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tio2_oom_recovery_8n_20261020_v1/TiO2_anatase_dz2_8n",
@@ -1738,7 +1738,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "TiO2/anatase/aug-TZ1",
+    "path": "TiO2_anatase/aug-TZ1",
     "original_archive_path": "TiO2/anatase/aug-TZ1",
     "job": "3800797",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tio2_q_pairs_metdyn_20261022_v1/Anatase_TZ1",
@@ -1749,7 +1749,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "TiO2/anatase/aug-TZ2",
+    "path": "TiO2_anatase/aug-TZ2",
     "original_archive_path": "TiO2/anatase/aug-TZ2",
     "job": "3806133",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tio2_larger_basises_20261022_v1/Anatase_TZ2",

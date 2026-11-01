@@ -1,6 +1,6 @@
 [
   {
-    "path": "MoS2/monolayer/k12/aug-SZ2",
+    "path": "2D_MoS2/aug-SZ2_k12",
     "job": "3771753",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/MoS2_01_aug-SZV_T2_k12",
     "archive_bytes": 474350,
@@ -10,7 +10,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "MoS2/monolayer/k16/aug-SZ2",
+    "path": "2D_MoS2/aug-SZ2_k16",
     "job": "3771754",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/MoS2_01_aug-SZV_T2_k16",
     "archive_bytes": 475844,
@@ -20,7 +20,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "MoS2/monolayer/k12/aug-DZ1",
+    "path": "2D_MoS2/aug-DZ1_k12",
     "job": "3771755",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/MoS2_02_aug-DZVP_T1_k12",
     "archive_bytes": 741850,
@@ -30,7 +30,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "MoS2/monolayer/k16/aug-DZ1",
+    "path": "2D_MoS2/aug-DZ1_k16",
     "job": "3771756",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/MoS2_02_aug-DZVP_T1_k16",
     "archive_bytes": 743509,
@@ -40,7 +40,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "MoS2/monolayer/k12/aug-DZ2",
+    "path": "2D_MoS2/aug-DZ2_k12",
     "job": "3771757",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/MoS2_03_aug-DZVP_T2_k12",
     "archive_bytes": 918191,
@@ -50,7 +50,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "MoS2/monolayer/k16/aug-DZ2",
+    "path": "2D_MoS2/aug-DZ2_k16",
     "job": "3771758",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/MoS2_03_aug-DZVP_T2_k16",
     "archive_bytes": 919720,
@@ -60,7 +60,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "MoS2/monolayer/k12/aug-TZ1",
+    "path": "2D_MoS2/aug-TZ1_k12",
     "job": "3771759",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/MoS2_04_aug-TZVP_T1_k12",
     "archive_bytes": 1201986,
@@ -70,7 +70,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "MoS2/monolayer/k16/aug-TZ1",
+    "path": "2D_MoS2/aug-TZ1_k16",
     "job": "3771760",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/MoS2_04_aug-TZVP_T1_k16",
     "archive_bytes": 1203650,
@@ -80,7 +80,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "MoS2/monolayer/k12/aug-TZ2",
+    "path": "2D_MoS2/aug-TZ2_k12",
     "job": "3771761",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/MoS2_05_aug-TZVP_T2_k12",
     "archive_bytes": 1422019,
@@ -90,7 +90,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "MoS2/monolayer/k16/aug-TZ2",
+    "path": "2D_MoS2/aug-TZ2_k16",
     "job": "3771762",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/MoS2_05_aug-TZVP_T2_k16",
     "archive_bytes": 1423888,
@@ -100,7 +100,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "MoSe2/monolayer/k12/aug-SZ2",
+    "path": "2D_MoSe2/aug-SZ2_k12",
     "job": "3771763",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/MoSe2_01_aug-SZV_T2_k12",
     "archive_bytes": 473551,
@@ -110,7 +110,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "MoSe2/monolayer/k16/aug-SZ2",
+    "path": "2D_MoSe2/aug-SZ2_k16",
     "job": "3771764",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/MoSe2_01_aug-SZV_T2_k16",
     "archive_bytes": 475440,
@@ -120,7 +120,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "MoSe2/monolayer/k12/aug-DZ1",
+    "path": "2D_MoSe2/aug-DZ1_k12",
     "job": "3771765",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/MoSe2_02_aug-DZVP_T1_k12",
     "archive_bytes": 737443,
@@ -130,7 +130,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "MoSe2/monolayer/k16/aug-DZ1",
+    "path": "2D_MoSe2/aug-DZ1_k16",
     "job": "3771766",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/MoSe2_02_aug-DZVP_T1_k16",
     "archive_bytes": 739256,
@@ -140,7 +140,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "MoSe2/monolayer/k12/aug-DZ2",
+    "path": "2D_MoSe2/aug-DZ2_k12",
     "job": "3771767",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/MoSe2_03_aug-DZVP_T2_k12",
     "archive_bytes": 912998,
@@ -150,7 +150,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "MoSe2/monolayer/k16/aug-DZ2",
+    "path": "2D_MoSe2/aug-DZ2_k16",
     "job": "3771768",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/MoSe2_03_aug-DZVP_T2_k16",
     "archive_bytes": 915208,
@@ -160,7 +160,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "MoSe2/monolayer/k12/aug-TZ1",
+    "path": "2D_MoSe2/aug-TZ1_k12",
     "job": "3771769",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/MoSe2_04_aug-TZVP_T1_k12",
     "archive_bytes": 1205066,
@@ -170,7 +170,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "MoSe2/monolayer/k16/aug-TZ1",
+    "path": "2D_MoSe2/aug-TZ1_k16",
     "job": "3771770",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/MoSe2_04_aug-TZVP_T1_k16",
     "archive_bytes": 1206188,
@@ -180,7 +180,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "MoSe2/monolayer/k12/aug-TZ2",
+    "path": "2D_MoSe2/aug-TZ2_k12",
     "job": "3771771",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/MoSe2_05_aug-TZVP_T2_k12",
     "archive_bytes": 1421129,
@@ -190,7 +190,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "MoSe2/monolayer/k16/aug-TZ2",
+    "path": "2D_MoSe2/aug-TZ2_k16",
     "job": "3771772",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/MoSe2_05_aug-TZVP_T2_k16",
     "archive_bytes": 1422698,
@@ -200,7 +200,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "WS2/monolayer/k12/aug-SZ2",
+    "path": "2D_WS2/aug-SZ2_k12",
     "job": "3771773",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/WS2_01_aug-SZV_T2_k12",
     "archive_bytes": 479034,
@@ -210,7 +210,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "WS2/monolayer/k16/aug-SZ2",
+    "path": "2D_WS2/aug-SZ2_k16",
     "job": "3771774",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/WS2_01_aug-SZV_T2_k16",
     "archive_bytes": 480815,
@@ -220,7 +220,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "WS2/monolayer/k12/aug-DZ1",
+    "path": "2D_WS2/aug-DZ1_k12",
     "job": "3771775",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/WS2_02_aug-DZVP_T1_k12",
     "archive_bytes": 745165,
@@ -230,7 +230,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "WS2/monolayer/k16/aug-DZ1",
+    "path": "2D_WS2/aug-DZ1_k16",
     "job": "3771776",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/WS2_02_aug-DZVP_T1_k16",
     "archive_bytes": 746874,
@@ -240,7 +240,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "WS2/monolayer/k12/aug-DZ2",
+    "path": "2D_WS2/aug-DZ2_k12",
     "job": "3771777",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/WS2_03_aug-DZVP_T2_k12",
     "archive_bytes": 915833,
@@ -250,7 +250,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "WS2/monolayer/k16/aug-DZ2",
+    "path": "2D_WS2/aug-DZ2_k16",
     "job": "3771778",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/WS2_03_aug-DZVP_T2_k16",
     "archive_bytes": 917550,
@@ -260,7 +260,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "WS2/monolayer/k12/aug-TZ1",
+    "path": "2D_WS2/aug-TZ1_k12",
     "job": "3771779",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/WS2_04_aug-TZVP_T1_k12",
     "archive_bytes": 1200983,
@@ -270,7 +270,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "WS2/monolayer/k16/aug-TZ1",
+    "path": "2D_WS2/aug-TZ1_k16",
     "job": "3771780",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/WS2_04_aug-TZVP_T1_k16",
     "archive_bytes": 1202185,
@@ -280,7 +280,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "WS2/monolayer/k12/aug-TZ2",
+    "path": "2D_WS2/aug-TZ2_k12",
     "job": "3771781",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/WS2_05_aug-TZVP_T2_k12",
     "archive_bytes": 1410394,
@@ -290,7 +290,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "WS2/monolayer/k16/aug-TZ2",
+    "path": "2D_WS2/aug-TZ2_k16",
     "job": "3771782",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/WS2_05_aug-TZVP_T2_k16",
     "archive_bytes": 1411968,
@@ -300,7 +300,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "WSe2/monolayer/k12/aug-SZ2",
+    "path": "2D_WSe2/aug-SZ2_k12",
     "job": "3771783",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/WSe2_01_aug-SZV_T2_k12",
     "archive_bytes": 473448,
@@ -310,7 +310,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "WSe2/monolayer/k16/aug-SZ2",
+    "path": "2D_WSe2/aug-SZ2_k16",
     "job": "3771784",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/WSe2_01_aug-SZV_T2_k16",
     "archive_bytes": 475051,
@@ -320,7 +320,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "WSe2/monolayer/k12/aug-DZ1",
+    "path": "2D_WSe2/aug-DZ1_k12",
     "job": "3771785",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/WSe2_02_aug-DZVP_T1_k12",
     "archive_bytes": 731744,
@@ -330,7 +330,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "WSe2/monolayer/k16/aug-DZ1",
+    "path": "2D_WSe2/aug-DZ1_k16",
     "job": "3771786",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/WSe2_02_aug-DZVP_T1_k16",
     "archive_bytes": 733265,
@@ -340,7 +340,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "WSe2/monolayer/k12/aug-DZ2",
+    "path": "2D_WSe2/aug-DZ2_k12",
     "job": "3771787",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/WSe2_03_aug-DZVP_T2_k12",
     "archive_bytes": 902350,
@@ -350,7 +350,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "WSe2/monolayer/k16/aug-DZ2",
+    "path": "2D_WSe2/aug-DZ2_k16",
     "job": "3771788",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/WSe2_03_aug-DZVP_T2_k16",
     "archive_bytes": 904268,
@@ -360,7 +360,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "WSe2/monolayer/k12/aug-TZ1",
+    "path": "2D_WSe2/aug-TZ1_k12",
     "job": "3771789",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/WSe2_04_aug-TZVP_T1_k12",
     "archive_bytes": 1181836,
@@ -370,7 +370,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "WSe2/monolayer/k16/aug-TZ1",
+    "path": "2D_WSe2/aug-TZ1_k16",
     "job": "3771790",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/WSe2_04_aug-TZVP_T1_k16",
     "archive_bytes": 1183251,
@@ -380,7 +380,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "WSe2/monolayer/k12/aug-TZ2",
+    "path": "2D_WSe2/aug-TZ2_k12",
     "job": "3771791",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/WSe2_05_aug-TZVP_T2_k12",
     "archive_bytes": 1388591,
@@ -390,7 +390,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "WSe2/monolayer/k16/aug-TZ2",
+    "path": "2D_WSe2/aug-TZ2_k16",
     "job": "3771792",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/WSe2_05_aug-TZVP_T2_k16",
     "archive_bytes": 1387501,
