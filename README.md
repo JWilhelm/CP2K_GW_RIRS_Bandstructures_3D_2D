@@ -1,8 +1,6 @@
 # CP2K GW RI-RS band structures: 3D and 2D
 
-The repository contains 160 completed 3D calculations and 40 completed 2D calculations. The table has one row per material or material variant. It shows the 16×16×1 results for 2D and the 12×12×12 results for 3D. The 2D folders also contain the 12×12×1 calculations.
-
-Each linked basis cell gives **GW gap in eV / allocated core-hours**. The 2D gaps include SOC. The 2D reference values are direct gaps at K from [Pasquier et al.](https://arxiv.org/html/2507.18411), calculated on a 32×32×1 grid with different numerical settings; they are not parameter-identical comparisons. The 3D reference values come from the publications cited in the table. A dash means no reference value is listed.
+Each basis entry shows the GW gap (eV) / compute time (core-hours).
 
 | Material | aug-SZ2 | aug-DZ1 | aug-DZ2 | aug-TZ1 | aug-TZ2 | Reference (eV) |
 |:---|---:|---:|---:|---:|---:|:---|
