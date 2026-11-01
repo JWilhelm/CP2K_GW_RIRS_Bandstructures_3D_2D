@@ -275,7 +275,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlAs_GTH_Q3_Q5/aug-SZ2",
+    "path": "AlAs_GTH_q3_q5/aug-SZ2",
     "original_archive_path": "AlAs/q3-q5/aug-SZ2",
     "job": "3743282",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_sz2_gw_3nodes_6h_rqsued_20261018_v1/runs/AlAs",
@@ -286,7 +286,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlAs_GTH_Q3_Q5/aug-DZ1",
+    "path": "AlAs_GTH_q3_q5/aug-DZ1",
     "original_archive_path": "AlAs/q3-q5/aug-DZ1",
     "job": "3744182",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_dz12_qcompare_metdyn_6n6h_20261018_v1/runs/AlAs/dz1/low",
@@ -297,7 +297,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlAs_GTH_Q3_Q5/aug-DZ2",
+    "path": "AlAs_GTH_q3_q5/aug-DZ2",
     "original_archive_path": "AlAs/q3-q5/aug-DZ2",
     "job": "3744183",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_dz12_qcompare_metdyn_6n6h_20261018_v1/runs/AlAs/dz2/low",
@@ -308,7 +308,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlAs_GTH_Q3_Q5/aug-TZ1",
+    "path": "AlAs_GTH_q3_q5/aug-TZ1",
     "original_archive_path": "AlAs/q3-q5/aug-TZ1",
     "job": "3748942",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp4_queue_correction_20261019_v1/runs/3748522",
@@ -319,7 +319,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlAs_GTH_Q3_Q5/aug-TZ2",
+    "path": "AlAs_GTH_q3_q5/aug-TZ2",
     "original_archive_path": "AlAs/q3-q5/aug-TZ2",
     "job": "3748883",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp4_queue_correction_20261019_v1/runs/3748516",
@@ -330,7 +330,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlAs_GTH_Q3_Q23/aug-SZ2",
+    "path": "AlAs_GTH_q3_q23/aug-SZ2",
     "original_archive_path": "AlAs/q3-q23/aug-SZ2",
     "job": "3743668",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw14_sz2_semicore_evgw0_3nodes_6h_rqsued_20261018_v1/runs/AlAs",
@@ -341,7 +341,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlAs_GTH_Q3_Q23/aug-DZ1",
+    "path": "AlAs_GTH_q3_q23/aug-DZ1",
     "original_archive_path": "AlAs/q3-q23/aug-DZ1",
     "job": "3793624",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/alas_q3q23_g0w0_completion_20261021_v1/dz1",
@@ -352,7 +352,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlAs_GTH_Q3_Q23/aug-DZ2",
+    "path": "AlAs_GTH_q3_q23/aug-DZ2",
     "original_archive_path": "AlAs/q3-q23/aug-DZ2",
     "job": "3793625",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/alas_q3q23_g0w0_completion_20261021_v1/dz2",
@@ -363,7 +363,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlAs_GTH_Q3_Q23/aug-TZ1",
+    "path": "AlAs_GTH_q3_q23/aug-TZ1",
     "original_archive_path": "AlAs/q3-q23/aug-TZ1",
     "job": "3793626",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/alas_q3q23_g0w0_completion_20261021_v1/tz1",
@@ -374,7 +374,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlAs_GTH_Q3_Q23/aug-TZ2",
+    "path": "AlAs_GTH_q3_q23/aug-TZ2",
     "original_archive_path": "AlAs/q3-q23/aug-TZ2",
     "job": "3793627",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/alas_q3q23_g0w0_completion_20261021_v1/tz2",
@@ -385,7 +385,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlSb_GTH_Q3_Q5/aug-SZ2",
+    "path": "AlSb_GTH_q3_q5/aug-SZ2",
     "original_archive_path": "AlSb/q3-q5/aug-SZ2",
     "job": "3743283",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_sz2_gw_3nodes_6h_rqsued_20261018_v1/runs/AlSb",
@@ -396,7 +396,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlSb_GTH_Q3_Q5/aug-DZ1",
+    "path": "AlSb_GTH_q3_q5/aug-DZ1",
     "original_archive_path": "AlSb/q3-q5/aug-DZ1",
     "job": "3744184",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_dz12_qcompare_metdyn_6n6h_20261018_v1/runs/AlSb/dz1/low",
@@ -407,7 +407,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlSb_GTH_Q3_Q5/aug-DZ2",
+    "path": "AlSb_GTH_q3_q5/aug-DZ2",
     "original_archive_path": "AlSb/q3-q5/aug-DZ2",
     "job": "3744186",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_dz12_qcompare_metdyn_6n6h_20261018_v1/runs/AlSb/dz2/low",
@@ -418,7 +418,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlSb_GTH_Q3_Q5/aug-TZ1",
+    "path": "AlSb_GTH_q3_q5/aug-TZ1",
     "original_archive_path": "AlSb/q3-q5/aug-TZ1",
     "job": "3748884",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp4_queue_correction_20261019_v1/runs/3748517",
@@ -429,7 +429,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlSb_GTH_Q3_Q5/aug-TZ2",
+    "path": "AlSb_GTH_q3_q5/aug-TZ2",
     "original_archive_path": "AlSb/q3-q5/aug-TZ2",
     "job": "3748881",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp4_queue_correction_20261019_v1/runs/3748514",
@@ -440,7 +440,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlSb_GTH_Q3_Q23/aug-SZ2",
+    "path": "AlSb_GTH_q3_q23/aug-SZ2",
     "original_archive_path": "AlSb/q3-q23/aug-SZ2",
     "job": "3743669",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw14_sz2_semicore_evgw0_3nodes_6h_rqsued_20261018_v1/runs/AlSb",
@@ -451,7 +451,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlSb_GTH_Q3_Q23/aug-DZ1",
+    "path": "AlSb_GTH_q3_q23/aug-DZ1",
     "original_archive_path": "AlSb/q3-q23/aug-DZ1",
     "job": "3761033",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/semiconductor_user_extension_20261019_v1/runs/AlSb/3_23/dz1",
@@ -462,7 +462,7 @@
     "application_output": "gw.out"
   },
   {
-    "path": "AlSb_GTH_Q3_Q23/aug-DZ2",
+    "path": "AlSb_GTH_q3_q23/aug-DZ2",
     "original_archive_path": "AlSb/q3-q23/aug-DZ2",
     "job": "3784654",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/AlSb_q3q23_dz2",
@@ -473,7 +473,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "AlSb_GTH_Q3_Q23/aug-TZ1",
+    "path": "AlSb_GTH_q3_q23/aug-TZ1",
     "original_archive_path": "AlSb/q3-q23/aug-TZ1",
     "job": "3762558",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/semiconductor_published_semicore_20261019_v1/runs/AlSb/3_23/tz1/gw_current_v1",
@@ -484,7 +484,7 @@
     "application_output": "gw.out"
   },
   {
-    "path": "AlSb_GTH_Q3_Q23/aug-TZ2",
+    "path": "AlSb_GTH_q3_q23/aug-TZ2",
     "original_archive_path": "AlSb/q3-q23/aug-TZ2",
     "job": "3762567",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/semiconductor_published_semicore_20261019_v1/runs/AlSb/3_23/tz2/gw_current_v1",
@@ -495,7 +495,7 @@
     "application_output": "gw.out"
   },
   {
-    "path": "GaP_GTH_Q21_Q5/aug-SZ2",
+    "path": "GaP_GTH_q21_q5/aug-SZ2",
     "original_archive_path": "GaP/q21-q5/aug-SZ2",
     "job": "3743264",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_sz2_gw_3nodes_6h_rqsued_20261018_v1/runs/GaP",
@@ -506,7 +506,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "GaP_GTH_Q21_Q5/aug-DZ1",
+    "path": "GaP_GTH_q21_q5/aug-DZ1",
     "original_archive_path": "GaP/q21-q5/aug-DZ1",
     "job": "3740416",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/zn_ga_dztz_evgw0_48h_20261018_v2/GaP/dz1",
@@ -517,7 +517,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "GaP_GTH_Q21_Q5/aug-DZ2",
+    "path": "GaP_GTH_q21_q5/aug-DZ2",
     "original_archive_path": "GaP/q21-q5/aug-DZ2",
     "job": "3744286",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/zn_ga_dz_gw_from_ot_6nodes_20261019_v1/GaP/dz2",
@@ -528,7 +528,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "GaP_GTH_Q21_Q5/aug-TZ1",
+    "path": "GaP_GTH_q21_q5/aug-TZ1",
     "original_archive_path": "GaP/q21-q5/aug-TZ1",
     "job": "3740418",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/zn_ga_dztz_evgw0_48h_20261018_v2/GaP/tz1",
@@ -539,7 +539,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "GaP_GTH_Q21_Q5/aug-TZ2",
+    "path": "GaP_GTH_q21_q5/aug-TZ2",
     "original_archive_path": "GaP/q21-q5/aug-TZ2",
     "job": "3740419",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/zn_ga_dztz_evgw0_48h_20261018_v2/GaP/tz2",
@@ -550,7 +550,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "GaAs_GTH_Q21_Q5/aug-SZ2",
+    "path": "GaAs_GTH_q21_q5/aug-SZ2",
     "original_archive_path": "GaAs/q21-q5/aug-SZ2",
     "job": "3743281",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_sz2_gw_3nodes_6h_rqsued_20261018_v1/runs/GaAs",
@@ -561,7 +561,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "GaAs_GTH_Q21_Q5/aug-DZ1",
+    "path": "GaAs_GTH_q21_q5/aug-DZ1",
     "original_archive_path": "GaAs/q21-q5/aug-DZ1",
     "job": "3740420",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/zn_ga_dztz_evgw0_48h_20261018_v2/GaAs/dz1",
@@ -572,7 +572,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "GaAs_GTH_Q21_Q5/aug-DZ2",
+    "path": "GaAs_GTH_q21_q5/aug-DZ2",
     "original_archive_path": "GaAs/q21-q5/aug-DZ2",
     "job": "3744287",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/zn_ga_dz_gw_from_ot_6nodes_20261019_v1/GaAs/dz2",
@@ -583,7 +583,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "GaAs_GTH_Q21_Q5/aug-TZ1",
+    "path": "GaAs_GTH_q21_q5/aug-TZ1",
     "original_archive_path": "GaAs/q21-q5/aug-TZ1",
     "job": "3740422",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/zn_ga_dztz_evgw0_48h_20261018_v2/GaAs/tz1",
@@ -594,7 +594,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "GaAs_GTH_Q21_Q5/aug-TZ2",
+    "path": "GaAs_GTH_q21_q5/aug-TZ2",
     "original_archive_path": "GaAs/q21-q5/aug-TZ2",
     "job": "3740423",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/zn_ga_dztz_evgw0_48h_20261018_v2/GaAs/tz2",
@@ -605,7 +605,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "InP_GTH_Q21_Q5/aug-SZ2",
+    "path": "InP_GTH_q21_q5/aug-SZ2",
     "original_archive_path": "InP/q21-q5/aug-SZ2",
     "job": "3743671",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw14_sz2_semicore_evgw0_3nodes_6h_rqsued_20261018_v1/runs/InP",
@@ -616,7 +616,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "InP_GTH_Q21_Q5/aug-DZ1",
+    "path": "InP_GTH_q21_q5/aug-DZ1",
     "original_archive_path": "InP/q21-q5/aug-DZ1",
     "job": "3784641",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/InP_q21q5_dz1",
@@ -627,7 +627,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "InP_GTH_Q21_Q5/aug-DZ2",
+    "path": "InP_GTH_q21_q5/aug-DZ2",
     "original_archive_path": "InP/q21-q5/aug-DZ2",
     "job": "3784642",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/InP_q21q5_dz2",
@@ -638,7 +638,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "InP_GTH_Q21_Q5/aug-TZ1",
+    "path": "InP_GTH_q21_q5/aug-TZ1",
     "original_archive_path": "InP/q21-q5/aug-TZ1",
     "job": "3784643",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/InP_q21q5_tz1",
@@ -649,7 +649,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "InP_GTH_Q21_Q5/aug-TZ2",
+    "path": "InP_GTH_q21_q5/aug-TZ2",
     "original_archive_path": "InP/q21-q5/aug-TZ2",
     "job": "3784644",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/InP_q21q5_tz2",
@@ -660,7 +660,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnS_GTH_Q20_Q6/aug-SZ2",
+    "path": "ZnS_GTH_q20_q6/aug-SZ2",
     "original_archive_path": "ZnS/zincblende/q20-q6/aug-SZ2",
     "job": "3743267",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_sz2_gw_3nodes_6h_rqsued_20261018_v1/runs/ZnS",
@@ -671,7 +671,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnS_GTH_Q20_Q6/aug-DZ1",
+    "path": "ZnS_GTH_q20_q6/aug-DZ1",
     "original_archive_path": "ZnS/zincblende/q20-q6/aug-DZ1",
     "job": "3740412",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/zn_ga_dztz_evgw0_48h_20261018_v2/ZnS/dz1",
@@ -682,7 +682,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnS_GTH_Q20_Q6/aug-DZ2",
+    "path": "ZnS_GTH_q20_q6/aug-DZ2",
     "original_archive_path": "ZnS/zincblende/q20-q6/aug-DZ2",
     "job": "3744151",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_dz12_qcompare_metdyn_6n6h_20261018_v1/runs/ZnS/dz2/high",
@@ -693,7 +693,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnS_GTH_Q20_Q6/aug-TZ1",
+    "path": "ZnS_GTH_q20_q6/aug-TZ1",
     "original_archive_path": "ZnS/zincblende/q20-q6/aug-TZ1",
     "job": "3740414",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/zn_ga_dztz_evgw0_48h_20261018_v2/ZnS/tz1",
@@ -704,7 +704,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnS_GTH_Q20_Q6/aug-TZ2",
+    "path": "ZnS_GTH_q20_q6/aug-TZ2",
     "original_archive_path": "ZnS/zincblende/q20-q6/aug-TZ2",
     "job": "3740415",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/zn_ga_dztz_evgw0_48h_20261018_v2/ZnS/tz2",
@@ -715,7 +715,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnSe_GTH_Q20_Q6/aug-SZ2",
+    "path": "ZnSe_GTH_q20_q6/aug-SZ2",
     "original_archive_path": "ZnSe/zincblende/q20-q6/aug-SZ2",
     "job": "3743288",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_sz2_gw_3nodes_6h_rqsued_20261018_v1/runs/ZnSe",
@@ -726,7 +726,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnSe_GTH_Q20_Q6/aug-DZ1",
+    "path": "ZnSe_GTH_q20_q6/aug-DZ1",
     "original_archive_path": "ZnSe/zincblende/q20-q6/aug-DZ1",
     "job": "3745631",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/semiconductor_g0_recovery_dz_6n48h_20261019_v1/ZnSe/dz1",
@@ -737,7 +737,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnSe_GTH_Q20_Q6/aug-DZ2",
+    "path": "ZnSe_GTH_q20_q6/aug-DZ2",
     "original_archive_path": "ZnSe/zincblende/q20-q6/aug-DZ2",
     "job": "3745632",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/semiconductor_g0_recovery_dz_6n48h_20261019_v1/ZnSe/dz2",
@@ -748,7 +748,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnSe_GTH_Q20_Q6/aug-TZ1",
+    "path": "ZnSe_GTH_q20_q6/aug-TZ1",
     "original_archive_path": "ZnSe/zincblende/q20-q6/aug-TZ1",
     "job": "3780929",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_material_completion_20261020_v1/runs/ZnSe_q20q6_tz1",
@@ -759,7 +759,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnSe_GTH_Q20_Q6/aug-TZ2",
+    "path": "ZnSe_GTH_q20_q6/aug-TZ2",
     "original_archive_path": "ZnSe/zincblende/q20-q6/aug-TZ2",
     "job": "3780930",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_material_completion_20261020_v1/runs/ZnSe_q20q6_tz2",
@@ -770,7 +770,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnTe_GTH_Q20_Q6/aug-SZ2",
+    "path": "ZnTe_GTH_q20_q6/aug-SZ2",
     "original_archive_path": "ZnTe/zincblende/q20-q6/aug-SZ2",
     "job": "3743289",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_sz2_gw_3nodes_6h_rqsued_20261018_v1/runs/ZnTe",
@@ -781,7 +781,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnTe_GTH_Q20_Q6/aug-DZ1",
+    "path": "ZnTe_GTH_q20_q6/aug-DZ1",
     "original_archive_path": "ZnTe/zincblende/q20-q6/aug-DZ1",
     "job": "3745633",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/semiconductor_g0_recovery_dz_6n48h_20261019_v1/ZnTe/dz1",
@@ -792,7 +792,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnTe_GTH_Q20_Q6/aug-DZ2",
+    "path": "ZnTe_GTH_q20_q6/aug-DZ2",
     "original_archive_path": "ZnTe/zincblende/q20-q6/aug-DZ2",
     "job": "3745634",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/semiconductor_g0_recovery_dz_6n48h_20261019_v1/ZnTe/dz2",
@@ -803,7 +803,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnTe_GTH_Q20_Q6/aug-TZ1",
+    "path": "ZnTe_GTH_q20_q6/aug-TZ1",
     "original_archive_path": "ZnTe/zincblende/q20-q6/aug-TZ1",
     "job": "3780931",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_material_completion_20261020_v1/runs/ZnTe_q20q6_tz1",
@@ -814,7 +814,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "ZnTe_GTH_Q20_Q6/aug-TZ2",
+    "path": "ZnTe_GTH_q20_q6/aug-TZ2",
     "original_archive_path": "ZnTe/zincblende/q20-q6/aug-TZ2",
     "job": "3780932",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_material_completion_20261020_v1/runs/ZnTe_q20q6_tz2",
@@ -825,7 +825,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdS_zincblende_GTH_Q20_Q6/aug-SZ2",
+    "path": "CdS_zincblende_GTH_q20_q6/aug-SZ2",
     "original_archive_path": "CdS/zincblende/q20-q6/aug-SZ2",
     "job": "3743677",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw14_sz2_semicore_evgw0_3nodes_6h_rqsued_20261018_v1/runs/CdS",
@@ -836,7 +836,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdS_zincblende_GTH_Q20_Q6/aug-DZ1",
+    "path": "CdS_zincblende_GTH_q20_q6/aug-DZ1",
     "original_archive_path": "CdS/zincblende/q20-q6/aug-DZ1",
     "job": "3784616",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdS_zb_q20q6_dz1",
@@ -847,7 +847,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdS_zincblende_GTH_Q20_Q6/aug-DZ2",
+    "path": "CdS_zincblende_GTH_q20_q6/aug-DZ2",
     "original_archive_path": "CdS/zincblende/q20-q6/aug-DZ2",
     "job": "3784617",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdS_zb_q20q6_dz2",
@@ -858,7 +858,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdS_zincblende_GTH_Q20_Q6/aug-TZ1",
+    "path": "CdS_zincblende_GTH_q20_q6/aug-TZ1",
     "original_archive_path": "CdS/zincblende/q20-q6/aug-TZ1",
     "job": "3784618",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdS_zb_q20q6_tz1",
@@ -869,7 +869,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdS_zincblende_GTH_Q20_Q6/aug-TZ2",
+    "path": "CdS_zincblende_GTH_q20_q6/aug-TZ2",
     "original_archive_path": "CdS/zincblende/q20-q6/aug-TZ2",
     "job": "3784619",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdS_zb_q20q6_tz2",
@@ -880,7 +880,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdS_wurtzite_GTH_Q20_Q6/aug-SZ2",
+    "path": "CdS_wurtzite_GTH_q20_q6/aug-SZ2",
     "original_archive_path": "CdS/wurtzite/q20-q6/aug-SZ2",
     "job": "3759589",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp_queue_migration_20261019_v1/runs/3748346",
@@ -891,7 +891,7 @@
     "application_output": "gw.out"
   },
   {
-    "path": "CdS_wurtzite_GTH_Q20_Q6/aug-DZ1",
+    "path": "CdS_wurtzite_GTH_q20_q6/aug-DZ1",
     "original_archive_path": "CdS/wurtzite/q20-q6/aug-DZ1",
     "job": "3759595",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp_queue_migration_20261019_v1/runs/3748347",
@@ -902,7 +902,7 @@
     "application_output": "gw.out"
   },
   {
-    "path": "CdS_wurtzite_GTH_Q20_Q6/aug-DZ2",
+    "path": "CdS_wurtzite_GTH_q20_q6/aug-DZ2",
     "original_archive_path": "CdS/wurtzite/q20-q6/aug-DZ2",
     "job": "3749379",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/openmp_queue_migration_20261019_v1/runs/3748348",
@@ -913,7 +913,7 @@
     "application_output": "gw.out"
   },
   {
-    "path": "CdS_wurtzite_GTH_Q20_Q6/aug-TZ1",
+    "path": "CdS_wurtzite_GTH_q20_q6/aug-TZ1",
     "original_archive_path": "CdS/wurtzite/q20-q6/aug-TZ1",
     "job": "3784620",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdS_wz_q20q6_tz1",
@@ -924,7 +924,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdS_wurtzite_GTH_Q20_Q6/aug-TZ2",
+    "path": "CdS_wurtzite_GTH_q20_q6/aug-TZ2",
     "original_archive_path": "CdS/wurtzite/q20-q6/aug-TZ2",
     "job": "3784621",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdS_wz_q20q6_tz2",
@@ -935,7 +935,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdSe_GTH_Q20_Q6/aug-SZ2",
+    "path": "CdSe_GTH_q20_q6/aug-SZ2",
     "original_archive_path": "CdSe/q20-q6/aug-SZ2",
     "job": "3784622",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdSe_q20q6_sz2",
@@ -946,7 +946,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdSe_GTH_Q20_Q6/aug-DZ1",
+    "path": "CdSe_GTH_q20_q6/aug-DZ1",
     "original_archive_path": "CdSe/q20-q6/aug-DZ1",
     "job": "3784623",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdSe_q20q6_dz1",
@@ -957,7 +957,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdSe_GTH_Q20_Q6/aug-DZ2",
+    "path": "CdSe_GTH_q20_q6/aug-DZ2",
     "original_archive_path": "CdSe/q20-q6/aug-DZ2",
     "job": "3784624",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdSe_q20q6_dz2",
@@ -968,7 +968,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdSe_GTH_Q20_Q6/aug-TZ1",
+    "path": "CdSe_GTH_q20_q6/aug-TZ1",
     "original_archive_path": "CdSe/q20-q6/aug-TZ1",
     "job": "3784625",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdSe_q20q6_tz1",
@@ -979,7 +979,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdSe_GTH_Q20_Q6/aug-TZ2",
+    "path": "CdSe_GTH_q20_q6/aug-TZ2",
     "original_archive_path": "CdSe/q20-q6/aug-TZ2",
     "job": "3784626",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdSe_q20q6_tz2",
@@ -990,7 +990,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdTe_GTH_Q20_Q6/aug-SZ2",
+    "path": "CdTe_GTH_q20_q6/aug-SZ2",
     "original_archive_path": "CdTe/q20-q6/aug-SZ2",
     "job": "3784632",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdTe_q20q6_sz2",
@@ -1001,7 +1001,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdTe_GTH_Q20_Q6/aug-DZ1",
+    "path": "CdTe_GTH_q20_q6/aug-DZ1",
     "original_archive_path": "CdTe/q20-q6/aug-DZ1",
     "job": "3784633",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdTe_q20q6_dz1",
@@ -1012,7 +1012,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdTe_GTH_Q20_Q6/aug-DZ2",
+    "path": "CdTe_GTH_q20_q6/aug-DZ2",
     "original_archive_path": "CdTe/q20-q6/aug-DZ2",
     "job": "3784634",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdTe_q20q6_dz2",
@@ -1023,7 +1023,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdTe_GTH_Q20_Q6/aug-TZ1",
+    "path": "CdTe_GTH_q20_q6/aug-TZ1",
     "original_archive_path": "CdTe/q20-q6/aug-TZ1",
     "job": "3784635",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdTe_q20q6_tz1",
@@ -1034,7 +1034,7 @@
     "application_output": "output.out"
   },
   {
-    "path": "CdTe_GTH_Q20_Q6/aug-TZ2",
+    "path": "CdTe_GTH_q20_q6/aug-TZ2",
     "original_archive_path": "CdTe/q20-q6/aug-TZ2",
     "job": "3784636",
     "source": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/g0w0_scalar_completion_20261021_v1/runs/CdTe_q20q6_tz2",
