@@ -1,0 +1,112 @@
+{
+  "case": "WS2_01_aug-SZV_T2_k16",
+  "material": "WS2",
+  "basis": "aug-SZV-MOLOPT-GTH-tier-2",
+  "k": 16,
+  "nodes": 1,
+  "mpi_per_node": 48,
+  "omp": 4,
+  "cp2k_seconds": 31.201,
+  "slurm_seconds": 40,
+  "node_hours": 0.011111111111111112,
+  "gap_soc_eV": 2.2550000000000003,
+  "vbm_soc_eV": -5.23,
+  "cbm_soc_eV": -2.975,
+  "job_id": "3771774",
+  "numerical_status": "full-spectrum reproducibility unresolved",
+  "max_rank_rss": "1394752K",
+  "dimension": "2D",
+  "k_mesh": "16x16x1",
+  "basis_short": "aug-SZ2",
+  "method": "G0W0+SOC path gap from printed band energies",
+  "allocated_cpus": 192,
+  "core_hours": 2.1333333333333333,
+  "source_directory": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/WS2_01_aug-SZV_T2_k16",
+  "slurm_state": "COMPLETED",
+  "slurm_exit_code": "0:0",
+  "accounting_source": "benchmark/monolayers_20261020/completed_accounting.txt (historical snapshot)",
+  "normal_cp2k_end": true,
+  "scf_converged": true,
+  "cp2k_stderr_bytes": 0,
+  "warnings": [
+    " *** WARNING in post_scf_bandstructure_utils.F:4091 :: G0W0 reorders the  ***\n *** occupied levels: the SCF valence band maximum (SCF HOMO) is level 13 ***\n *** at k-point 1, whereas the G0W0 valence band maximum (G0W0 HOMO) is   ***\n *** level 13 at k-point 50. The SCF and G0W0 band edges printed below    ***\n *** therefore belong to different orbitals; see the eigenvalues in the   ***\n *** file bandstructure_SCF_and_G0W0.                                     ***"
+  ],
+  "included_files": [
+    {
+      "name": "assets/BASIS",
+      "bytes": 24528,
+      "sha256": "c2a0ea86a6a4fac168c77874cbe27eb5153bedd2f4dbf4fb78c8835520f4f2d7"
+    },
+    {
+      "name": "assets/POTENTIALS",
+      "bytes": 254486,
+      "sha256": "cb8671959ad5dd1c0f403786a69af3f155157ed1af8e5701e63de23ec4b0742e"
+    },
+    {
+      "name": "bandstructure_DFT",
+      "bytes": 288156,
+      "sha256": "8575eb2f9e732b46085e52e45fed35d69ca3229adf82c3d5c188e53f056acf75"
+    },
+    {
+      "name": "bandstructure_DFT_plus_SOC",
+      "bytes": 540644,
+      "sha256": "2f715bc49c713ef6bdcb57bc5d727ea5dab7fd4e0b89e4bf0852d26ab701d98e"
+    },
+    {
+      "name": "bandstructure_SCF_and_G0W0",
+      "bytes": 792984,
+      "sha256": "9149010a3f38b2cd9df09df5efc80f9270cb6e1a57b5abc52ec5d8ee4a0cb130"
+    },
+    {
+      "name": "bandstructure_SCF_and_G0W0_plus_SOC",
+      "bytes": 790172,
+      "sha256": "a7c56399f8cd1391b31e3e3b54f784ba38f350a8c46e9d5a68f8a19a2cbc4c30"
+    },
+    {
+      "name": "cp2k.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "cp2k.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "input.inp",
+      "bytes": 2625,
+      "sha256": "68a1c0cc895a2fce3cf57dd4f5198e72e5330de44c8106f83c32793351317a24"
+    },
+    {
+      "name": "ldd.txt",
+      "bytes": 5018,
+      "sha256": "57b586ed655d683926441bca61fcb1e65eb791ed002446eb3e39f060a9bb8653"
+    },
+    {
+      "name": "output.out",
+      "bytes": 153533,
+      "sha256": "ce99254928c1d9873f0cee4fbd226451a223c1ac8cb579e6c209eb958958c56e"
+    },
+    {
+      "name": "preflight.sha256",
+      "bytes": 885,
+      "sha256": "e14337e542ab54426cb10f522ee6307f5e71cc7770c3baf8f0cb997ea05513ce"
+    },
+    {
+      "name": "run.sbatch",
+      "bytes": 2305,
+      "sha256": "a4f5cca39902f0a11ad09fa6271ba7abf59d50804fb42b237ed1a170307aa25a"
+    },
+    {
+      "name": "slurm-3771774.err",
+      "bytes": 321,
+      "sha256": "459d1b53042f64085c815a5df2d1de34874f12778575d31af09b19fb0abf53b9"
+    },
+    {
+      "name": "slurm-3771774.out",
+      "bytes": 593,
+      "sha256": "31ac41a051850547e96c236a631927600541bbeedc3f81e59b7867fc8c37ee63"
+    }
+  ],
+  "limitations": "Historical results; full-spectrum reproducibility unresolved; k16 is not established as converged. Runtime differs from current CP2K."
+}

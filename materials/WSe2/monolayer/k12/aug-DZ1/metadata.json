@@ -1,0 +1,110 @@
+{
+  "case": "WSe2_02_aug-DZVP_T1_k12",
+  "material": "WSe2",
+  "basis": "aug-DZVP-MOLOPT-GTH-tier-1",
+  "k": 12,
+  "nodes": 1,
+  "mpi_per_node": 48,
+  "omp": 4,
+  "cp2k_seconds": 49.752,
+  "slurm_seconds": 59,
+  "node_hours": 0.01638888888888889,
+  "gap_soc_eV": 1.794,
+  "vbm_soc_eV": -4.545,
+  "cbm_soc_eV": -2.751,
+  "job_id": "3771785",
+  "numerical_status": "full-spectrum reproducibility unresolved",
+  "max_rank_rss": "1965156K",
+  "dimension": "2D",
+  "k_mesh": "12x12x1",
+  "basis_short": "aug-DZ1",
+  "method": "G0W0+SOC path gap from printed band energies",
+  "allocated_cpus": 192,
+  "core_hours": 3.1466666666666665,
+  "source_directory": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/WSe2_02_aug-DZVP_T1_k12",
+  "slurm_state": "COMPLETED",
+  "slurm_exit_code": "0:0",
+  "accounting_source": "benchmark/monolayers_20261020/completed_accounting.txt (historical snapshot)",
+  "normal_cp2k_end": true,
+  "scf_converged": true,
+  "cp2k_stderr_bytes": 0,
+  "warnings": [],
+  "included_files": [
+    {
+      "name": "assets/BASIS",
+      "bytes": 24528,
+      "sha256": "c2a0ea86a6a4fac168c77874cbe27eb5153bedd2f4dbf4fb78c8835520f4f2d7"
+    },
+    {
+      "name": "assets/POTENTIALS",
+      "bytes": 254486,
+      "sha256": "cb8671959ad5dd1c0f403786a69af3f155157ed1af8e5701e63de23ec4b0742e"
+    },
+    {
+      "name": "bandstructure_DFT",
+      "bytes": 464276,
+      "sha256": "99ca5a91c6d62571a245055b1a640bf4fdeeb88bcb9cc8d21e10f75a0ec5e16d"
+    },
+    {
+      "name": "bandstructure_DFT_plus_SOC",
+      "bytes": 882820,
+      "sha256": "f0cd35e9b67209b880f226189879b1ea15ac9d6e55aa98b3035609d1f1675a0b"
+    },
+    {
+      "name": "bandstructure_SCF_and_G0W0",
+      "bytes": 1291152,
+      "sha256": "6ce9d2e60dba701e46678899e692b46bde0a61f3bf1b62c3ac822b38384c319b"
+    },
+    {
+      "name": "bandstructure_SCF_and_G0W0_plus_SOC",
+      "bytes": 1293372,
+      "sha256": "fbef7cb71f25e7cea06544786b1f3f74642106497895c88ced719b84d1fa9996"
+    },
+    {
+      "name": "cp2k.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "cp2k.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "input.inp",
+      "bytes": 2569,
+      "sha256": "514c62310e36d30eb93998205c9195b68ce3dcf3898b37c3be99b28ddc915fed"
+    },
+    {
+      "name": "ldd.txt",
+      "bytes": 5018,
+      "sha256": "c1affe775928b1cb2d2b4822eabaf569b1ba48ca484b665e4f0115a88dfb1f93"
+    },
+    {
+      "name": "output.out",
+      "bytes": 156774,
+      "sha256": "3af44e9cbdd7c776b9a5e094784e8361a2e089508be1665c50d6a34d09c7bf9e"
+    },
+    {
+      "name": "preflight.sha256",
+      "bytes": 887,
+      "sha256": "939b03fc6da889d7e09e06f5cb3d540ad82e1ec414e1359867ec0876fd97ffe7"
+    },
+    {
+      "name": "run.sbatch",
+      "bytes": 2323,
+      "sha256": "0cd6207b126d438e42cba893840b6c212257e4ee864ddc41754fd56e2a2e08c9"
+    },
+    {
+      "name": "slurm-3771785.err",
+      "bytes": 321,
+      "sha256": "ff0c6c0b0bf6ce3d4f3f7e0bb8bdf27ac3b76f269a48a81f9576e29a8d81d0ac"
+    },
+    {
+      "name": "slurm-3771785.out",
+      "bytes": 595,
+      "sha256": "02651047b28d9cac177d350150b9ecf90bc88a10733e19a30d42ebcbb22c2ae6"
+    }
+  ],
+  "limitations": "Historical results; full-spectrum reproducibility unresolved; k16 is not established as converged. Runtime differs from current CP2K."
+}

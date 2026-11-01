@@ -1,0 +1,112 @@
+{
+  "case": "MoS2_02_aug-DZVP_T1_k12",
+  "material": "MoS2",
+  "basis": "aug-DZVP-MOLOPT-GTH-tier-1",
+  "k": 12,
+  "nodes": 1,
+  "mpi_per_node": 48,
+  "omp": 4,
+  "cp2k_seconds": 61.19,
+  "slurm_seconds": 71,
+  "node_hours": 0.01972222222222222,
+  "gap_soc_eV": 2.1629999999999994,
+  "vbm_soc_eV": -5.645,
+  "cbm_soc_eV": -3.482,
+  "job_id": "3771755",
+  "numerical_status": "full-spectrum reproducibility unresolved",
+  "max_rank_rss": "2017728K",
+  "dimension": "2D",
+  "k_mesh": "12x12x1",
+  "basis_short": "aug-DZ1",
+  "method": "G0W0+SOC path gap from printed band energies",
+  "allocated_cpus": 192,
+  "core_hours": 3.7866666666666666,
+  "source_directory": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/MoS2_02_aug-DZVP_T1_k12",
+  "slurm_state": "COMPLETED",
+  "slurm_exit_code": "0:0",
+  "accounting_source": "benchmark/monolayers_20261020/completed_accounting.txt (historical snapshot)",
+  "normal_cp2k_end": true,
+  "scf_converged": true,
+  "cp2k_stderr_bytes": 0,
+  "warnings": [
+    " *** WARNING in post_scf_bandstructure_utils.F:4091 :: G0W0 reorders the  ***\n *** occupied levels: the SCF valence band maximum (SCF HOMO) is level 13 ***\n *** at k-point 1, whereas the G0W0 valence band maximum (G0W0 HOMO) is   ***\n *** level 13 at k-point 50. The SCF and G0W0 band edges printed below    ***\n *** therefore belong to different orbitals; see the eigenvalues in the   ***\n *** file bandstructure_SCF_and_G0W0.                                     ***"
+  ],
+  "included_files": [
+    {
+      "name": "assets/BASIS",
+      "bytes": 24528,
+      "sha256": "c2a0ea86a6a4fac168c77874cbe27eb5153bedd2f4dbf4fb78c8835520f4f2d7"
+    },
+    {
+      "name": "assets/POTENTIALS",
+      "bytes": 254486,
+      "sha256": "cb8671959ad5dd1c0f403786a69af3f155157ed1af8e5701e63de23ec4b0742e"
+    },
+    {
+      "name": "bandstructure_DFT",
+      "bytes": 464276,
+      "sha256": "b6daa791b8ef029cee4730e29f79d3513e5fb60813406953d5cf4ae0236e6861"
+    },
+    {
+      "name": "bandstructure_DFT_plus_SOC",
+      "bytes": 882820,
+      "sha256": "283c7ca0909864812267a0aedaad09d88d7d6c384be491af5782699e8b39bfe8"
+    },
+    {
+      "name": "bandstructure_SCF_and_G0W0",
+      "bytes": 1291152,
+      "sha256": "826006cfc017d8655d93aa2822c1335b5c5a505e7b1ca9e80bfa08f476eb4aac"
+    },
+    {
+      "name": "bandstructure_SCF_and_G0W0_plus_SOC",
+      "bytes": 1293372,
+      "sha256": "ca64cae9f7c898fe16552b7fadebeddeae5fb50a44bdae96233677f543e6bae2"
+    },
+    {
+      "name": "cp2k.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "cp2k.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "input.inp",
+      "bytes": 2629,
+      "sha256": "be5b89a78be3add06815b7b0e89a7f1ca4094ab60e2d302c3ca5303cd7c92930"
+    },
+    {
+      "name": "ldd.txt",
+      "bytes": 5018,
+      "sha256": "7c83c1caeefefbeccbb80b76acb2d9cb914a3391785f29e5b857a1867915c832"
+    },
+    {
+      "name": "output.out",
+      "bytes": 160213,
+      "sha256": "868027f4ff517e09454bf974c7c1288fee5ff0de80db8f912448747882d2e4fb"
+    },
+    {
+      "name": "preflight.sha256",
+      "bytes": 887,
+      "sha256": "929b005e8ecc2120b4e54edccd8ebc035036f2ae46dfb6a0426d9ea4728e4105"
+    },
+    {
+      "name": "run.sbatch",
+      "bytes": 2323,
+      "sha256": "5f4ae0eb51ce08bd9e6b728bc5805dbb8e4af1a0eae463bdddd3ee2a98e26b9d"
+    },
+    {
+      "name": "slurm-3771755.err",
+      "bytes": 321,
+      "sha256": "594fd2dd81879d525b622b63f91c588fd8efe6a9138449adbf6b168f0d149513"
+    },
+    {
+      "name": "slurm-3771755.out",
+      "bytes": 595,
+      "sha256": "871e8941eadf50024075bda88eebb7c916eb6a7c24e479b941c2b0b377b7bcd1"
+    }
+  ],
+  "limitations": "Historical results; full-spectrum reproducibility unresolved; k16 is not established as converged. Runtime differs from current CP2K."
+}
