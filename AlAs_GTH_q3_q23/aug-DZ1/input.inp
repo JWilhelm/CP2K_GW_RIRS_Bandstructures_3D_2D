@@ -8,9 +8,8 @@
 &FORCE_EVAL
   METHOD Quickstep
   &DFT
-    BASIS_SET_FILE_NAME /scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/alas_q3q23_g0w0_completion_20261021_v1/dz1/BASIS
-    POTENTIAL_FILE_NAME /scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/alas_q3q23_g0w0_completion_20261021_v1/dz1/POTENTIALS
-    WFN_RESTART_FILE_NAME /scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/alas_q3q23_g0w0_completion_20261021_v1/dz1/seed-RESTART.kp
+    BASIS_SET_FILE_NAME BASIS_AUG_MOLOPT_GTH
+    POTENTIAL_FILE_NAME GTH_POTENTIALS
     SORT_BASIS EXP
     &POISSON
       PERIODIC XYZ
@@ -106,6 +105,7 @@
     &KIND As
       BASIS_SET aug-DZVP-MOLOPT-GTH-tier-1-q23
       POTENTIAL GTH-PBE-q23
+      POTENTIAL_FILE_NAME POTENTIAL_UZH
     &END KIND
   &END SUBSYS
 &END FORCE_EVAL

@@ -9,9 +9,9 @@
 &FORCE_EVAL
   METHOD Quickstep
   &DFT
-    BASIS_SET_FILE_NAME /scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v2/data/BASIS
+    BASIS_SET_FILE_NAME BASIS_AUG_MOLOPT_GTH
     SORT_BASIS EXP
-    POTENTIAL_FILE_NAME /scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v2/data/POTENTIALS
+    POTENTIAL_FILE_NAME GTH_SOC_POTENTIALS
     CHARGE 0
     &MGRID
       CUTOFF  500

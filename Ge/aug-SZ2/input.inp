@@ -6,9 +6,8 @@
 &FORCE_EVAL
   METHOD Quickstep
   &DFT
-    BASIS_SET_FILE_NAME /scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_sz2_scf_20261018_v1/assets/BASIS
-    POTENTIAL_FILE_NAME /scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_sz2_scf_20261018_v1/assets/POTENTIALS_SMALL
-    WFN_RESTART_FILE_NAME /scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/gw34_sz2_gw_3nodes_6h_rqsued_20261018_v1/runs/Ge/SCF_RESTART.kp
+    BASIS_SET_FILE_NAME BASIS_AUG_MOLOPT_GTH
+    POTENTIAL_FILE_NAME GTH_POTENTIALS
     SORT_BASIS EXP
     &POISSON
       PERIODIC XYZ
