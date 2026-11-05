@@ -10,38 +10,42 @@
  DBCSR| Use MPI memory allocation                                              F (U)
  DBCSR| Use RMA algorithm                                                      F (U)
  DBCSR| Use Communication thread                                               T (U)
- DBCSR| Communication thread load                                             75 (D)
+ DBCSR| Communication thread load                                             60 (D)
  DBCSR| MPI: My process id                                                     0
- DBCSR| MPI: Number of processes                                              48
- DBCSR| OMP: Current number of threads                                         4
- DBCSR| OMP: Max number of threads                                             4
+ DBCSR| MPI: Number of processes                                              16
+ DBCSR| OMP: Current number of threads                                         8
+ DBCSR| OMP: Max number of threads                                             8
  DBCSR| Split modifier for TAS multiplication algorithm                  1.0E+00 (U)
 
 
-  **** **** ******  **  PROGRAM STARTED AT               2026-10-20 10:30:31.391
- ***** ** ***  *** **   PROGRAM STARTED ON                                cn1823
+  **** **** ******  **  PROGRAM STARTED AT               2026-11-05 16:06:50.654
+ ***** ** ***  *** **   PROGRAM STARTED ON                             n2lcn0161
  **    ****   ******    PROGRAM STARTED BY                              eprop2d1
- ***** **    ** ** **   PROGRAM PROCESS ID                                761007
-  **** **  *******  **  PROGRAM STARTED IN /scratch/hpc-prf-metdyn/eprop2d1_Jan/
-                                           06_CP2K_development/tmdc_five_bases_k
-                                           12_k16_20261020_v3/runs/MoS2_02_aug-D
-                                           ZVP_T1_k16
+ ***** **    ** ** **   PROGRAM PROCESS ID                               3700245
+  **** **  *******  **  PROGRAM STARTED IN /scratch/hpc-prf-dyncrys/eprop2d1_Jan
+                                           /02_Claude/0035_2d_vasp_compare/cases
+                                           /2D_MoS2/aug-DZ1_k16
 
  CP2K| version string:                 CP2K version 2026.2 (Development Version)
  CP2K| source code revision number:                                      unknown
  CP2K| cp2kflags: omp libint fftw3 libxc libxc_gpu parallel scalapack openblas l
  CP2K|            ibwignernj
  CP2K| is freely available from                            https://www.cp2k.org/
- CP2K| Program compiled at                                   2026-10-17 17:46:51
- CP2K| Program compiled on                                                login3
+ CP2K| Program compiled at                                   2026-11-05 15:48:14
+ CP2K| Program compiled on                                              n2login5
  CP2K| Program compiled with                                  GCC version 14.3.0
  CP2K| Program compiled for                                               x86_64
- CP2K| Data directory path                            /usr/local/share/cp2k/data
+ CP2K| Program compiled in    /scratch/hpc-prf-dyncrys/eprop2d1_Jan/02_Claude/00
+ CP2K|                        35_2d_vasp_compare/build
+ CP2K| Program executable     /scratch/hpc-prf-dyncrys/eprop2d1_Jan/02_Claude/00
+ CP2K|                        35_2d_vasp_compare/runtime/cp2k.psmp
+ CP2K| Data directory path    /scratch/hpc-prf-dyncrys/eprop2d1_Jan/02_Claude/00
+ CP2K|                        35_2d_vasp_compare/source/data
  CP2K| Input file name                                                 input.inp
 
  GLOBAL| Force Environment number                                              1
- GLOBAL| Basis set file name            /scratch/hpc-prf-metdyn/eprop2d1_Jan/06_
- GLOBAL| Potential file name            /scratch/hpc-prf-metdyn/eprop2d1_Jan/06_
+ GLOBAL| Basis set file name                                BASIS_AUG_MOLOPT_GTH
+ GLOBAL| Potential file name            /scratch/hpc-prf-dyncrys/eprop2d1_Jan/02
  GLOBAL| MM Potential file name                                     MM_POTENTIAL
  GLOBAL| Coordinate file name                                      __STD_INPUT__
  GLOBAL| Method name                                                        CP2K
@@ -58,22 +62,22 @@
  GLOBAL| Grid backend                                                       AUTO
  GLOBAL| Global print level                                               MEDIUM
  GLOBAL| MPI I/O enabled                                                       T
- GLOBAL| Total number of message passing processes                            48
+ GLOBAL| Total number of message passing processes                            16
  GLOBAL| Number of distributed systems (nodes)                                 1
- GLOBAL| Number of threads for this process                                    4
+ GLOBAL| Number of threads for this process                                    8
  GLOBAL| This output is from process                                           0
  GLOBAL| OpenMP stack size per thread (OMP_STACKSIZE)                       256M
- GLOBAL| CPU model name                          AMD EPYC 9655 96-Core Processor
+ GLOBAL| CPU model name                          AMD EPYC 7763 64-Core Processor
 
  MEMORY| system memory details [Kb]
  MEMORY|                        rank 0           min           max       average
- MEMORY| MemTotal            791030240     791030240     791030240     791030240
- MEMORY| MemFree             752246256     752246256     752246256     752246256
- MEMORY| Buffers                  2120          2120          2120          2120
- MEMORY| Cached                3637516       3637516       3637516       3637516
- MEMORY| Slab                  1783856       1783856       1783856       1783856
- MEMORY| SReclaimable           601600        601600        601600        601600
- MEMORY| MemLikelyFree       756487492     756487492     756487492     756487492
+ MEMORY| MemTotal           1056620500    1056620500    1056620500    1056620500
+ MEMORY| MemFree            1037869008    1037869008    1037869008    1037869008
+ MEMORY| Buffers                422672        422672        422672        422672
+ MEMORY| Cached                9888960       9888960       9888960       9888960
+ MEMORY| Slab                  1955456       1955456       1955456       1955456
+ MEMORY| SReclaimable           402972        402972        402972        402972
+ MEMORY| MemLikelyFree      1048583612    1048583612    1048583612    1048583612
 
 
  *** Fundamental physical constants (SI units) ***
@@ -879,9 +883,9 @@
                         No outer SCF
 
  PW_GRID| Information for grid number                                          1
- PW_GRID| Grid distributed over                                    48 processors
- PW_GRID| Real space group dimensions                                     6    8
- PW_GRID| the grid is blocked:                                               YES
+ PW_GRID| Grid distributed over                                    16 processors
+ PW_GRID| Real space group dimensions                                    16    1
+ PW_GRID| the grid is blocked:                                                NO
  PW_GRID| Cutoff [a.u.]                                                    250.0
  PW_GRID| spherical cutoff:                                                   NO
  PW_GRID|   Bounds   1            -22      22                Points:          45
@@ -890,14 +894,14 @@
  PW_GRID| Volume element (a.u.^3)  0.2032E-02     Volume (a.u.^3)       888.7193
  PW_GRID| Grid span                                                    FULLSPACE
  PW_GRID|   Distribution                         Average         Max         Min
- PW_GRID|   G-Vectors                             9112.5        9720        8505
- PW_GRID|   G-Rays                                 202.5         216         189
- PW_GRID|   Real Space Points                     9112.5        9720        8505
+ PW_GRID|   G-Vectors                            27337.5       27360       27315
+ PW_GRID|   G-Rays                                 607.5         608         607
+ PW_GRID|   Real Space Points                    27337.5       29160       19440
 
  PW_GRID| Information for grid number                                          2
  PW_GRID| Number of the reference grid                                         1
- PW_GRID| Grid distributed over                                    48 processors
- PW_GRID| Real space group dimensions                                     6    8
+ PW_GRID| Grid distributed over                                    16 processors
+ PW_GRID| Real space group dimensions                                    16    1
  PW_GRID| the grid is blocked:                                                NO
  PW_GRID| Cutoff [a.u.]                                                     83.3
  PW_GRID| spherical cutoff:                                                   NO
@@ -907,14 +911,14 @@
  PW_GRID| Volume element (a.u.^3)  0.1185E-01     Volume (a.u.^3)       888.7193
  PW_GRID| Grid span                                                    FULLSPACE
  PW_GRID|   Distribution                         Average         Max         Min
- PW_GRID|   G-Vectors                             1562.5        5400           0
- PW_GRID|   G-Rays                                  62.5         216           0
- PW_GRID|   Real Space Points                     1562.5        2400        1440
+ PW_GRID|   G-Vectors                             4687.5        4775        4600
+ PW_GRID|   G-Rays                                 187.5         191         184
+ PW_GRID|   Real Space Points                     4687.5        6000        3000
 
  PW_GRID| Information for grid number                                          3
  PW_GRID| Number of the reference grid                                         1
- PW_GRID| Grid distributed over                                    48 processors
- PW_GRID| Real space group dimensions                                     6    8
+ PW_GRID| Grid distributed over                                    16 processors
+ PW_GRID| Real space group dimensions                                     4    4
  PW_GRID| the grid is blocked:                                                NO
  PW_GRID| Cutoff [a.u.]                                                     27.8
  PW_GRID| spherical cutoff:                                                   NO
@@ -924,14 +928,14 @@
  PW_GRID| Volume element (a.u.^3)  0.5486E-01     Volume (a.u.^3)       888.7193
  PW_GRID| Grid span                                                    FULLSPACE
  PW_GRID|   Distribution                         Average         Max         Min
- PW_GRID|   G-Vectors                              337.5        3240           0
- PW_GRID|   G-Rays                                  22.5         216           0
- PW_GRID|   Real Space Points                      337.5         432         144
+ PW_GRID|   G-Vectors                             1012.5        1125         900
+ PW_GRID|   G-Rays                                  67.5          75          60
+ PW_GRID|   Real Space Points                     1012.5        1152         648
 
  PW_GRID| Information for grid number                                          4
  PW_GRID| Number of the reference grid                                         1
- PW_GRID| Grid distributed over                                    48 processors
- PW_GRID| Real space group dimensions                                     6    8
+ PW_GRID| Grid distributed over                                    16 processors
+ PW_GRID| Real space group dimensions                                     4    4
  PW_GRID| the grid is blocked:                                                NO
  PW_GRID| Cutoff [a.u.]                                                      9.3
  PW_GRID| spherical cutoff:                                                   NO
@@ -941,9 +945,9 @@
  PW_GRID| Volume element (a.u.^3)  0.2743         Volume (a.u.^3)       888.7193
  PW_GRID| Grid span                                                    FULLSPACE
  PW_GRID|   Distribution                         Average         Max         Min
- PW_GRID|   G-Vectors                               67.5         900           0
- PW_GRID|   G-Rays                                   7.5         100           0
- PW_GRID|   Real Space Points                       67.5         160          40
+ PW_GRID|   G-Vectors                              202.5         243         171
+ PW_GRID|   G-Rays                                  22.5          27          19
+ PW_GRID|   Real Space Points                      202.5         360         160
 
  POISSON| Solver                                                        ANALYTIC
  POISSON| Periodicity                                                         XY
@@ -1143,20 +1147,20 @@
                           5        0.182679E-01                 -67.551287556589
                           6        0.268213E-03                 -67.551401914412
                           7        0.372388E-04                 -67.551401931633
-                          8        0.674778E-07                 -67.551401932131
+                          8        0.674788E-07                 -67.551401932131
 
  Energy components [Hartree]           Total Energy ::          -67.551401932131
-                                        Band Energy ::          -13.646958488054
-                                     Kinetic Energy ::           22.744727231981
-                                   Potential Energy ::          -90.296129164112
-                                      Virial (-V/T) ::            3.969980745126
-                                        Core Energy ::         -116.252906422447
-                                          XC Energy ::           -7.557176438538
-                                     Coulomb Energy ::           56.258680928854
-                       Total Pseudopotential Energy ::         -139.125550747596
-                       Local Pseudopotential Energy ::         -137.091571704242
-                    Nonlocal Pseudopotential Energy ::           -2.033979043354
-                                        Confinement ::            1.279170931679
+                                        Band Energy ::          -13.646958488046
+                                     Kinetic Energy ::           22.744727231977
+                                   Potential Energy ::          -90.296129164108
+                                      Virial (-V/T) ::            3.969980745127
+                                        Core Energy ::         -116.252906422442
+                                          XC Energy ::           -7.557176438537
+                                     Coulomb Energy ::           56.258680928848
+                       Total Pseudopotential Energy ::         -139.125550747587
+                       Local Pseudopotential Energy ::         -137.091571704233
+                    Nonlocal Pseudopotential Energy ::           -2.033979043353
+                                        Confinement ::            1.279170931680
 
  Orbital energies  State     L     Occupation   Energy[a.u.]          Energy[eV]
 
@@ -1227,7 +1231,7 @@
 
   Step     Update method      Time    Convergence         Total energy    Change
   ------------------------------------------------------------------------------
-     1 NoMix/Diag. 0.10E+00    0.2     1.23252563       -89.1005072566 -8.91E+01
+     1 NoMix/Diag. 0.10E+00    0.4     1.23252563       -89.1005072566 -8.91E+01
      2 Broy./Diag. 0.10E+00    0.2     0.03808849       -90.6706188019 -1.57E+00
      3 Broy./Diag. 0.10E+00    0.2     0.23370937       -90.0248115147  6.46E-01
      4 Broy./Diag. 0.10E+00    0.2     0.04642786       -88.6399891386  1.38E+00
@@ -1260,7 +1264,7 @@
     31 Broy./Diag. 0.10E+00    0.2     0.00001227       -88.7621178318 -3.29E-05
     32 Broy./Diag. 0.10E+00    0.2     0.00001328       -88.7621719530 -5.41E-05
     33 Broy./Diag. 0.10E+00    0.2     0.00001393       -88.7621885147 -1.66E-05
-    34 Broy./Diag. 0.10E+00    0.2     0.00008718       -88.7621356737  5.28E-05
+    34 Broy./Diag. 0.10E+00    0.2     0.00008718       -88.7621356736  5.28E-05
     35 Broy./Diag. 0.10E+00    0.2     0.00002922       -88.7621521160 -1.64E-05
     36 Broy./Diag. 0.10E+00    0.2     0.00001882       -88.7621810994 -2.90E-05
     37 Broy./Diag. 0.10E+00    0.2     0.00002519       -88.7621915915 -1.05E-05
@@ -1279,8 +1283,8 @@
     50 Broy./Diag. 0.10E+00    0.2     0.00000024       -88.7622152256  8.95E-07
     51 Broy./Diag. 0.10E+00    0.2     0.00000046       -88.7622160863 -8.61E-07
     52 Broy./Diag. 0.10E+00    0.2     0.00000015       -88.7622159788  1.07E-07
-    53 Broy./Diag. 0.10E+00    0.2     0.00000010       -88.7622151195  8.59E-07
-    54 Broy./Diag. 0.10E+00    0.2     0.00000021       -88.7622147927  3.27E-07
+    53 Broy./Diag. 0.10E+00    0.2     0.00000010       -88.7622151194  8.59E-07
+    54 Broy./Diag. 0.10E+00    0.2     0.00000021       -88.7622147926  3.27E-07
     55 Broy./Diag. 0.10E+00    0.2     0.00000036       -88.7622148163 -2.37E-08
     56 Broy./Diag. 0.10E+00    0.2     0.00000020       -88.7622145859  2.30E-07
     57 Broy./Diag. 0.10E+00    0.2     0.00000018       -88.7622141981  3.88E-07
@@ -1288,7 +1292,7 @@
     59 Broy./Diag. 0.10E+00    0.2     0.00000010       -88.7622140493  1.62E-08
     60 Broy./Diag. 0.10E+00    0.2     0.00000009       -88.7622141091 -5.98E-08
     61 Broy./Diag. 0.10E+00    0.2     0.00000010       -88.7622140694  3.97E-08
-    62 Broy./Diag. 0.10E+00    0.2     0.00000004       -88.7622140741 -4.77E-09
+    62 Broy./Diag. 0.10E+00    0.2     0.00000004       -88.7622140741 -4.76E-09
     63 Broy./Diag. 0.10E+00    0.2     0.00000005       -88.7622141442 -7.01E-08
     64 Broy./Diag. 0.10E+00    0.2     0.00000007       -88.7622141254  1.89E-08
     65 Broy./Diag. 0.10E+00    0.2     0.00000004       -88.7622140699  5.55E-08
@@ -1296,16 +1300,16 @@
     67 Broy./Diag. 0.10E+00    0.2     0.00000005       -88.7622140985 -2.20E-08
     68 Broy./Diag. 0.10E+00    0.2     0.00000004       -88.7622140834  1.50E-08
     69 Broy./Diag. 0.10E+00    0.2     0.00000001       -88.7622140618  2.16E-08
-    70 Broy./Diag. 0.10E+00    0.2     7.9350E-09       -88.7622140478  1.41E-08
-    71 Broy./Diag. 0.10E+00    0.2     6.1823E-09       -88.7622140488 -9.82E-10
-    72 Broy./Diag. 0.10E+00    0.2     1.7786E-09       -88.7622140575 -8.72E-09
-    73 Broy./Diag. 0.10E+00    0.2     1.4512E-09       -88.7622140552  2.24E-09
-    74 Broy./Diag. 0.10E+00    0.2     1.8203E-09       -88.7622140580 -2.78E-09
-    75 Broy./Diag. 0.10E+00    0.2     2.4251E-09       -88.7622140646 -6.61E-09
-    76 Broy./Diag. 0.10E+00    0.2     3.8513E-09       -88.7622140673 -2.68E-09
-    77 Broy./Diag. 0.10E+00    0.2     1.4290E-09       -88.7622140662  1.09E-09
-    78 Broy./Diag. 0.10E+00    0.2     2.6585E-09       -88.7622140680 -1.75E-09
-    79 Broy./Diag. 0.10E+00    0.2     1.6739E-10       -88.7622140712 -3.24E-09
+    70 Broy./Diag. 0.10E+00    0.2     7.9381E-09       -88.7622140478  1.41E-08
+    71 Broy./Diag. 0.10E+00    0.2     6.1827E-09       -88.7622140488 -9.79E-10
+    72 Broy./Diag. 0.10E+00    0.2     1.8092E-09       -88.7622140575 -8.72E-09
+    73 Broy./Diag. 0.10E+00    0.2     1.4520E-09       -88.7622140552  2.24E-09
+    74 Broy./Diag. 0.10E+00    0.2     1.8005E-09       -88.7622140580 -2.78E-09
+    75 Broy./Diag. 0.10E+00    0.2     2.4490E-09       -88.7622140646 -6.61E-09
+    76 Broy./Diag. 0.10E+00    0.2     3.8596E-09       -88.7622140673 -2.68E-09
+    77 Broy./Diag. 0.10E+00    0.2     1.3940E-09       -88.7622140662  1.09E-09
+    78 Broy./Diag. 0.10E+00    0.2     2.6417E-09       -88.7622140680 -1.75E-09
+    79 Broy./Diag. 0.10E+00    0.2     1.6792E-10       -88.7622140712 -3.24E-09
 
   *** SCF run converged in    79 steps ***
 
@@ -1319,14 +1323,14 @@
 
   Overlap energy of the core charge distribution:               0.00000000000362
   Self energy of the core charge distribution:               -176.94184945816679
-  Core Hamiltonian energy:                                     39.77929353426344
-  Hartree energy:                                              60.83049354044229
-  Exchange-correlation energy:                                -12.43015168774582
+  Core Hamiltonian energy:                                     39.77929353426522
+  Hartree energy:                                              60.83049354044232
+  Exchange-correlation energy:                                -12.43015168774562
 
   GAPW| Exc from hard and soft atomic rho1:                     0.00000000000000
   GAPW| local Eh = 1 center integrals:                          0.00000000000000
 
-  Total energy:                                               -88.76221407120326
+  Total energy:                                               -88.76221407120127
 
  !-----------------------------------------------------------------------------!
                      Mulliken Population Analysis
@@ -1360,11 +1364,10 @@
  Number of unoccupied (= virtual) MOs = Number of unoccupied bands            73
  Number of Gaussian basis functions for MOs                                   86
  Number of cells considered in the DFT calculation                           241
- Condition number of overlap matrix S(k) (max. of all k):                4.9E+05
  Number of cells for G, χ, W, Σ                                              225
  Number of special k-points for the bandstructure                              4
  Number of k-points on the bandstructure path                                148
- SCF-mesh k-points included as additional targets                              0
+ SCF-mesh k-points included as additional targets                            256
   
  -------------------------------------------------------------------------------
  -                                                                             -
@@ -1376,12 +1379,10 @@
  Input: ω_max for fitting Σ(iω) (eV)                                        27.2
  Input: Filter threshold for sparse tensor operations                    1.0E-11
  Input: Apply Hedin shift                                                      F
+ Detected: Available memory per MPI process                              54.1 GB
  
  Input: RI-RS Tikhonov regularization                                   1.00E-04
- Input: MPI ranks per atom in Z_lP solve                                      -1
- Input: Keep sparsity in χ/G/W panels                                          T
  Input: GW flavour                                                          G0W0
- Input: RI metric smooth relative cutoff:                                0.0E+00
  
  Input: RI-RS grid optimization activated                                      T
  Input: RS points per AO function                                            6.0
@@ -1392,65 +1393,63 @@
  Input: AUTO_RI number of RI functions per AO function:                      3.0
  Input: AUTO_RI frontier orbital window:                                  5.0 eV
  
+ 
  Cutoff radius for the truncated Coulomb operator in Σ^x:                 22.1 Å
  Input: Attenuation of the RI metric:                               0.30 bohr^-1
  Regularization parameter of minimax grids                               1.0E-06
- Lattice sum size for V(k):                                                    3
+ Coulomb matrix V(q) from                                              Ewald sum
+ Lattice sum size for 2D V(q=0) body:                                          3
  
- Number of RI functions of the large initial RI basis set:                   349
  AUTO_RI| Number of automatic RI functions for χ, ε, W:                      258
- AUTO_RI| Total RI basis optimization time:                                0.3 s
+ AUTO_RI| Total RI basis optimization time:                                0.5 s
   
- K-point mesh for χ, ε, W                                            16 x 16 x 1
- Number of angular points for the Γ-point correction of W:                   216
+ K-point mesh for χ, ε, W                                             16  16   1
  Radius of atomic orbitals                                                13.5 Å
  Radius of RI functions                                                    9.6 Å
  Number of cells for 3c integrals                                            317
  Number of cell pairs for 3c integrals                                     50385
  
- Detected: Available memory per MPI process                              12.6 GB
+ Detected: Available memory per MPI process                              54.1 GB
  Used memory per MPI process before GW run                                0.6 GB
  Memory of three-center integrals                                       769.1 GB
  
  SCF fundamental band gap (eV)                                              1.68
  Max. SCF eigval diff. (eV)                                               419.96
  E-Range for minimax grid                                                 249.30
- Number of Padé parameters for analytic continuation:                         12
+ Number of Padé parameters for analytic continuation:                         16
  
- RI-RS basis radii:          Kind     Elem             r_AO (Å)         r_RI (Å)
-                                1       Mo                 11.6              8.2
-                                2       S                   8.4              6.0
+ RI-RS basis radii (Å):
+     Kind  Elem     r_AO (Å)     r_RI (Å)
+        1    Mo       11.5738        8.1839
+        2    S         8.4218        5.9551
  
- Completed Auto RI, max. condition number of M_PQ metric matrix:         6.6E+07
- Auto RI metric optimization, exec. time:                                  5.6 s
-
- Started Auto RI-RS grid optimization
- RI-RS grid atom groups:                                                       3
+ Started RI-RS grid optimization
  RI-RS grid maximum evaluations (MAX_ITER):                                   20
- RI-RS grid eval  1 / 20,   3C error: 4.6E-03             Exec. time:      0.1 s
- RI-RS grid eval  2 / 20,   3C error: 2.7E-03             Exec. time:      0.1 s
- RI-RS grid eval  3 / 20,   3C error: 1.6E-03             Exec. time:      0.1 s
- RI-RS grid eval  4 / 20,   3C error: 1.2E-03             Exec. time:      0.1 s
- RI-RS grid eval  5 / 20,   3C error: 5.1E-04             Exec. time:      0.1 s
- RI-RS grid eval  6 / 20,   3C error: 2.7E-04             Exec. time:      0.1 s
- RI-RS grid eval  7 / 20,   3C error: 1.3E-04             Exec. time:      0.1 s
- RI-RS grid eval  8 / 20,   3C error: 7.4E-05             Exec. time:      0.1 s
- RI-RS grid eval  9 / 20,   3C error: 4.9E-05             Exec. time:      0.1 s
- RI-RS grid eval 10 / 20,   3C error: 3.6E-05             Exec. time:      0.1 s
- RI-RS grid eval 11 / 20,   3C error: 2.9E-05             Exec. time:      0.1 s
- RI-RS grid eval 12 / 20,   3C error: 2.4E-05             Exec. time:      0.1 s
- RI-RS grid eval 13 / 20,   3C error: 2.1E-05             Exec. time:      0.1 s
- RI-RS grid eval 14 / 20,   3C error: 1.8E-05             Exec. time:      0.1 s
- RI-RS grid eval 15 / 20,   3C error: 1.6E-05             Exec. time:      0.1 s
- RI-RS grid eval 16 / 20,   3C error: 1.5E-05             Exec. time:      0.1 s
- RI-RS grid eval 17 / 20,   3C error: 1.4E-05             Exec. time:      0.1 s
- RI-RS grid eval 18 / 20,   3C error: 1.3E-05             Exec. time:      0.1 s
- RI-RS grid eval 19 / 20,   3C error: 1.1E-05             Exec. time:      0.1 s
- RI-RS grid eval 20 / 20,   3C error: 1.2E-05             Exec. time:      0.1 s
- Normalized 3C error:                                                    1.1E-05
- Maximum absolute 3C error:                                              7.7E-03
+ RI-RS grid initial normalized error                          1.198563417455E-02
+ RI-RS grid eval  1 / 20,   3C error: 1.2E-02             Exec. time:      0.5 s
+ RI-RS grid eval  2 / 20,   3C error: 7.9E-03             Exec. time:      0.1 s
+ RI-RS grid eval  3 / 20,   3C error: 4.9E-03             Exec. time:      0.1 s
+ RI-RS grid eval  4 / 20,   3C error: 3.5E-03             Exec. time:      0.1 s
+ RI-RS grid eval  5 / 20,   3C error: 1.5E-03             Exec. time:      0.1 s
+ RI-RS grid eval  6 / 20,   3C error: 7.3E-04             Exec. time:      0.1 s
+ RI-RS grid eval  7 / 20,   3C error: 4.0E-04             Exec. time:      0.1 s
+ RI-RS grid eval  8 / 20,   3C error: 2.0E-04             Exec. time:      0.1 s
+ RI-RS grid eval  9 / 20,   3C error: 1.1E-04             Exec. time:      0.1 s
+ RI-RS grid eval 10 / 20,   3C error: 7.7E-05             Exec. time:      0.1 s
+ RI-RS grid eval 11 / 20,   3C error: 6.4E-05             Exec. time:      0.1 s
+ RI-RS grid eval 12 / 20,   3C error: 5.7E-05             Exec. time:      0.1 s
+ RI-RS grid eval 13 / 20,   3C error: 4.9E-05             Exec. time:      0.1 s
+ RI-RS grid eval 14 / 20,   3C error: 4.5E-05             Exec. time:      0.1 s
+ RI-RS grid eval 15 / 20,   3C error: 4.1E-05             Exec. time:      0.1 s
+ RI-RS grid eval 16 / 20,   3C error: 3.7E-05             Exec. time:      0.1 s
+ RI-RS grid eval 17 / 20,   3C error: 3.4E-05             Exec. time:      0.1 s
+ RI-RS grid eval 18 / 20,   3C error: 3.1E-05             Exec. time:      0.1 s
+ RI-RS grid eval 19 / 20,   3C error: 2.8E-05             Exec. time:      0.1 s
+ RI-RS grid eval 20 / 20,   3C error: 2.7E-05             Exec. time:      0.1 s
+ Normalized 3C error:                                                    2.7E-05
+ Maximum absolute 3C error:                                              7.9E-03
  Total grid points used for RI-RS:                                           516
- RI-RS grid optimization completed, execution time:                        1.7 s
+ RI-RS grid optimization completed, Exec. time:                            3.0 s
  
  RI-RS: Compute Z_lP(k); required: D_ll'^R and d_lP^R
  Periodic RI-RS automatic R_cut^(lP):                                     24.6 Å
@@ -1460,431 +1459,148 @@
  D_ll'^R Cell-image pairs           13 / 4225   0.3 %      Total time:     0.0 s
  D_ll'^R Cell-image pairs           43 / 4225   1.0 %      Total time:     0.0 s
  D_ll'^R Cell-image pairs          127 / 4225   3.0 %      Total time:     0.0 s
- D_ll'^R Cell-image pairs          423 / 4225  10.0 %      Total time:     0.0 s
- D_ll'^R Cell-image pairs         1268 / 4225  30.0 %      Total time:     0.0 s
- D_ll'^R Cell-image pairs         2535 / 4225  60.0 %      Total time:     0.0 s
- D_ll'^R Cell-image pairs         3803 / 4225  90.0 %      Total time:     0.1 s
- D_ll'^R Cell-image pairs         4225 / 4225 100.0 %      Total time:     0.1 s
+ D_ll'^R Cell-image pairs          423 / 4225  10.0 %      Total time:     0.1 s
+ D_ll'^R Cell-image pairs         1268 / 4225  30.0 %      Total time:     0.2 s
+ D_ll'^R Cell-image pairs         2535 / 4225  60.0 %      Total time:     0.3 s
+ D_ll'^R Cell-image pairs         3803 / 4225  90.0 %      Total time:     0.5 s
+ D_ll'^R Cell-image pairs         4225 / 4225 100.0 %      Total time:     0.6 s
  After distribution of D_ll'^R:
- Available memory per MPI process                                        14.9 GB
- Used memory per MPI process                                              0.8 GB
+ Available memory per MPI process                                        66.8 GB
+ Used memory per MPI process                                              0.6 GB
  RI-RS three-center projection d_lP^R: starting
  d_lP method                                                           NUMERICAL
- d_lP uniform quadrature points                                          1.8E+07
+ d_lP uniform quadrature points                                          1.9E+07
  d_lP integration threshold                                              1.0E-12
  d_lP largest AO exponent [bohr^-2]                                        2.540
  d_lP uniform spacing [bohr]                                               0.336
  d_lP quadrature: evaluating AO image values
  d_lP AO image values, rank 0 time:                                        0.1 s
+ d_lP PSS-aware rank headroom:                                           66.8 GB
  d_lP memory group size:                                                       1
- d_lP independent integration groups:                                         48
- d_lP existing output storage:                                         0.0057 GB
- d_lP additional memory budget:                                        0.6833 GB
- d_lP persistent target selection per rank:       1.703 MiB
- d_lP Integration batch done        1 / 788   0.1 %        Total time:     0.3 s
- d_lP Integration batch done        3 / 788   0.4 %        Total time:     0.3 s
- d_lP Integration batch done        8 / 788   1.0 %        Total time:     0.3 s
- d_lP Integration batch done       24 / 788   3.0 %        Total time:     0.3 s
- d_lP Integration batch done       79 / 788  10.0 %        Total time:     0.3 s
- d_lP Integration batch done      237 / 788  30.1 %        Total time:     0.9 s
- d_lP Integration batch done      473 / 788  60.0 %        Total time:     9.3 s
- d_lP Integration batch done      710 / 788  90.1 %        Total time:    11.3 s
- d_lP Integration batch done      788 / 788 100.0 %        Total time:    11.3 s
- Potential evaluations V_P^R(r_g) (point, atom image):                   3.2E+08
- d_lP products f_l(r_g)^2 V_P^R(r_g):                                    1.3E+13
+ d_lP independent integration groups:                                         16
+ d_lP existing output storage:                                            0.0 GB
+ d_lP additional memory budget:                                           0.7 GB
+ d_lP Integration batch done         3 / 2866   0.1 %      Total time:     0.4 s
+ d_lP Integration batch done         9 / 2866   0.3 %      Total time:     0.4 s
+ d_lP Integration batch done        29 / 2866   1.0 %      Total time:     0.4 s
+ d_lP Integration batch done        86 / 2866   3.0 %      Total time:     0.4 s
+ d_lP Integration batch done       287 / 2866  10.0 %      Total time:     0.4 s
+ d_lP Integration batch done       860 / 2866  30.0 %      Total time:     1.6 s
+ d_lP Integration batch done      1720 / 2866  60.0 %      Total time:    15.2 s
+ d_lP Integration batch done      2580 / 2866  90.0 %      Total time:    19.3 s
+ d_lP Integration batch done      2866 / 2866 100.0 %      Total time:    19.3 s
+ Potential evaluations V_P^R(r_g) (point, atom image):                   3.2E+07
+ d_lP products f_l(r_g)^2 V_P^R(r_g):                                    1.5E+13
  f_l(r) = SUM_(μ,R) ϕ_μ^R(r_l) ϕ_μ^R(r)
  d_lP^R = SUM_g w_g f_l(r_g)^2 V_P^R(r_g)
- d_lP completed numerical integration, execution time:                    11.7 s
+ d_lP completed numerical integration, Exec. time:                        20.2 s
  After RI-RS three-center projection d_lP^R
- Available memory per MPI process                                        14.8 GB
- Used memory per MPI process                                              0.8 GB
- Z_lP(q) q-point                  1 / 2  50.0 %            Total time:     0.1 s
- Z_lP(q) q-point                  2 / 2 100.0 %            Total time:     0.2 s
- Completed computing Z_lP(q), execution time:                             12.2 s
- GW target Bloch orbitals: shared GB per node                              0.105
- GW target Bloch orbitals: starting node-shared preparation
- GW Bloch targets       1/    148 prepared; elapsed        0.002 s
- GW Bloch targets       1/    148 prepared; elapsed        0.002 s
- GW Bloch targets       2/    148 prepared; elapsed        0.004 s
- GW Bloch targets       5/    148 prepared; elapsed        0.010 s
- GW Bloch targets      15/    148 prepared; elapsed        0.041 s
- GW Bloch targets      45/    148 prepared; elapsed        0.119 s
- GW Bloch targets      89/    148 prepared; elapsed        0.229 s
- GW Bloch targets     134/    148 prepared; elapsed        0.324 s
- GW Bloch targets     148/    148 prepared; elapsed        0.352 s
- Periodic RI-RS MPI ranks per grid group                                      48
- Periodic RI-RS number of grid groups                                          1
- Estimated total peak memory (all MPI ranks):                              48 GB
- GW 2D: q/3q correlation Gamma-cell correction active
- GW χ ranks using shared SCF orbitals:                                        0
+ Available memory per MPI process                                        66.8 GB
+ Used memory per MPI process                                              0.6 GB
+ Z_lP(q) q-point                   1 / 16   6.2 %          Total time:     0.0 s
+ Z_lP(q) q-point                   2 / 16  12.5 %          Total time:     0.1 s
+ Z_lP(q) q-point                   5 / 16  31.2 %          Total time:     0.2 s
+ Z_lP(q) q-point                  10 / 16  62.5 %          Total time:     0.3 s
+ Z_lP(q) q-point                  15 / 16  93.8 %          Total time:     0.5 s
+ Z_lP(q) q-point                  16 / 16 100.0 %          Total time:     0.5 s
+ Completed computing Z_lP(q), Exec. time:                                 21.5 s
+ Number of angular points for the Γ-point correction of W:                    96
  
- GW χ(iτ) point   1 /  30                          Execution time:         0.2 s
- GW χ(iτ) point   2 /  30                          Execution time:         0.2 s
- GW χ(iτ) point   3 /  30                          Execution time:         0.2 s
- GW χ(iτ) point   4 /  30                          Execution time:         0.2 s
- GW χ(iτ) point   5 /  30                          Execution time:         0.2 s
- GW χ(iτ) point   6 /  30                          Execution time:         0.2 s
- GW χ(iτ) point   7 /  30                          Execution time:         0.2 s
- GW χ(iτ) point   8 /  30                          Execution time:         0.2 s
- GW χ(iτ) point   9 /  30                          Execution time:         0.2 s
- GW χ(iτ) point  10 /  30                          Execution time:         0.2 s
- GW χ(iτ) point  11 /  30                          Execution time:         0.2 s
- GW χ(iτ) point  12 /  30                          Execution time:         0.2 s
- GW χ(iτ) point  13 /  30                          Execution time:         0.2 s
- GW χ(iτ) point  14 /  30                          Execution time:         0.2 s
- GW χ(iτ) point  15 /  30                          Execution time:         0.2 s
- GW χ(iτ) point  16 /  30                          Execution time:         0.2 s
- GW χ(iτ) point  17 /  30                          Execution time:         0.2 s
- GW χ(iτ) point  18 /  30                          Execution time:         0.2 s
- GW χ(iτ) point  19 /  30                          Execution time:         0.2 s
- GW χ(iτ) point  20 /  30                          Execution time:         0.2 s
- GW χ(iτ) point  21 /  30                          Execution time:         0.2 s
- GW χ(iτ) point  22 /  30                          Execution time:         0.2 s
- GW χ(iτ) point  23 /  30                          Execution time:         0.2 s
- GW χ(iτ) point  24 /  30                          Execution time:         0.2 s
- GW χ(iτ) point  25 /  30                          Execution time:         0.2 s
- GW χ(iτ) point  26 /  30                          Execution time:         0.2 s
- GW χ(iτ) point  27 /  30                          Execution time:         0.2 s
- GW χ(iτ) point  28 /  30                          Execution time:         0.2 s
- GW χ(iτ) point  29 /  30                          Execution time:         0.2 s
- GW χ(iτ) point  30 /  30                          Execution time:         0.2 s
- GW χ_PQ^R(iτ_1) Frobenius norm                                          1.8E+00
- GW W(q) required q / groups / MPI ranks: 128 / 48 / 48
- GW W(iω) point   1 /  30                          Execution time:         0.1 s
- GW W(iω) point   2 /  30                          Execution time:         0.1 s
- GW W(iω) point   3 /  30                          Execution time:         0.1 s
- GW W(iω) point   4 /  30                          Execution time:         0.1 s
- GW W(iω) point   5 /  30                          Execution time:         0.1 s
- GW W(iω) point   6 /  30                          Execution time:         0.1 s
- GW W(iω) point   7 /  30                          Execution time:         0.1 s
- GW W(iω) point   8 /  30                          Execution time:         0.1 s
- GW W(iω) point   9 /  30                          Execution time:         0.1 s
- GW W(iω) point  10 /  30                          Execution time:         0.1 s
- GW W(iω) point  11 /  30                          Execution time:         0.1 s
- GW W(iω) point  12 /  30                          Execution time:         0.1 s
- GW W(iω) point  13 /  30                          Execution time:         0.1 s
- GW W(iω) point  14 /  30                          Execution time:         0.1 s
- GW W(iω) point  15 /  30                          Execution time:         0.1 s
- GW W(iω) point  16 /  30                          Execution time:         0.1 s
- GW W(iω) point  17 /  30                          Execution time:         0.1 s
- GW W(iω) point  18 /  30                          Execution time:         0.1 s
- GW W(iω) point  19 /  30                          Execution time:         0.1 s
- GW W(iω) point  20 /  30                          Execution time:         0.1 s
- GW W(iω) point  21 /  30                          Execution time:         0.1 s
- GW W(iω) point  22 /  30                          Execution time:         0.1 s
- GW W(iω) point  23 /  30                          Execution time:         0.1 s
- GW W(iω) point  24 /  30                          Execution time:         0.1 s
- GW W(iω) point  25 /  30                          Execution time:         0.1 s
- GW W(iω) point  26 /  30                          Execution time:         0.1 s
- GW W(iω) point  27 /  30                          Execution time:         0.1 s
- GW W(iω) point  28 /  30                          Execution time:         0.1 s
- GW W(iω) point  29 /  30                          Execution time:         0.1 s
- GW W(iω) point  30 /  30                          Execution time:         0.1 s
- GW2D_DIAG_Q_WC     1   9.7899217E-01   3.3287452E+00   6.0145470E+00
- GW2D_DIAG_Q_WC     2   9.1450267E-01   3.4534095E+00   6.0398353E+00
- GW2D_DIAG_Q_WC     3   8.5180028E-01   3.6204666E+00   6.0675318E+00
- GW2D_DIAG_Q_WC     4   7.9130995E-01   3.7230409E+00   6.0829582E+00
- GW2D_DIAG_Q_WC     5   7.3357908E-01   3.6920709E+00   6.0777015E+00
- GW2D_DIAG_Q_WC     6   6.7931157E-01   3.5498627E+00   6.0546133E+00
- GW2D_DIAG_Q_WC     7   6.2940390E-01   3.3931448E+00   6.0262176E+00
- GW2D_DIAG_Q_WC     8   5.8497304E-01   3.3235540E+00   6.0075598E+00
- GW2D_DIAG_Q_WC     9   5.4735433E-01   3.3916148E+00   6.0080187E+00
- GW2D_DIAG_Q_WC    10   5.1803396E-01   3.5782074E+00   6.0261686E+00
- GW2D_DIAG_Q_WC    11   4.9847841E-01   3.7945400E+00   6.0500666E+00
- GW2D_DIAG_Q_WC    12   4.8985854E-01   3.9157616E+00   6.0639009E+00
- GW2D_DIAG_Q_WC    13   4.9274858E-01   3.8637398E+00   6.0583201E+00
- GW2D_DIAG_Q_WC    14   5.0695174E-01   3.6716549E+00   6.0370936E+00
- GW2D_DIAG_Q_WC    15   5.3156193E-01   3.4548440E+00   6.0142769E+00
- GW2D_DIAG_Q_WC    16   5.6522139E-01   3.3236783E+00   6.0045506E+00
- GW2D_DIAG_Q_WC    17   9.1450267E-01   3.4532227E+00   6.0402627E+00
- GW2D_DIAG_Q_WC    18   8.4845988E-01   3.5288172E+00   6.0710462E+00
- GW2D_DIAG_Q_WC    19   7.8409968E-01   3.6112296E+00   6.0938608E+00
- GW2D_DIAG_Q_WC    20   7.2187228E-01   3.6336278E+00   6.0987834E+00
- GW2D_DIAG_Q_WC    21   6.6237902E-01   3.5786014E+00   6.0836359E+00
- GW2D_DIAG_Q_WC    22   6.0642516E-01   3.4925494E+00   6.0550896E+00
- GW2D_DIAG_Q_WC    23   5.5508207E-01   3.4519234E+00   6.0256840E+00
- GW2D_DIAG_Q_WC    24   5.0974488E-01   3.5156632E+00   6.0081321E+00
- GW2D_DIAG_Q_WC    25   4.7214692E-01   3.6970614E+00   6.0090675E+00
- GW2D_DIAG_Q_WC    26   4.4425746E-01   3.9474133E+00   6.0245753E+00
- GW2D_DIAG_Q_WC    27   4.2797873E-01   4.1533016E+00   6.0411226E+00
- GW2D_DIAG_Q_WC    28   4.2464811E-01   4.1936900E+00   6.0445205E+00
- GW2D_DIAG_Q_WC    29   4.3456340E-01   4.0419738E+00   6.0316820E+00
- GW2D_DIAG_Q_WC    30   4.5686301E-01   3.7920657E+00   6.0133981E+00
- GW2D_DIAG_Q_WC    31   4.8985854E-01   3.5710903E+00   6.0049268E+00
- GW2D_DIAG_Q_WC    32   5.3156193E-01   3.4545756E+00   6.0146971E+00
- GW2D_DIAG_Q_WC    33   8.5180028E-01   3.6206888E+00   6.0688060E+00
- GW2D_DIAG_Q_WC    34   7.8409968E-01   3.6117854E+00   6.0947200E+00
- GW2D_DIAG_Q_WC    35   7.1792759E-01   3.6155783E+00   6.1072512E+00
- GW2D_DIAG_Q_WC    36   6.5374831E-01   3.6139472E+00   6.1022230E+00
- GW2D_DIAG_Q_WC    37   5.9221010E-01   3.6135271E+00   6.0813546E+00
- GW2D_DIAG_Q_WC    38   5.3422642E-01   3.6420595E+00   6.0518436E+00
- GW2D_DIAG_Q_WC    39   4.8108424E-01   3.7320447E+00   6.0242493E+00
- GW2D_DIAG_Q_WC    40   4.3456340E-01   3.9067867E+00   6.0087895E+00
- GW2D_DIAG_Q_WC    41   3.9699846E-01   4.1605228E+00   6.0100644E+00
- GW2D_DIAG_Q_WC    42   3.7111901E-01   4.4249103E+00   6.0222319E+00
- GW2D_DIAG_Q_WC    43   3.5945789E-01   4.5697883E+00   6.0309718E+00
- GW2D_DIAG_Q_WC    44   3.6338651E-01   4.5015960E+00   6.0260338E+00
- GW2D_DIAG_Q_WC    45   3.8242471E-01   4.2665814E+00   6.0125028E+00
- GW2D_DIAG_Q_WC    46   4.1449569E-01   3.9980944E+00   6.0052220E+00
- GW2D_DIAG_Q_WC    47   4.5686301E-01   3.7920048E+00   6.0142031E+00
- GW2D_DIAG_Q_WC    48   5.0695174E-01   3.6715368E+00   6.0383377E+00
- GW2D_DIAG_Q_WC    49   7.9130995E-01   3.7250288E+00   6.0854439E+00
- GW2D_DIAG_Q_WC    50   7.2187228E-01   3.6361643E+00   6.1008712E+00
- GW2D_DIAG_Q_WC    51   6.5374831E-01   3.6159648E+00   6.1034540E+00
- GW2D_DIAG_Q_WC    52   5.8739530E-01   3.6687516E+00   6.0927017E+00
- GW2D_DIAG_Q_WC    53   5.2348710E-01   3.7834363E+00   6.0711547E+00
- GW2D_DIAG_Q_WC    54   4.6303712E-01   3.9456461E+00   6.0445233E+00
- GW2D_DIAG_Q_WC    55   4.0758694E-01   4.1551537E+00   6.0213837E+00
- GW2D_DIAG_Q_WC    56   3.5945789E-01   4.4260282E+00   6.0108148E+00
- GW2D_DIAG_Q_WC    57   3.2195025E-01   4.7460086E+00   6.0162433E+00
- GW2D_DIAG_Q_WC    58   2.9908705E-01   5.0135707E+00   6.0285625E+00
- GW2D_DIAG_Q_WC    59   2.9430135E-01   5.0673740E+00   6.0310494E+00
- GW2D_DIAG_Q_WC    60   3.0843577E-01   4.8677688E+00   6.0196515E+00
- GW2D_DIAG_Q_WC    61   3.3913283E-01   4.5546005E+00   6.0091472E+00
- GW2D_DIAG_Q_WC    62   3.8242471E-01   4.2673440E+00   6.0136220E+00
- GW2D_DIAG_Q_WC    63   4.3456340E-01   4.0429011E+00   6.0336284E+00
- GW2D_DIAG_Q_WC    64   4.9274858E-01   3.8650064E+00   6.0607425E+00
- GW2D_DIAG_Q_WC    65   7.3357908E-01   3.6972803E+00   6.0816308E+00
- GW2D_DIAG_Q_WC    66   6.6237902E-01   3.5844657E+00   6.0871734E+00
- GW2D_DIAG_Q_WC    67   5.9221010E-01   3.6187571E+00   6.0840269E+00
- GW2D_DIAG_Q_WC    68   5.2348710E-01   3.7865295E+00   6.0725876E+00
- GW2D_DIAG_Q_WC    69   4.5686301E-01   4.0378510E+00   6.0544686E+00
- GW2D_DIAG_Q_WC    70   3.9340564E-01   4.3327192E+00   6.0343313E+00
- GW2D_DIAG_Q_WC    71   3.3491984E-01   4.6760147E+00   6.0213460E+00
- GW2D_DIAG_Q_WC    72   2.8448853E-01   5.1042610E+00   6.0265386E+00
- GW2D_DIAG_Q_WC    73   2.4709363E-01   5.5883253E+00   6.0511401E+00
- GW2D_DIAG_Q_WC    74   2.2920717E-01   5.8975437E+00   6.0722435E+00
- GW2D_DIAG_Q_WC    75   2.3532043E-01   5.7686375E+00   6.0625178E+00
- GW2D_DIAG_Q_WC    76   2.6376998E-01   5.3257736E+00   6.0350252E+00
- GW2D_DIAG_Q_WC    77   3.0843577E-01   4.8698511E+00   6.0209803E+00
- GW2D_DIAG_Q_WC    78   3.6338651E-01   4.5044836E+00   6.0284924E+00
- GW2D_DIAG_Q_WC    79   4.2464811E-01   4.1970446E+00   6.0478405E+00
- GW2D_DIAG_Q_WC    80   4.8985854E-01   3.9198956E+00   6.0677387E+00
- GW2D_DIAG_Q_WC    81   6.7931157E-01   3.5590567E+00   6.0599981E+00
- GW2D_DIAG_Q_WC    82   6.0642516E-01   3.5021994E+00   6.0600654E+00
- GW2D_DIAG_Q_WC    83   5.3422642E-01   3.6507172E+00   6.0559293E+00
- GW2D_DIAG_Q_WC    84   4.6303712E-01   3.9519956E+00   6.0473558E+00
- GW2D_DIAG_Q_WC    85   3.9340564E-01   4.3360291E+00   6.0357320E+00
- GW2D_DIAG_Q_WC    86   3.2633072E-01   4.7852654E+00   6.0283020E+00
- GW2D_DIAG_Q_WC    87   2.6376998E-01   5.3762254E+00   6.0417738E+00
- GW2D_DIAG_Q_WC    88   2.0980130E-01   6.2446303E+00   6.0974274E+00
- GW2D_DIAG_Q_WC    89   1.7267799E-01   7.2727687E+00   6.1856889E+00
- GW2D_DIAG_Q_WC    90   1.6424953E-01   7.5821148E+00   6.2142054E+00
- GW2D_DIAG_Q_WC    91   1.8840713E-01   6.7641383E+00   6.1401560E+00
- GW2D_DIAG_Q_WC    92   2.3532043E-01   5.7723256E+00   6.0639171E+00
- GW2D_DIAG_Q_WC    93   2.9430135E-01   5.0726990E+00   6.0337531E+00
- GW2D_DIAG_Q_WC    94   3.5945789E-01   4.5758469E+00   6.0348139E+00
- GW2D_DIAG_Q_WC    95   4.2797873E-01   4.1601178E+00   6.0458603E+00
- GW2D_DIAG_Q_WC    96   4.9847841E-01   3.8025038E+00   6.0553530E+00
- GW2D_DIAG_Q_WC    97   6.2940390E-01   3.4058673E+00   6.0327915E+00
- GW2D_DIAG_Q_WC    98   5.5508207E-01   3.4645443E+00   6.0318090E+00
- GW2D_DIAG_Q_WC    99   4.8108424E-01   3.7432546E+00   6.0294525E+00
- GW2D_DIAG_Q_WC   100   4.0758694E-01   4.1640990E+00   6.0253298E+00
- GW2D_DIAG_Q_WC   101   3.3491984E-01   4.6823051E+00   6.0238846E+00
- GW2D_DIAG_Q_WC   102   2.6376998E-01   5.3796041E+00   6.0429424E+00
- GW2D_DIAG_Q_WC   103   1.9579843E-01   6.5830379E+00   6.1259141E+00
- GW2D_DIAG_Q_WC   104   1.3586231E-01   8.9559958E+00   6.3472844E+00
- GW2D_DIAG_Q_WC   105   9.9695682E-02   1.1997995E+01   6.6519384E+00
- GW2D_DIAG_Q_WC   106   1.1304428E-01   1.0635679E+01   6.5145111E+00
- GW2D_DIAG_Q_WC   107   1.6424953E-01   7.5873545E+00   6.2154957E+00
- GW2D_DIAG_Q_WC   108   2.2920717E-01   5.9050508E+00   6.0748379E+00
- GW2D_DIAG_Q_WC   109   2.9908705E-01   5.0220479E+00   6.0324239E+00
- GW2D_DIAG_Q_WC   110   3.7111901E-01   4.4341772E+00   6.0272484E+00
- GW2D_DIAG_Q_WC   111   4.4425746E-01   3.9577686E+00   6.0305165E+00
- GW2D_DIAG_Q_WC   112   5.1803396E-01   3.5899113E+00   6.0326667E+00
- GW2D_DIAG_Q_WC   113   5.8497304E-01   3.3381455E+00   6.0147933E+00
- GW2D_DIAG_Q_WC   114   5.0974488E-01   3.5294700E+00   6.0148675E+00
- GW2D_DIAG_Q_WC   115   4.3456340E-01   3.9190053E+00   6.0145815E+00
- GW2D_DIAG_Q_WC   116   3.5945789E-01   4.4363954E+00   6.0153713E+00
- GW2D_DIAG_Q_WC   117   2.8448853E-01   5.1127642E+00   6.0297470E+00
- GW2D_DIAG_Q_WC   118   2.0980130E-01   6.2511485E+00   6.0993401E+00
- GW2D_DIAG_Q_WC   119   1.3586231E-01   8.9599168E+00   6.3480880E+00
- GW2D_DIAG_Q_WC   120   6.5266144E-02   1.8010351E+01   7.2632067E+00
- GW2D_DIAG_Q_WC   121   3.7681426E-02   2.9574825E+01   8.4511387E+00
- GW2D_DIAG_Q_WC   122   9.9695682E-02   1.2003561E+01   6.6528530E+00
- GW2D_DIAG_Q_WC   123   1.7267799E-01   7.2807267E+00   6.1876996E+00
- GW2D_DIAG_Q_WC   124   2.4709363E-01   5.5975529E+00   6.0543882E+00
- GW2D_DIAG_Q_WC   125   3.2195025E-01   4.7562883E+00   6.0207735E+00
- GW2D_DIAG_Q_WC   126   3.9699846E-01   4.1720338E+00   6.0157874E+00
- GW2D_DIAG_Q_WC   127   4.7214692E-01   3.7100013E+00   6.0157339E+00
- GW2D_DIAG_Q_WC   128   5.4735433E-01   3.4058056E+00   6.0152237E+00
- GW2D_DIAG_Q_WC   129   5.4735433E-01   3.4058056E+00   6.0152237E+00
- GW2D_DIAG_Q_WC   130   4.7214692E-01   3.7100013E+00   6.0157339E+00
- GW2D_DIAG_Q_WC   131   3.9699846E-01   4.1720338E+00   6.0157874E+00
- GW2D_DIAG_Q_WC   132   3.2195025E-01   4.7562883E+00   6.0207735E+00
- GW2D_DIAG_Q_WC   133   2.4709363E-01   5.5975529E+00   6.0543882E+00
- GW2D_DIAG_Q_WC   134   1.7267799E-01   7.2807267E+00   6.1876996E+00
- GW2D_DIAG_Q_WC   135   9.9695682E-02   1.2003561E+01   6.6528530E+00
- GW2D_DIAG_Q_WC   136   3.7681426E-02   2.9574825E+01   8.4511387E+00
- GW2D_DIAG_Q_WC   137   6.5266144E-02   1.8010351E+01   7.2632067E+00
- GW2D_DIAG_Q_WC   138   1.3586231E-01   8.9599168E+00   6.3480880E+00
- GW2D_DIAG_Q_WC   139   2.0980130E-01   6.2511485E+00   6.0993401E+00
- GW2D_DIAG_Q_WC   140   2.8448853E-01   5.1127642E+00   6.0297470E+00
- GW2D_DIAG_Q_WC   141   3.5945789E-01   4.4363954E+00   6.0153713E+00
- GW2D_DIAG_Q_WC   142   4.3456340E-01   3.9190053E+00   6.0145815E+00
- GW2D_DIAG_Q_WC   143   5.0974488E-01   3.5294700E+00   6.0148675E+00
- GW2D_DIAG_Q_WC   144   5.8497304E-01   3.3381455E+00   6.0147933E+00
- GW2D_DIAG_Q_WC   145   5.1803396E-01   3.5899113E+00   6.0326667E+00
- GW2D_DIAG_Q_WC   146   4.4425746E-01   3.9577686E+00   6.0305165E+00
- GW2D_DIAG_Q_WC   147   3.7111901E-01   4.4341772E+00   6.0272484E+00
- GW2D_DIAG_Q_WC   148   2.9908705E-01   5.0220479E+00   6.0324239E+00
- GW2D_DIAG_Q_WC   149   2.2920717E-01   5.9050508E+00   6.0748379E+00
- GW2D_DIAG_Q_WC   150   1.6424953E-01   7.5873545E+00   6.2154957E+00
- GW2D_DIAG_Q_WC   151   1.1304428E-01   1.0635679E+01   6.5145111E+00
- GW2D_DIAG_Q_WC   152   9.9695682E-02   1.1997995E+01   6.6519384E+00
- GW2D_DIAG_Q_WC   153   1.3586231E-01   8.9559958E+00   6.3472844E+00
- GW2D_DIAG_Q_WC   154   1.9579843E-01   6.5830379E+00   6.1259141E+00
- GW2D_DIAG_Q_WC   155   2.6376998E-01   5.3796041E+00   6.0429424E+00
- GW2D_DIAG_Q_WC   156   3.3491984E-01   4.6823051E+00   6.0238846E+00
- GW2D_DIAG_Q_WC   157   4.0758694E-01   4.1640990E+00   6.0253298E+00
- GW2D_DIAG_Q_WC   158   4.8108424E-01   3.7432546E+00   6.0294525E+00
- GW2D_DIAG_Q_WC   159   5.5508207E-01   3.4645443E+00   6.0318090E+00
- GW2D_DIAG_Q_WC   160   6.2940390E-01   3.4058673E+00   6.0327915E+00
- GW2D_DIAG_Q_WC   161   4.9847841E-01   3.8025038E+00   6.0553530E+00
- GW2D_DIAG_Q_WC   162   4.2797873E-01   4.1601178E+00   6.0458603E+00
- GW2D_DIAG_Q_WC   163   3.5945789E-01   4.5758469E+00   6.0348139E+00
- GW2D_DIAG_Q_WC   164   2.9430135E-01   5.0726990E+00   6.0337531E+00
- GW2D_DIAG_Q_WC   165   2.3532043E-01   5.7723256E+00   6.0639171E+00
- GW2D_DIAG_Q_WC   166   1.8840713E-01   6.7641383E+00   6.1401560E+00
- GW2D_DIAG_Q_WC   167   1.6424953E-01   7.5821148E+00   6.2142054E+00
- GW2D_DIAG_Q_WC   168   1.7267799E-01   7.2727687E+00   6.1856889E+00
- GW2D_DIAG_Q_WC   169   2.0980130E-01   6.2446303E+00   6.0974274E+00
- GW2D_DIAG_Q_WC   170   2.6376998E-01   5.3762254E+00   6.0417738E+00
- GW2D_DIAG_Q_WC   171   3.2633072E-01   4.7852654E+00   6.0283020E+00
- GW2D_DIAG_Q_WC   172   3.9340564E-01   4.3360291E+00   6.0357320E+00
- GW2D_DIAG_Q_WC   173   4.6303712E-01   3.9519956E+00   6.0473558E+00
- GW2D_DIAG_Q_WC   174   5.3422642E-01   3.6507172E+00   6.0559293E+00
- GW2D_DIAG_Q_WC   175   6.0642516E-01   3.5021994E+00   6.0600654E+00
- GW2D_DIAG_Q_WC   176   6.7931157E-01   3.5590567E+00   6.0599981E+00
- GW2D_DIAG_Q_WC   177   4.8985854E-01   3.9198956E+00   6.0677387E+00
- GW2D_DIAG_Q_WC   178   4.2464811E-01   4.1970446E+00   6.0478405E+00
- GW2D_DIAG_Q_WC   179   3.6338651E-01   4.5044836E+00   6.0284924E+00
- GW2D_DIAG_Q_WC   180   3.0843577E-01   4.8698511E+00   6.0209803E+00
- GW2D_DIAG_Q_WC   181   2.6376998E-01   5.3257736E+00   6.0350252E+00
- GW2D_DIAG_Q_WC   182   2.3532043E-01   5.7686375E+00   6.0625178E+00
- GW2D_DIAG_Q_WC   183   2.2920717E-01   5.8975437E+00   6.0722435E+00
- GW2D_DIAG_Q_WC   184   2.4709363E-01   5.5883253E+00   6.0511401E+00
- GW2D_DIAG_Q_WC   185   2.8448853E-01   5.1042610E+00   6.0265386E+00
- GW2D_DIAG_Q_WC   186   3.3491984E-01   4.6760147E+00   6.0213460E+00
- GW2D_DIAG_Q_WC   187   3.9340564E-01   4.3327192E+00   6.0343313E+00
- GW2D_DIAG_Q_WC   188   4.5686301E-01   4.0378510E+00   6.0544686E+00
- GW2D_DIAG_Q_WC   189   5.2348710E-01   3.7865295E+00   6.0725876E+00
- GW2D_DIAG_Q_WC   190   5.9221010E-01   3.6187571E+00   6.0840269E+00
- GW2D_DIAG_Q_WC   191   6.6237902E-01   3.5844657E+00   6.0871734E+00
- GW2D_DIAG_Q_WC   192   7.3357908E-01   3.6972803E+00   6.0816308E+00
- GW2D_DIAG_Q_WC   193   4.9274858E-01   3.8650064E+00   6.0607425E+00
- GW2D_DIAG_Q_WC   194   4.3456340E-01   4.0429011E+00   6.0336284E+00
- GW2D_DIAG_Q_WC   195   3.8242471E-01   4.2673440E+00   6.0136220E+00
- GW2D_DIAG_Q_WC   196   3.3913283E-01   4.5546005E+00   6.0091472E+00
- GW2D_DIAG_Q_WC   197   3.0843577E-01   4.8677688E+00   6.0196515E+00
- GW2D_DIAG_Q_WC   198   2.9430135E-01   5.0673740E+00   6.0310494E+00
- GW2D_DIAG_Q_WC   199   2.9908705E-01   5.0135707E+00   6.0285625E+00
- GW2D_DIAG_Q_WC   200   3.2195025E-01   4.7460086E+00   6.0162433E+00
- GW2D_DIAG_Q_WC   201   3.5945789E-01   4.4260282E+00   6.0108148E+00
- GW2D_DIAG_Q_WC   202   4.0758694E-01   4.1551537E+00   6.0213837E+00
- GW2D_DIAG_Q_WC   203   4.6303712E-01   3.9456461E+00   6.0445233E+00
- GW2D_DIAG_Q_WC   204   5.2348710E-01   3.7834363E+00   6.0711547E+00
- GW2D_DIAG_Q_WC   205   5.8739530E-01   3.6687516E+00   6.0927017E+00
- GW2D_DIAG_Q_WC   206   6.5374831E-01   3.6159648E+00   6.1034540E+00
- GW2D_DIAG_Q_WC   207   7.2187228E-01   3.6361643E+00   6.1008712E+00
- GW2D_DIAG_Q_WC   208   7.9130995E-01   3.7250288E+00   6.0854439E+00
- GW2D_DIAG_Q_WC   209   5.0695174E-01   3.6715368E+00   6.0383377E+00
- GW2D_DIAG_Q_WC   210   4.5686301E-01   3.7920048E+00   6.0142031E+00
- GW2D_DIAG_Q_WC   211   4.1449569E-01   3.9980944E+00   6.0052220E+00
- GW2D_DIAG_Q_WC   212   3.8242471E-01   4.2665814E+00   6.0125028E+00
- GW2D_DIAG_Q_WC   213   3.6338651E-01   4.5015960E+00   6.0260338E+00
- GW2D_DIAG_Q_WC   214   3.5945789E-01   4.5697883E+00   6.0309718E+00
- GW2D_DIAG_Q_WC   215   3.7111901E-01   4.4249103E+00   6.0222319E+00
- GW2D_DIAG_Q_WC   216   3.9699846E-01   4.1605228E+00   6.0100644E+00
- GW2D_DIAG_Q_WC   217   4.3456340E-01   3.9067867E+00   6.0087895E+00
- GW2D_DIAG_Q_WC   218   4.8108424E-01   3.7320447E+00   6.0242493E+00
- GW2D_DIAG_Q_WC   219   5.3422642E-01   3.6420595E+00   6.0518436E+00
- GW2D_DIAG_Q_WC   220   5.9221010E-01   3.6135271E+00   6.0813546E+00
- GW2D_DIAG_Q_WC   221   6.5374831E-01   3.6139472E+00   6.1022230E+00
- GW2D_DIAG_Q_WC   222   7.1792759E-01   3.6155783E+00   6.1072512E+00
- GW2D_DIAG_Q_WC   223   7.8409968E-01   3.6117854E+00   6.0947200E+00
- GW2D_DIAG_Q_WC   224   8.5180028E-01   3.6206888E+00   6.0688060E+00
- GW2D_DIAG_Q_WC   225   5.3156193E-01   3.4545756E+00   6.0146971E+00
- GW2D_DIAG_Q_WC   226   4.8985854E-01   3.5710903E+00   6.0049268E+00
- GW2D_DIAG_Q_WC   227   4.5686301E-01   3.7920657E+00   6.0133981E+00
- GW2D_DIAG_Q_WC   228   4.3456340E-01   4.0419738E+00   6.0316820E+00
- GW2D_DIAG_Q_WC   229   4.2464811E-01   4.1936900E+00   6.0445205E+00
- GW2D_DIAG_Q_WC   230   4.2797873E-01   4.1533016E+00   6.0411226E+00
- GW2D_DIAG_Q_WC   231   4.4425746E-01   3.9474133E+00   6.0245753E+00
- GW2D_DIAG_Q_WC   232   4.7214692E-01   3.6970614E+00   6.0090675E+00
- GW2D_DIAG_Q_WC   233   5.0974488E-01   3.5156632E+00   6.0081321E+00
- GW2D_DIAG_Q_WC   234   5.5508207E-01   3.4519234E+00   6.0256840E+00
- GW2D_DIAG_Q_WC   235   6.0642516E-01   3.4925494E+00   6.0550896E+00
- GW2D_DIAG_Q_WC   236   6.6237902E-01   3.5786014E+00   6.0836359E+00
- GW2D_DIAG_Q_WC   237   7.2187228E-01   3.6336278E+00   6.0987834E+00
- GW2D_DIAG_Q_WC   238   7.8409968E-01   3.6112296E+00   6.0938608E+00
- GW2D_DIAG_Q_WC   239   8.4845988E-01   3.5288172E+00   6.0710462E+00
- GW2D_DIAG_Q_WC   240   9.1450267E-01   3.4532227E+00   6.0402627E+00
- GW2D_DIAG_Q_WC   241   5.6522139E-01   3.3236783E+00   6.0045506E+00
- GW2D_DIAG_Q_WC   242   5.3156193E-01   3.4548440E+00   6.0142769E+00
- GW2D_DIAG_Q_WC   243   5.0695174E-01   3.6716549E+00   6.0370936E+00
- GW2D_DIAG_Q_WC   244   4.9274858E-01   3.8637398E+00   6.0583201E+00
- GW2D_DIAG_Q_WC   245   4.8985854E-01   3.9157616E+00   6.0639009E+00
- GW2D_DIAG_Q_WC   246   4.9847841E-01   3.7945400E+00   6.0500666E+00
- GW2D_DIAG_Q_WC   247   5.1803396E-01   3.5782074E+00   6.0261686E+00
- GW2D_DIAG_Q_WC   248   5.4735433E-01   3.3916148E+00   6.0080187E+00
- GW2D_DIAG_Q_WC   249   5.8497304E-01   3.3235540E+00   6.0075598E+00
- GW2D_DIAG_Q_WC   250   6.2940390E-01   3.3931448E+00   6.0262176E+00
- GW2D_DIAG_Q_WC   251   6.7931157E-01   3.5498627E+00   6.0546133E+00
- GW2D_DIAG_Q_WC   252   7.3357908E-01   3.6920709E+00   6.0777015E+00
- GW2D_DIAG_Q_WC   253   7.9130995E-01   3.7230409E+00   6.0829582E+00
- GW2D_DIAG_Q_WC   254   8.5180028E-01   3.6204666E+00   6.0675318E+00
- GW2D_DIAG_Q_WC   255   9.1450267E-01   3.4534095E+00   6.0398353E+00
- GW2D_DIAG_Q_WC   256   9.7899217E-01   3.3287452E+00   6.0145470E+00
- GW response W_PQ(q,iτ_1) norm                                           3.8E+06
- GW maximum M_PQ(q) norm:                                                5.3E+00
- GW minimum absolute eigenvalue of ε_PQ(q,iω):                         1.0E+00
- GW maximum condition number of ε_PQ(q,iω):                            1.1E+01
- GW ||M^-1||_F at maximal transformed χ q:                               2.8E+07
- GW ||V^1/2||_F at maximal transformed χ q:                              6.1E+00
- GW ||W^c||_F at maximal transformed χ q:                                6.6E+00
- GW W(q) wall time [s]:                                                    2.832
- GW self-energy workspace budget per rank [GB]                            13.479
- GW self-energy MPI ranks per time group                                       2
- GW self-energy number of time groups                                         24
- GW self-energy additional peak per rank [GB]                              4.406
- GW Σ_c(iτ) point   1 /  30                        Execution time:         4.7 s
- GW Σ_c(iτ) point   2 /  30                        Execution time:         4.6 s
- GW Σ_c(iτ) point   3 /  30                        Execution time:         4.6 s
- GW Σ_c(iτ) point   4 /  30                        Execution time:         4.7 s
- GW Σ_c(iτ) point   5 /  30                        Execution time:         4.5 s
- GW Σ_c(iτ) point   6 /  30                        Execution time:         4.5 s
- GW Σ_c(iτ) point   7 /  30                        Execution time:         4.5 s
- GW Σ_c(iτ) point   8 /  30                        Execution time:         4.5 s
- GW Σ_c(iτ) point   9 /  30                        Execution time:         4.7 s
- GW Σ_c(iτ) point  10 /  30                        Execution time:         4.7 s
- GW Σ_c(iτ) point  11 /  30                        Execution time:         4.6 s
- GW Σ_c(iτ) point  12 /  30                        Execution time:         4.7 s
- GW Σ_c(iτ) point  13 /  30                        Execution time:         4.7 s
- GW Σ_c(iτ) point  14 /  30                        Execution time:         4.7 s
- GW Σ_c(iτ) point  15 /  30                        Execution time:         4.7 s
- GW Σ_c(iτ) point  16 /  30                        Execution time:         4.7 s
- GW Σ_c(iτ) point  17 /  30                        Execution time:         4.6 s
- GW Σ_c(iτ) point  18 /  30                        Execution time:         4.5 s
- GW Σ_c(iτ) point  19 /  30                        Execution time:         4.5 s
- GW Σ_c(iτ) point  20 /  30                        Execution time:         4.6 s
- GW Σ_c(iτ) point  21 /  30                        Execution time:         4.7 s
- GW Σ_c(iτ) point  22 /  30                        Execution time:         4.7 s
- GW Σ_c(iτ) point  23 /  30                        Execution time:         4.7 s
- GW Σ_c(iτ) point  24 /  30                        Execution time:         4.7 s
- GW Σ_c(iτ) point  25 /  30                        Execution time:         3.5 s
- GW Σ_c(iτ) point  26 /  30                        Execution time:         3.5 s
- GW Σ_c(iτ) point  27 /  30                        Execution time:         3.5 s
- GW Σ_c(iτ) point  28 /  30                        Execution time:         3.5 s
- GW Σ_c(iτ) point  29 /  30                        Execution time:         3.6 s
- GW Σ_c(iτ) point  30 /  30                        Execution time:         3.5 s
- GW Σ_c^−(iτ) Frobenius norm                                             1.8E+01
- GW Σ_c^+(iτ) Frobenius norm                                             4.2E+01
+ GW χ(iτ) point   1 / 30                              Exec. time:          1.4 s
+ GW χ(iτ) point   2 / 30                              Exec. time:          1.4 s
+ GW χ(iτ) point   3 / 30                              Exec. time:          1.4 s
+ GW χ(iτ) point   4 / 30                              Exec. time:          1.4 s
+ GW χ(iτ) point   5 / 30                              Exec. time:          1.4 s
+ GW χ(iτ) point   6 / 30                              Exec. time:          1.4 s
+ GW χ(iτ) point   7 / 30                              Exec. time:          1.4 s
+ GW χ(iτ) point   8 / 30                              Exec. time:          1.4 s
+ GW χ(iτ) point   9 / 30                              Exec. time:          1.4 s
+ GW χ(iτ) point  10 / 30                              Exec. time:          1.4 s
+ GW χ(iτ) point  11 / 30                              Exec. time:          1.4 s
+ GW χ(iτ) point  12 / 30                              Exec. time:          1.4 s
+ GW χ(iτ) point  13 / 30                              Exec. time:          1.4 s
+ GW χ(iτ) point  14 / 30                              Exec. time:          1.4 s
+ GW χ(iτ) point  15 / 30                              Exec. time:          1.4 s
+ GW χ(iτ) point  16 / 30                              Exec. time:          1.4 s
+ GW χ(iτ) point  17 / 30                              Exec. time:          1.4 s
+ GW χ(iτ) point  18 / 30                              Exec. time:          1.4 s
+ GW χ(iτ) point  19 / 30                              Exec. time:          1.4 s
+ GW χ(iτ) point  20 / 30                              Exec. time:          1.4 s
+ GW χ(iτ) point  21 / 30                              Exec. time:          1.4 s
+ GW χ(iτ) point  22 / 30                              Exec. time:          1.4 s
+ GW χ(iτ) point  23 / 30                              Exec. time:          1.4 s
+ GW χ(iτ) point  24 / 30                              Exec. time:          1.4 s
+ GW χ(iτ) point  25 / 30                              Exec. time:          1.4 s
+ GW χ(iτ) point  26 / 30                              Exec. time:          1.4 s
+ GW χ(iτ) point  27 / 30                              Exec. time:          1.4 s
+ GW χ(iτ) point  28 / 30                              Exec. time:          1.4 s
+ GW χ(iτ) point  29 / 30                              Exec. time:          1.3 s
+ GW χ(iτ) point  30 / 30                              Exec. time:          1.3 s
+ GW W(iω) point   1 / 30                              Exec. time:          0.2 s
+ GW W(iω) point   2 / 30                              Exec. time:          0.2 s
+ GW W(iω) point   3 / 30                              Exec. time:          0.2 s
+ GW W(iω) point   4 / 30                              Exec. time:          0.2 s
+ GW W(iω) point   5 / 30                              Exec. time:          0.2 s
+ GW W(iω) point   6 / 30                              Exec. time:          0.2 s
+ GW W(iω) point   7 / 30                              Exec. time:          0.2 s
+ GW W(iω) point   8 / 30                              Exec. time:          0.2 s
+ GW W(iω) point   9 / 30                              Exec. time:          0.2 s
+ GW W(iω) point  10 / 30                              Exec. time:          0.2 s
+ GW W(iω) point  11 / 30                              Exec. time:          0.2 s
+ GW W(iω) point  12 / 30                              Exec. time:          0.2 s
+ GW W(iω) point  13 / 30                              Exec. time:          0.2 s
+ GW W(iω) point  14 / 30                              Exec. time:          0.2 s
+ GW W(iω) point  15 / 30                              Exec. time:          0.2 s
+ GW W(iω) point  16 / 30                              Exec. time:          0.2 s
+ GW W(iω) point  17 / 30                              Exec. time:          0.2 s
+ GW W(iω) point  18 / 30                              Exec. time:          0.2 s
+ GW W(iω) point  19 / 30                              Exec. time:          0.2 s
+ GW W(iω) point  20 / 30                              Exec. time:          0.2 s
+ GW W(iω) point  21 / 30                              Exec. time:          0.2 s
+ GW W(iω) point  22 / 30                              Exec. time:          0.2 s
+ GW W(iω) point  23 / 30                              Exec. time:          0.2 s
+ GW W(iω) point  24 / 30                              Exec. time:          0.2 s
+ GW W(iω) point  25 / 30                              Exec. time:          0.2 s
+ GW W(iω) point  26 / 30                              Exec. time:          0.2 s
+ GW W(iω) point  27 / 30                              Exec. time:          0.2 s
+ GW W(iω) point  28 / 30                              Exec. time:          0.2 s
+ GW W(iω) point  29 / 30                              Exec. time:          0.2 s
+ GW W(iω) point  30 / 30                              Exec. time:          0.2 s
+ GW Σ_c(iτ) point   1 / 30                            Exec. time:          3.7 s
+ GW Σ_c(iτ) point   2 / 30                            Exec. time:          3.7 s
+ GW Σ_c(iτ) point   3 / 30                            Exec. time:          3.7 s
+ GW Σ_c(iτ) point   4 / 30                            Exec. time:          3.7 s
+ GW Σ_c(iτ) point   5 / 30                            Exec. time:          3.7 s
+ GW Σ_c(iτ) point   6 / 30                            Exec. time:          3.7 s
+ GW Σ_c(iτ) point   7 / 30                            Exec. time:          3.7 s
+ GW Σ_c(iτ) point   8 / 30                            Exec. time:          3.7 s
+ GW Σ_c(iτ) point   9 / 30                            Exec. time:          3.6 s
+ GW Σ_c(iτ) point  10 / 30                            Exec. time:          3.6 s
+ GW Σ_c(iτ) point  11 / 30                            Exec. time:          3.6 s
+ GW Σ_c(iτ) point  12 / 30                            Exec. time:          3.6 s
+ GW Σ_c(iτ) point  13 / 30                            Exec. time:          3.6 s
+ GW Σ_c(iτ) point  14 / 30                            Exec. time:          3.6 s
+ GW Σ_c(iτ) point  15 / 30                            Exec. time:          3.6 s
+ GW Σ_c(iτ) point  16 / 30                            Exec. time:          3.6 s
+ GW Σ_c(iτ) point  17 / 30                            Exec. time:          3.6 s
+ GW Σ_c(iτ) point  18 / 30                            Exec. time:          3.6 s
+ GW Σ_c(iτ) point  19 / 30                            Exec. time:          3.6 s
+ GW Σ_c(iτ) point  20 / 30                            Exec. time:          3.6 s
+ GW Σ_c(iτ) point  21 / 30                            Exec. time:          3.6 s
+ GW Σ_c(iτ) point  22 / 30                            Exec. time:          3.6 s
+ GW Σ_c(iτ) point  23 / 30                            Exec. time:          3.6 s
+ GW Σ_c(iτ) point  24 / 30                            Exec. time:          3.6 s
+ GW Σ_c(iτ) point  25 / 30                            Exec. time:          3.6 s
+ GW Σ_c(iτ) point  26 / 30                            Exec. time:          3.6 s
+ GW Σ_c(iτ) point  27 / 30                            Exec. time:          3.6 s
+ GW Σ_c(iτ) point  28 / 30                            Exec. time:          3.6 s
+ GW Σ_c(iτ) point  29 / 30                            Exec. time:          3.3 s
+ GW Σ_c(iτ) point  30 / 30                            Exec. time:          3.3 s
 
- *** WARNING in post_scf_bandstructure_utils.F:4091 :: G0W0 reorders the  ***
+ *** WARNING in post_scf_bandstructure_utils.F:3748 :: G0W0 reorders the  ***
  *** occupied levels: the SCF valence band maximum (SCF HOMO) is level 13 ***
- *** at k-point 1, whereas the G0W0 valence band maximum (G0W0 HOMO) is   ***
- *** level 13 at k-point 50. The SCF and G0W0 band edges printed below    ***
+ *** at k-point 257, whereas the G0W0 valence band maximum (G0W0 HOMO) is ***
+ *** level 13 at k-point 306. The SCF and G0W0 band edges printed below   ***
  *** therefore belong to different orbitals; see the eigenvalues in the   ***
  *** file bandstructure_SCF_and_G0W0.                                     ***
 
@@ -1903,22 +1619,22 @@
  SCF+SOC indirect band gap (eV):                                           1.622
  SCF+SOC direct band gap (eV):                                             1.622
  
- G0W0 valence band maximum (eV):                                          -5.748
- G0W0 conduction band minimum (eV):                                       -3.467
- G0W0 indirect band gap (eV):                                              2.281
- G0W0 direct band gap (eV):                                                2.281
+ G0W0 valence band maximum (eV):                                          -5.839
+ G0W0 conduction band minimum (eV):                                       -3.410
+ G0W0 indirect band gap (eV):                                              2.429
+ G0W0 direct band gap (eV):                                                2.429
  
- Hartree-Fock with SCF orbitals valence band maximum (eV):                -6.338
- Hartree-Fock with SCF orbitals conduction band minimum (eV)              -0.112
- Hartree-Fock with SCF orbitals indirect band gap (eV):                    6.226
- Hartree-Fock with SCF orbitals direct band gap (eV):                      6.226
+ Hartree-Fock with SCF orbitals valence band maximum (eV):                -6.351
+ Hartree-Fock with SCF orbitals conduction band minimum (eV)              -0.122
+ Hartree-Fock with SCF orbitals indirect band gap (eV):                    6.229
+ Hartree-Fock with SCF orbitals direct band gap (eV):                      6.229
  
- G0W0+SOC valence band maximum (eV):                                      -5.674
- G0W0+SOC conduction band minimum (eV):                                   -3.473
- G0W0+SOC indirect band gap (eV):                                          2.201
- G0W0+SOC direct band gap (eV):                                            2.201
+ G0W0+SOC valence band maximum (eV):                                      -5.765
+ G0W0+SOC conduction band minimum (eV):                                   -3.416
+ G0W0+SOC indirect band gap (eV):                                          2.349
+ G0W0+SOC direct band gap (eV):                                            2.349
 
- ENERGY| Total FORCE_EVAL ( QS ) energy [hartree]            -88.762214071948804
+ ENERGY| Total FORCE_EVAL ( QS ) energy [hartree]            -88.762214071948307
 
  -------------------------------------------------------------------------------
  -                                                                             -
@@ -1942,7 +1658,7 @@
  ROUTINE             CALLS      AVE VOLUME [Bytes]
  MP_Bcast                1                     12.
  MP_Allreduce           19                     21.
- MP_Alltoall          5061                  44030.
+ MP_Alltoall          5229                  51535.
  -------------------------------------------------------------------------------
 
  -------------------------------------------------------------------------------
@@ -1951,8 +1667,8 @@
  -                                                                             -
  -------------------------------------------------------------------------------
  LP    KERNEL             BACKEND                              COUNT     PERCENT
- 6     integrate general  CPU                                 186058      50.62%
- 6     collocate general  CPU                                 181520      49.38%
+ 6     collocate general  CPU                                 188327      50.30%
+ 6     integrate general  CPU                                 186058      49.70%
  -------------------------------------------------------------------------------
 
  -------------------------------------------------------------------------------
@@ -1961,10 +1677,10 @@
  -                                                                             -
  -------------------------------------------------------------------------------
  Memory consumption                Number of allocations  Used [MiB]  Size [MiB]
- Host                                                  7          14  4484282717204
+ Host                                                  7          14          14
  -------------------------------------------------------------------------------
 
- MEMORY| Estimated peak process memory [MiB]                                3103
+ MEMORY| Estimated peak process memory [MiB]                                 977
 
  -------------------------------------------------------------------------------
  -                                                                             -
@@ -1973,20 +1689,19 @@
  -------------------------------------------------------------------------------
 
  ROUTINE             CALLS      AVE VOLUME [Bytes]
- MP_Group                5
- MP_Bcast             1543                 252171.
- MP_Allreduce        65965                  18620.
- MP_Gather             937                  14015.
- MP_Sync               978
- MP_Alltoall         13847                2695868.
- MP_SendRecv         18988                  38410.
- MP_ISendRecv        19317                  38074.
- MP_Wait             20822
- MP_comm_split         187
- MP_ISend             4708                   3895.
- MP_IRecv             4631                   4138.
- MP_Send               140                1065024.
- MP_IScatter           404                     16.
+ MP_Group                7
+ MP_Bcast            18947                  67573.
+ MP_Allreduce        32693                  36500.
+ MP_Gather             257                 264192.
+ MP_Sync                 4
+ MP_Alltoall         18622                2193626.
+ MP_SendRecv          6240                 105639.
+ MP_ISendRecv         6165                 105643.
+ MP_Wait             17409
+ MP_comm_split          29
+ MP_ISend            13826                  22155.
+ MP_IRecv            17255                  17882.
+ MP_Send               640                1065024.
  -------------------------------------------------------------------------------
 
 
@@ -2025,6 +1740,11 @@
  CP2K: An electronic structure and molecular dynamics software package - 
  Quickstep: Efficient and accurate electronic structure calculations.
  https://doi.org/10.1063/5.0007045
+
+ G. L. Stoychev, A. A. Auer, F. Neese.
+ J. Chem. Theory Comput. 13, 554-562 (2017).
+ Automatic Generation of Auxiliary Basis Sets.
+ https://doi.org/10.1021/acs.jctc.6b01041
 
  O. Schuett, P. Messmer, J. Hutter, J. VandeVondele.
  Electronic Structure Calculations on Graphics Processing Units, 173-190 (2016).
@@ -2105,320 +1825,372 @@
  -------------------------------------------------------------------------------
  SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
                                 MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
- CP2K                                 1  1.0    0.005    0.007   65.120   65.120
- qs_energies                          1  2.0    0.001    0.001   65.055   65.055
- qs_energies_properties               1  3.0    0.000    0.000   49.387   49.388
- post_scf_bandstructure               1  4.0    0.000    0.000   49.387   49.387
- run_gw                               1  5.0    0.000    0.000   45.947   45.967
- gw_calc_ri_rs_small_cell_full_       1  6.0    0.041    0.062   44.994   45.015
- scf_env_do_scf                       1  3.0    0.000    0.000   15.479   15.479
- scf_env_do_scf_inner_loop           79  4.0    0.009    0.016   15.479   15.479
- compute_Z_lP_small_cell_full_k       1  7.0    0.160    0.263   12.231   12.231
- d_lP_uniform_grid                    1  8.0    0.307    0.311   11.702   11.703
- d_lP_integrate_tiles               275  9.0    1.137    1.190    9.152    9.346
- compute_Sigma_c_from_W_PQ            1  7.0    0.000    0.000    8.214    8.218
- compute_Sigma_c_from_W_PQ_pair       1  8.0    0.083    0.126    8.214    8.218
- compute_Sigma_x                      1  7.0    0.305    0.343    7.658    7.659
- qs_ks_update_qs_env                 79  5.0    0.001    0.001    7.468    7.470
- qs_ks_build_kohn_sham_matrix        82  7.0    0.021    0.022    7.453    7.455
- rebuild_ks_matrix                   79  6.0    0.000    0.000    7.177    7.179
- mp_waitall_1                     20822 12.6    6.575    7.030    6.575    7.030
- transfer_pw2rs                     411 10.6    0.001    0.001    6.563    7.002
- sum_up_and_integrate                82  8.0    0.001    0.001    0.612    6.997
- integrate_v_rspace                  82  9.0    0.001    0.007    0.611    6.996
- transfer_pw2rs_250                 165 11.0    0.037    0.054    6.513    6.955
- integrate_vhg0_rspace               82  8.0    0.001    0.001    6.465    6.901
- grid_integrate_task_list            82 10.0    0.432    6.822    0.432    6.822
- build_2c_coulomb_matrix_kp_sma       1  8.0    0.000    0.000    5.737    6.487
- build_2c_coulomb_matrix_kp_sma       1  9.0    0.007    0.008    5.737    6.487
- add_ewald_reciprocal                 1 10.0    5.705    6.455    5.705    6.455
- transfer_rs2pw                     404  8.4    0.001    0.002    5.536    5.924
- transfer_rs2pw_250                 164 10.0    0.058    0.080    5.479    5.873
- qs_rho_update_rho_low               80  5.0    0.001    0.001    5.854    5.862
- calculate_rho_elec                  80  6.0    0.003    0.021    5.851    5.855
- mp_sendrecv_dv                   18988 10.4    5.459    5.852    5.459    5.852
- density_rs2pw                       80  7.0    0.002    0.002    5.457    5.826
- optimize_periodic_auto_ri_metr       1  7.0    0.090    0.101    5.635    5.644
- grid_collocate_task_list            80  7.0    0.388    5.597    0.388    5.597
- d_lP_potential_eval               4361 10.0    0.019    0.021    5.249    5.423
- auto_ri_condition_evaluate         114  8.0    5.078    5.145    5.263    5.271
- d_lP_potential_radial             4361 11.0    4.584    4.754    4.584    4.754
- compute_chi                          1  7.0    0.027    0.032    4.623    4.624
- mp_sum_dv                         3245  9.7    2.834    3.851    2.834    3.851
- self_energy_pairs_to_Bloch           4  9.0    0.084    0.141    2.472    3.770
- self_energy_pairs_to_Bloch_q_i      20 10.0    2.109    3.339    2.109    3.339
- Sigma_c_green_pairs_to_k             4  9.0    0.065    0.102    1.903    2.871
- compute_W_auxiliary_time             1  7.0    0.208    0.241    2.832    2.832
- eval_bandstructure_properties        1  5.0    0.001    0.019    2.689    2.699
- SOC_ev                             296  6.0    0.000    0.000    2.540    2.542
- SOC_ev_all_mos                     296  7.0    0.001    0.002    2.540    2.542
- chi_grid_build                      30  8.0    0.021    0.026    2.466    2.540
- cp_cfm_heevd                       296  8.0    0.000    0.000    2.379    2.386
- cp_cfm_heevd_base                  296  9.0    2.379    2.386    2.379    2.386
- d_lP_sum_g_f2_v                   4361 10.0    2.285    2.334    2.285    2.334
- W_screening_on_W_KP                 30  8.0    0.248    0.292    1.995    2.293
- optimize_ri_rs_grid                  1  7.0    0.001    0.002    2.277    2.278
- power_with_spectrum_stats          192  8.9    0.117    0.134    1.665    1.908
- build_green_grid_k_rows             61  9.0    0.021    0.078    1.757    1.858
- d_lP_f_l_squared                   788  9.0    0.133    0.148    1.802    1.837
- mp_alltoall_l                      159  9.6    0.858    1.782    0.858    1.782
- diag_complex                       192  9.9    1.548    1.775    1.548    1.775
- rirs_grid_LBFGS                      1  8.0    0.368    0.409    1.718    1.719
- qs_scf_new_mos_kp                   79  5.0    0.001    0.001    1.657    1.680
- do_general_diag_kp                  79  6.0    0.100    0.127    1.657    1.680
- chi_projection                      30  8.0    1.210    1.380    1.561    1.675
- chi_green_redistribute              61 10.0    0.937    1.042    1.535    1.628
- product_to_k_pair_centered          35  9.1    0.000    0.000    1.080    1.483
- evaluate_rirs_grid_cluster_pai      20  9.0    0.646    0.925    1.004    1.338
- mp_max_iv                            5  7.4    0.763    1.292    0.763    1.292
- k_grid_to_cell_fft                  68  9.0    0.431    0.582    0.979    1.277
- mp_sum_d                         39821  8.9    0.862    1.255    0.862    1.255
- W_RI_2_grid_pairs                    2  9.0    0.534    0.796    0.854    1.240
- fft3d_s                         465423 11.0    0.774    1.047    0.859    1.166
- d_lP_f_l_sum_AO                  18199 10.0    1.097    1.120    1.097    1.120
- build_green_grid_k_pairs             4 10.0    0.249    0.405    0.737    1.106
- mp_alltoall_z11v                   210 10.0    0.907    1.091    0.907    1.091
- create_and_init_bs_env_for_gw        1  6.0    0.001    0.001    0.953    0.965
- copy_dbcsr_to_fm                  4082  7.6    0.009    0.012    0.872    0.904
- kpoint_operator_prepare             80  7.0    0.002    0.002    0.543    0.866
- mp_allgatherv_dv                   355  9.8    0.498    0.827    0.498    0.827
- kpoint_operator_rs_capture          80  8.0    0.004    0.020    0.486    0.814
- chi_q_reality                       30  8.0    0.320    0.370    0.569    0.780
- dbcsr_to_fm_plan_create           3600  8.5    0.028    0.217    0.665    0.722
- mp_alltoall_i                     3606  9.5    0.596    0.703    0.596    0.703
- prepare_self_energy_groups           1  7.0    0.008    0.009    0.679    0.684
- cell_to_k_grid_fft                  36 10.1    0.191    0.259    0.503    0.679
- mp_sum_dm                          760  7.1    0.371    0.666    0.371    0.666
- d_lP_potential_RI_transform       4361 11.0    0.640    0.659    0.640    0.659
- kpoint_set_mo_occupation            79  7.0    0.012    0.012    0.362    0.642
- mp_sum_dm3                          80  8.0    0.351    0.631    0.351    0.631
- d_lP_AO_values                   18199 10.0    0.571    0.596    0.571    0.596
- kpoint_density_transform            79  7.0    0.001    0.003    0.540    0.563
- kpoint_density_transform_batch      79  8.0    0.081    0.114    0.536    0.558
- Sigma_groups_redistribute_ZW         1  8.0    0.028    0.030    0.548    0.551
- mp_sum_iv                          334  8.8    0.428    0.534    0.428    0.534
- product_pair_centered_phase         35 10.1    0.379    0.529    0.379    0.529
- d_lP_uniform_reduce                  1  9.0    0.013    0.014    0.335    0.522
- d_lP_prepare_quadrature           4361 10.0    0.466    0.508    0.466    0.508
- mp_sum_scatter_dv                   11 10.0    0.318    0.502    0.318    0.502
- soc                                  1  5.0    0.000    0.000    0.492    0.492
- H_KS_spinor_kp                       1  6.0    0.001    0.001    0.465    0.479
- mp_sum_root_rm                     816 10.8    0.369    0.473    0.369    0.473
- mp_recv_zm2                        246  9.0    0.271    0.437    0.271    0.437
- rsmat_to_kp                        594  7.3    0.002    0.003    0.424    0.436
- gw_pair_transfer_unpack             54 10.7    0.291    0.421    0.291    0.421
- collect_target_bloch_orbitals        1  7.0    0.359    0.360    0.387    0.402
- self_energy_RS_to_Bloch              1  8.0    0.009    0.011    0.387    0.393
- mp_bcast_zm                        128  9.0    0.231    0.390    0.231    0.390
- gw_pair_transfer_alltoall           54 10.7    0.000    0.000    0.258    0.379
- gw_pair_transfer_pack               54 10.7    0.252    0.375    0.252    0.375
- self_energy_RS_to_Bloch_q_inte     148  9.0    0.347    0.368    0.347    0.368
- rirs_grid_build_clusters             1  8.0    0.126    0.243    0.322    0.363
- self_energy_pairs_to_Bloch_fin       4 10.0    0.000    0.000    0.093    0.356
- parallel_gemm_cfm                 1480  7.6    0.001    0.001    0.286    0.315
- parallel_gemm_cfm_gemm            1480  8.6    0.001    0.001    0.286    0.314
- cp_cfm_gemm                       1480  9.6    0.285    0.314    0.285    0.314
- zgemm_square_3                     270  9.0    0.268    0.306    0.268    0.306
- W_grid_pairs_2_RS                    2  9.0    0.000    0.000    0.211    0.305
- build_all_psi_k                      1  7.0    0.008    0.011    0.281    0.302
- evaluate_core_matrix_traces         79  6.0    0.000    0.000    0.290    0.291
- calculate_ptrace_kp                158  7.0    0.009    0.010    0.290    0.291
- W_response_iomega_2_tau             30  8.0    0.149    0.189    0.239    0.289
- dbcsr_dot                        38079  8.0    0.068    0.070    0.284    0.285
- self_energy_pairs_to_Bloch_ban     960 10.0    0.185    0.284    0.185    0.284
- rskp_transform                     594  8.3    0.014    0.283    0.014    0.283
- product_pair_centered_prepare       35 10.1    0.204    0.281    0.204    0.281
- write_kpoints_restart               79  5.0    0.002    0.005    0.280    0.280
- fft_wrap_pw1pw2                   1538 10.1    0.003    0.003    0.274    0.277
- chi_green_local_products            61 10.0    0.202    0.273    0.202    0.273
- create_and_init_bs_env               1  5.0    0.010    0.011    0.259    0.259
- generate_auto_ri_basis               1  7.0    0.000    0.000    0.254    0.254
- compute_AA_optimized_RI_basis        1  8.0    0.001    0.001    0.254    0.254
- trafo_V_xc_R_to_kp                   1  7.0    0.001    0.001    0.246    0.246
- compute_V_xc                         1  7.0    0.001    0.001    0.241    0.241
- mp_bcast_im                        553  9.0    0.113    0.238    0.113    0.238
- mp_sum_im3                         479  9.0    0.194    0.236    0.194    0.236
- build_2c_integrals                   2  8.0    0.006    0.107    0.013    0.224
- compute_cfm_mo_coeff_kp_and_ei       1  6.0    0.000    0.000    0.219    0.219
- mp_sum_root_dv                     474  9.0    0.125    0.215    0.125    0.215
- compute_B_PQ_AA                      3  9.0    0.000    0.000    0.099    0.214
- compute_B_PQ_AA_kaveraged            3 10.0    0.004    0.121    0.099    0.214
- fft_wrap_pw1pw2_250               1052 11.3    0.007    0.007    0.201    0.205
- mp_comm_split_type                 171  9.5    0.079    0.204    0.079    0.204
- setup_time_and_frequency_minim       1  7.0    0.000    0.000    0.188    0.200
- build_minimax_time_frequency_g       1  8.0    0.000    0.000    0.188    0.200
- fit_l_sq_weights                     3  9.0    0.187    0.199    0.187    0.199
- mp_max_d                         19209  7.0    0.166    0.197    0.166    0.197
- mp_min_d                           172  9.5    0.107    0.195    0.107    0.195
- initialize_ri_rs_grid                1  8.0    0.000    0.000    0.193    0.194
- rirs_grid_select_atom                1  9.0    0.000    0.000    0.180    0.192
- self_consistency_check              79  5.0    0.009    0.009    0.185    0.191
- mp_mem_avail_per_rank_GB             6  8.5    0.003    0.003    0.066    0.191
- fft3d_pb                          1052 12.3    0.042    0.049    0.185    0.189
- potential_pw2rs                     82 10.0    0.001    0.001    0.178    0.180
- cp_fm_write_unformatted            964  6.0    0.116    0.168    0.117    0.176
- cp_sm_mix                        19039  6.0    0.024    0.034    0.164    0.171
- rirs_grid_local_solve               20 10.0    0.056    0.078    0.137    0.171
- ri_2c_lattice_to_owned_q             2  8.0    0.144    0.153    0.160    0.162
- compute_proj_mo_on_kind            148  6.0    0.001    0.002    0.146    0.157
- dbcsr_complete_redistribute        723  9.0    0.010    0.043    0.152    0.153
- mp_bcast_i_src                      49  7.1    0.142    0.149    0.142    0.149
- rirs_grid_cholesky_select            1 10.0    0.050    0.059    0.130    0.143
- prepare_gapw_den                    82  8.0    0.001    0.001    0.139    0.140
- qs_vxc_create                       82  8.0    0.001    0.001    0.137    0.139
- xc_vxc_pw_create                    81  9.0    0.003    0.004    0.136    0.138
- put_rho0_on_grid                    82  9.0    0.002    0.003    0.136    0.137
- mp_alltoall_z22v                  2590 14.2    0.118    0.134    0.118    0.134
- rirs_grid_local_factor              20 10.0    0.096    0.130    0.096    0.130
- Sigma_groups_redistribute_psi        1  8.0    0.007    0.008    0.122    0.125
- cp_cfm_geeig_local                  79  7.0    0.099    0.125    0.099    0.125
- V_SOC_xyz_from_pseudopotential       1  6.0    0.002    0.002    0.027    0.122
- get_fft_scratch                 466961 12.0    0.086    0.121    0.087    0.122
- self_energy_RS_to_Bloch_final_       1  9.0    0.000    0.000    0.021    0.121
- mp_bcast_z3                        128  9.0    0.115    0.118    0.115    0.118
- abc_contract_xsmm                  252  9.0    0.057    0.118    0.057    0.118
- mp_gatherv_zv                      937  8.9    0.066    0.116    0.066    0.116
- alloc_cfm_double_array_1d            1  7.0    0.000    0.000    0.097    0.111
- create_cfm_double                  148  8.0    0.000    0.000    0.097    0.111
- gw_fm_kpoint_eigen                   2  7.0    0.000    0.000    0.110    0.110
- add_cfm_submat                    1480  7.4    0.004    0.004    0.085    0.110
- gw_HS_images_to_fm                   2  7.0    0.001    0.004    0.108    0.108
- build_D_llprime_lattice              1  8.0    0.092    0.106    0.092    0.106
- build_core_ppnl                      2  6.0    0.016    0.105    0.016    0.105
- cp_fm_to_fm_submat                2960  8.4    0.078    0.103    0.078    0.103
- ab_contract                      19531  9.0    0.005    0.099    0.005    0.099
- xc_pw_derive                       486 11.0    0.001    0.001    0.090    0.097
- mp_alltoall_d11v                  5772  9.1    0.078    0.095    0.078    0.095
- build_all_phi_k                      1  7.0    0.084    0.093    0.084    0.093
- dbcsr_copy                       39765  6.5    0.043    0.064    0.071    0.093
- d_lP_T_to_q                          7  8.0    0.006    0.007    0.052    0.090
- qs_energies_init_hamiltonians        1  3.0    0.000    0.000    0.090    0.090
- init_scf_run                         1  3.0    0.000    0.000    0.084    0.085
- scf_env_initial_rho_setup            1  4.0    0.000    0.000    0.084    0.085
- write_SOC_eigenvalues              296  6.0    0.002    0.084    0.002    0.084
- qs_env_update_s_mstruct              1  4.0    0.000    0.000    0.073    0.079
- build_core_hamiltonian_matrix        1  4.0    0.001    0.001    0.011    0.078
- calculate_rho_core                   1  5.0    0.000    0.000    0.072    0.077
- fft3d_ps                           486 11.5    0.005    0.007    0.068    0.073
- xc_rho_set_and_dset_create          81 10.0    0.004    0.004    0.068    0.072
- xc_pw_divergence                    81 10.0    0.000    0.000    0.062    0.069
- gspace_mixing                       78  5.0    0.002    0.002    0.064    0.065
- mp_alltoall_i22v                  3600  9.5    0.035    0.062    0.035    0.062
- Sigma_x_density_grid                 1  8.0    0.003    0.005    0.056    0.062
- d_lP_screen_pack_fields            788  9.0    0.054    0.057    0.054    0.057
- gw_HS_k_gather                      10  8.0    0.001    0.002    0.049    0.057
- mp_min_i                           251  8.3    0.024    0.057    0.024    0.057
- cube_transpose_2                   728 12.9    0.010    0.013    0.043    0.056
- cp_dbcsr_alloc_block_from_nbl     5127  6.8    0.007    0.030    0.011    0.055
- cube_transpose_4                   488 13.9    0.012    0.016    0.047    0.055
- transfer_rs2pw_90                   80  9.0    0.009    0.011    0.036    0.055
- dbcsr_iterator_start             72258  8.5    0.044    0.047    0.050    0.052
- rirs_grid_cluster_ao                 1 10.0    0.048    0.051    0.048    0.051
- dbcsr_set                        43684  7.5    0.014    0.015    0.023    0.050
- broyden_mixing                      78  6.0    0.033    0.036    0.047    0.049
- compute_QP_energies                  1  7.0    0.001    0.001    0.044    0.048
- dense_images_to_cfm                808  9.0    0.029    0.047    0.029    0.047
- kpoint_operator_rs_plan_create      79  8.0    0.004    0.034    0.044    0.045
- mp_cart_create                     488 10.0    0.042    0.045    0.042    0.045
- compute_int_3c                       2  9.0    0.020    0.022    0.035    0.043
- analyt_conti_and_print             148  8.0    0.001    0.036    0.040    0.043
- collect_target_mo_coefficients       1  8.0    0.001    0.001    0.026    0.042
- mp_sum_zm4                           1  9.0    0.025    0.041    0.025    0.041
- mp_sync                            978 13.5    0.027    0.040    0.027    0.040
- fft_wrap_pw1pw2_90                 162 10.5    0.001    0.001    0.036    0.040
- dbcsr_create_new                 46130  7.5    0.029    0.030    0.036    0.038
- gw_k_eigen_scatter                  10  8.0    0.001    0.001    0.037    0.037
- dbcsr_zero                       43684  8.5    0.010    0.036    0.010    0.036
- create_qs_kind_set                   1  2.0    0.000    0.000    0.034    0.035
- read_qs_kind                         2  3.0    0.009    0.009    0.034    0.035
- cube_transpose_3                   564 12.9    0.006    0.006    0.032    0.034
- mp_alltoall_i22                    723 10.0    0.028    0.033    0.028    0.033
- mp_bcast_dv                        406  9.0    0.014    0.033    0.014    0.033
- yz_to_xz                           246 14.0    0.003    0.004    0.029    0.032
- transfer_pw2rs_90                   82 12.0    0.008    0.010    0.029    0.032
- cube_transpose_1                   810 13.2    0.004    0.004    0.028    0.032
- dbcsr_iterator_stop              72258  8.5    0.024    0.024    0.030    0.031
- rs_grid_zero                       166  9.5    0.026    0.029    0.026    0.029
- mp_cart_sub                        971 10.0    0.028    0.028    0.028    0.028
- dbcsr_reserve_blocks              5368  8.0    0.003    0.026    0.003    0.027
- build_core_ppl                       1  5.0    0.001    0.027    0.001    0.027
- parser_read_line                  7941  4.0    0.001    0.001    0.026    0.027
- xc_functional_eval                  81 11.0    0.000    0.000    0.022    0.026
- mp_alltoall_i11v                  2169 10.0    0.015    0.026    0.015    0.026
- parser_read_line_low                11  5.0    0.000    0.004    0.025    0.026
- pbe_lda_eval                        81 12.0    0.021    0.026    0.021    0.026
- broadcast_input_information         11  6.0    0.002    0.006    0.025    0.025
- mp_allgather_i                     872  9.0    0.020    0.025    0.020    0.025
- mp_bcast_am_src                     11  7.0    0.020    0.023    0.020    0.023
- xz_to_yz                           240 11.0    0.003    0.005    0.020    0.022
- mp_send_zm2                        174  9.0    0.018    0.022    0.018    0.022
- mp_allgatherv_iv                    81  9.0    0.019    0.021    0.019    0.021
- mp_bcast_dm                          3  9.0    0.013    0.020    0.013    0.020
- fft_wrap_pw1pw2_30                 162 10.5    0.000    0.001    0.019    0.020
- d_lP_unpack_fields                 275  9.0    0.016    0.019    0.016    0.019
- mp_alltoall_l22                     79  9.0    0.017    0.018    0.017    0.018
- d_lP_uniform_exchange              275  9.0    0.000    0.001    0.017    0.018
- copy_fm_to_dbcsr                   241  8.0    0.000    0.000    0.017    0.017
- mp_isendrecv_dv                  19317 12.6    0.011    0.017    0.011    0.017
- qs_init_subsys                       1  2.0    0.002    0.002    0.017    0.017
- d_lP_charge_fourier                788  9.0    0.015    0.017    0.015    0.017
- abc_contract                         9 10.0    0.014    0.017    0.014    0.017
- dbcsr_finalize                   12664  7.9    0.002    0.004    0.010    0.016
- d_lP_prepare_field_bounds          275 10.0    0.015    0.016    0.015    0.016
- fft_wrap_pw1pw2_10                 162 10.5    0.000    0.000    0.015    0.016
- build_overlap_matrix_low             1  5.0    0.002    0.013    0.003    0.015
- transfer_rs2pw_30                   80  9.0    0.004    0.005    0.012    0.015
- calculate_rho_atom_coeff            80  6.0    0.003    0.014    0.003    0.014
- dbcsr_add_d                        723  7.0    0.000    0.000    0.004    0.014
- gw_k_eigen_local                    10  8.0    0.000    0.000    0.012    0.014
- cp_cfm_geeig_canon_local            10  9.0    0.012    0.014    0.012    0.014
- kpoint_density_matrices             79  7.0    0.010    0.012    0.012    0.014
- dbcsr_add_anytype                  723  8.0    0.000    0.002    0.004    0.014
- build_kinetic_matrix_low             1  5.0    0.001    0.011    0.002    0.014
- self_energy_RS_to_Bloch_apply_     888  9.0    0.009    0.013    0.009    0.013
- transfer_pw2rs_30                   82 12.0    0.005    0.005    0.012    0.013
- mp_isend_zv                       4582 13.5    0.005    0.013    0.005    0.013
- add_V_L                             10 10.0    0.012    0.013    0.012    0.013
- continuation_pade                  296  9.0    0.000    0.000    0.001    0.012
- pw_poisson_solve                    82  8.0    0.001    0.001    0.012    0.012
- get_sigma_c_newton_pade            296 10.0    0.001    0.012    0.001    0.012
- dbcsr_merge_all                   1446 10.9    0.004    0.010    0.006    0.012
- diagonalize_ks_matrix                1  7.0    0.000    0.000    0.011    0.011
- qs_env_setup                         1  3.0    0.000    0.000    0.011    0.011
- qs_env_rebuild_pw_env                2  3.5    0.000    0.000    0.010    0.010
- pw_env_rebuild                       1  5.0    0.001    0.001    0.010    0.010
- dbcsr_data_release               89469  9.5    0.008    0.010    0.008    0.010
- transfer_pw2rs_10                   82 12.0    0.004    0.005    0.009    0.010
- cp_fm_geeig_canon                    1  8.0    0.000    0.000    0.009    0.009
- mp_sum_zm3                           1  8.0    0.009    0.009    0.009    0.009
- get_RI_basis                         1  7.0    0.000    0.000    0.009    0.009
- cp_fm_syevd                          2  9.0    0.000    0.000    0.009    0.009
- Vh_1c_gg_integrals                  82  8.0    0.000    0.000    0.006    0.008
- transfer_rs2pw_10                   80  9.0    0.004    0.004    0.008    0.008
- scf_post_calculation_gpw             1  3.0    0.000    0.000    0.008    0.008
- solve_AA_eigenproblem                1  9.0    0.000    0.006    0.000    0.008
- cp_fm_redistribute_end               2 10.0    0.004    0.008    0.004    0.008
- setup_cells_3c                       1  8.0    0.006    0.007    0.008    0.008
- mp_recv_dv                        9640  7.0    0.000    0.008    0.000    0.008
- write_available_results              1  4.0    0.000    0.000    0.008    0.008
- write_mo_free_results                1  5.0    0.001    0.001    0.008    0.008
- cp_fm_syevd_base                     2 10.0    0.004    0.008    0.004    0.008
- dbcsr_destroy                     6606  6.5    0.004    0.004    0.006    0.008
- dbcsr_iterator_seek              72258  9.5    0.006    0.007    0.006    0.007
- pw_copy                           1389 10.4    0.006    0.007    0.006    0.007
- d_lP_potential_prepare            4361 11.0    0.006    0.007    0.006    0.007
- update_ks_atom                      82  8.0    0.005    0.007    0.005    0.007
- pw_derive                          732 11.4    0.006    0.007    0.006    0.007
+ CP2K                                 1  1.0    0.077    0.085   94.256   94.257
+ qs_energies                          1  2.0    0.050    0.051   93.834   93.834
+ qs_energies_properties               1  3.0    0.005    0.005   75.804   75.805
+ post_scf_bandstructure               1  4.0    0.006    0.008   75.799   75.800
+ run_gw                               1  5.0    0.003    0.003   65.670   65.672
+ gw_calc_ri_rs_small_cell_full_       1  6.0    0.000    0.000   64.066   64.069
+ prepare_ri_rs                        1  7.0    0.001    0.002   25.971   25.974
+ compute_Z_lP_q                       1  8.0    0.009    0.032   21.467   21.467
+ d_lP_uniform_grid                    1  9.0    0.401    0.407   20.202   20.203
+ scf_env_do_scf                       1  3.0    0.001    0.008   17.587   17.588
+ scf_env_do_scf_inner_loop           79  4.0    0.021    0.025   17.586   17.587
+ compute_Sigma_c_and_QP               1  7.0    0.000    0.000   14.579   14.581
+ compute_Sigma_c_from_W_PQ            1  8.0    0.011    0.013   14.461   14.464
+ compute_W0                           1  7.0    0.039    0.076   13.308   13.311
+ d_lP_integrate_quadrature_bloc     995 10.0    0.613    0.642   13.001   13.219
+ d_lP_sum_g_f2_v                   8528 11.0    9.435    9.589    9.435    9.589
+ cp_cfm_heevd                      1048  8.5    0.001    0.001    9.219    9.261
+ cp_cfm_heevd_base                 1048  9.5    9.218    9.260    9.218    9.260
+ compute_G_and_chi                    1  7.0    0.000    0.001    8.655    8.661
+ compute_metric_coulomb_factor        1  8.0    0.925    0.934    8.347    8.364
+ eval_bandstructure_properties        1  5.0    0.012    0.159    8.089    8.093
+ qs_ks_build_kohn_sham_matrix        82  7.0    0.059    0.061    7.917    7.919
+ qs_ks_update_qs_env                 79  5.0    0.000    0.001    7.851    7.854
+ rebuild_ks_matrix                   79  6.0    0.007    0.007    7.648    7.650
+ SOC_ev                             808  6.0    0.001    0.001    7.232    7.263
+ SOC_ev_all_mos                     808  7.0    0.009    0.010    7.231    7.262
+ mp_waitall_1                     17409 10.9    5.730    7.026    5.730    7.026
+ transfer_pw2rs                     411 10.6    0.001    0.001    5.717    6.980
+ sum_up_and_integrate                82  8.0    0.002    0.003    1.565    6.931
+ integrate_v_rspace                  82  9.0    0.008    0.018    1.553    6.919
+ transfer_pw2rs_250                 165 11.0    0.108    0.115    5.646    6.911
+ integrate_vhg0_rspace               82  8.0    0.002    0.002    5.510    6.773
+ grid_integrate_task_list            82 10.0    1.255    6.623    1.255    6.623
+ add_ewald_reciprocal                 1  9.0    6.428    6.514    6.428    6.514
+ qs_rho_update_rho_low               83  5.1    0.001    0.001    6.467    6.469
+ calculate_rho_elec                  83  6.1    0.013    0.032    6.461    6.465
+ density_rs2pw                       83  7.1    0.010    0.010    5.238    6.421
+ transfer_rs2pw                     416  8.5    0.003    0.003    5.227    6.416
+ transfer_rs2pw_250                 167 10.0    0.094    0.102    5.160    6.362
+ compute_chi                          1  8.0    0.159    0.171    6.351    6.359
+ mp_sendrecv_dv                    6240 10.5    5.114    6.311    5.114    6.311
+ grid_collocate_task_list            83  7.1    1.200    6.029    1.200    6.029
+ self_energy_pairs_to_Bloch           9  9.0    0.001    0.002    5.125    5.573
+ mp_sum_dv                         4951  9.5    1.688    5.387    1.688    5.387
+ d_lP_f_l_squared                  2866 10.0    0.709    0.766    5.201    5.251
+ Sigma_c_green_pairs_to_k             8  9.0    0.801    0.914    4.758    5.140
+ W_screening_on_W_KP                240  8.0    0.051    0.052    4.750    4.798
+ chi_grid_build                       4  9.0    0.404    0.468    3.948    4.243
+ optimize_ri_rs_grid                  1  8.0    0.002    0.002    4.191    4.192
+ d_lP_f_l_sum_AO                  67452 11.0    4.009    4.056    4.009    4.056
+ cp_cfm_power                       240  9.0    0.019    0.020    3.272    3.309
+ build_green_pairs                   17 10.0    2.271    2.597    2.991    3.234
+ product_to_k_pair_centered          45 10.0    0.000    0.000    2.873    3.138
+ rirs_grid_LBFGS                      1  9.0    0.259    0.271    2.714    2.958
+ qs_scf_new_mos_kp                   79  5.0    0.002    0.002    2.681    2.704
+ do_general_diag_kp                  79  6.0    0.089    0.133    2.680    2.702
+ self_energy_pairs_to_Bloch_lat      63 10.0    2.480    2.681    2.480    2.681
+ W_RI_2_grid_pairs                    4  9.0    1.791    1.941    2.373    2.609
+ mp_alltoall_z11v                  5351 11.1    2.154    2.520    2.154    2.520
+ parallel_gemm_cfm                 5240  8.0    0.004    0.004    2.298    2.372
+ parallel_gemm_cfm_gemm            5240  9.0    0.004    0.004    2.294    2.368
+ cp_cfm_gemm                       5240 10.0    2.291    2.364    2.291    2.364
+ evaluate_ri_rs_fit                  21 10.0    0.009    0.016    2.094    2.324
+ gamma_point_correction               1  8.0    0.012    0.013    2.304    2.304
+ gw_k_grid_to_real_cells             22 10.0    2.106    2.255    2.106    2.255
+ evaluate_ri_rs_fit_ri_panels        21 11.0    1.810    1.998    1.810    1.998
+ copy_dbcsr_to_fm                  4378  7.8    0.034    0.040    1.791    1.952
+ soc                                  1  5.0    0.000    0.005    1.737    1.737
+ H_KS_spinor_kp                       1  6.0    0.004    0.004    1.679    1.711
+ dbcsr_to_fm_plan_create           3872  8.5    0.164    0.550    1.541    1.693
+ self_energy_pairs_to_Bloch_ban      63 10.0    1.548    1.685    1.548    1.685
+ mp_alltoall_i                     3881  9.5    1.335    1.631    1.335    1.631
+ create_and_init_bs_env_for_gw        1  6.0    0.017    0.026    1.601    1.615
+ compute_Sigma_x                      1  7.0    0.000    0.000    1.546    1.547
+ gamma_ao_time_prepare                1  9.0    1.160    1.203    1.473    1.474
+ d_lP_prepare_quadrature           8528 11.0    1.410    1.461    1.410    1.461
+ rsmat_to_kp                       1212  7.0    0.009    0.009    1.382    1.388
+ cell_to_k_grid_fft                 126  9.7    1.195    1.291    1.195    1.291
+ mp_allgatherv_dv                  1075 10.8    0.955    1.234    0.955    1.234
+ chi_projection                       4  9.0    0.777    0.846    1.129    1.233
+ self_energy_pairs_to_Bloch_red      63 10.0    0.001    0.001    1.093    1.213
+ product_pair_centered_phase         45 11.0    1.062    1.176    1.062    1.176
+ add_slab_gamma_corr_cell_corre       4  9.0    0.912    0.994    0.912    0.994
+ rirs_grid_build_clusters             1  9.0    0.363    0.642    0.806    0.954
+ write_SOC_eigenvalues              296  6.0    0.060    0.951    0.060    0.951
+ rskp_transform                    1212  8.0    0.133    0.897    0.133    0.897
+ kpoint_operator_evaluate_batch      80  7.0    0.788    0.841    0.788    0.841
+ d_lP_uniform_reduce                  1 10.0    0.001    0.001    0.354    0.831
+ compute_proj_mo_on_kind            404  6.0    0.007    0.009    0.785    0.829
+ mp_sum_scatter_dv                   16 11.0    0.343    0.820    0.343    0.820
+ product_pair_centered_prepare       45 11.0    0.686    0.788    0.686    0.788
+ kpoint_operator_prepare             83  7.0    0.004    0.006    0.765    0.777
+ d_lP_uniform_exchange              995 10.0    0.002    0.002    0.609    0.772
+ add_cfm_submat                    4040  7.4    0.018    0.018    0.713    0.749
+ q_matrices_to_fft_pairs              5 10.0    0.455    0.536    0.629    0.730
+ kpoint_density_transform            79  7.0    0.007    0.011    0.699    0.725
+ mp_bcast_zm                       2946  9.1    0.673    0.717    0.673    0.717
+ evaluate_mu_rl_R_values           5241  9.8    0.673    0.716    0.673    0.716
+ prepare_self_energy_groups           1  8.0    0.000    0.000    0.684    0.715
+ d_lP_potential_eval               1732 11.0    0.010    0.011    0.686    0.713
+ kpoint_density_transform_batch      79  8.0    0.171    0.182    0.688    0.710
+ cp_fm_to_fm_submat                8080  8.4    0.671    0.706    0.671    0.706
+ initialize_ri_rs_grid                1  9.0    0.000    0.000    0.668    0.669
+ rirs_grid_select_atom                1 10.0    0.000    0.000    0.644    0.658
+ compute_D_llp                        1  9.0    0.129    0.143    0.582    0.638
+ mp_sum_zm                         4684 10.5    0.515    0.633    0.515    0.633
+ fft_wrap_pw1pw2                   1553 10.1    0.004    0.005    0.614    0.625
+ rirs_grid_cholesky_select            1 11.0    0.500    0.505    0.611    0.624
+ build_ri_2c_lattice                  2  9.5    0.010    0.010    0.592    0.595
+ chi_time_groups_sum                  1  9.0    0.050    0.067    0.580    0.588
+ mp_sum_d                          1594  6.6    0.314    0.583    0.314    0.583
+ mp_sum_iv                          851  8.9    0.449    0.546    0.449    0.546
+ mp_send_zm2                        640 10.0    0.524    0.544    0.524    0.544
+ solve_for_Z_lP_q                     2  9.0    0.269    0.311    0.543    0.543
+ fft_wrap_pw1pw2_250               1058 11.3    0.041    0.043    0.526    0.540
+ fft3d_ps                          1553 12.1    0.158    0.164    0.523    0.534
+ mp_recv_zm2                        656 10.0    0.514    0.531    0.514    0.531
+ Sigma_groups_redistribute_ZW         1  9.0    0.007    0.008    0.515    0.519
+ d_lP_AO_values                   68507 11.0    0.482    0.499    0.482    0.499
+ kpoint_operator_rs_capture          83  8.0    0.008    0.037    0.361    0.494
+ compute_Sigma_x_from_V               1  8.0    0.150    0.152    0.487    0.493
+ generate_auto_ri_basis_periodi       1  7.0    0.000    0.001    0.481    0.484
+ d_lP_wait_for_threads              995 11.0    0.441    0.483    0.441    0.483
+ compute_AA_optimized_RI_basis        1  8.0    0.008    0.010    0.480    0.481
+ d_lP_unpack_fields                 995 10.0    0.099    0.464    0.099    0.464
+ write_kpoints_restart               79  5.0    0.006    0.039    0.456    0.458
+ cp_cfm_get_submatrix              3332  9.4    0.051    0.052    0.433    0.455
+ local_complex_power                 36  9.1    0.007    0.008    0.435    0.442
+ qs_vxc_create                       82  8.0    0.005    0.005    0.419    0.428
+ xc_vxc_pw_create                    81  9.0    0.019    0.020    0.413    0.423
+ compute_V_xc                         1  7.0    0.001    0.001    0.415    0.415
+ W_grid_pairs_2_RS                    4  9.0    0.000    0.000    0.383    0.411
+ diag_complex                        36 10.1    0.400    0.406    0.400    0.406
+ d_lP_potential_radial             1732 12.0    0.384    0.404    0.384    0.404
+ fft_pairs_to_q_matrices              4 10.0    0.268    0.319    0.352    0.398
+ build_2c_integrals                   2 10.5    0.024    0.162    0.068    0.395
+ compute_B_ij_AA_kaveraged            3  9.0    0.033    0.270    0.384    0.393
+ mp_sum_i                            49  9.6    0.357    0.379    0.357    0.379
+ kpoint_set_mo_occupation            79  7.0    0.036    0.037    0.157    0.347
+ d_lP_screen_atom_image           46314 11.0    0.327    0.345    0.327    0.345
+ d_lP_screen_pack_fields           2866 10.0    0.313    0.327    0.313    0.327
+ mp_sum_im3                         483  9.0    0.271    0.327    0.271    0.327
+ gamma_ri_metric_build                1  9.0    0.000    0.000    0.315    0.315
+ mp_sum_dm3                          81  8.0    0.122    0.312    0.122    0.312
+ abc_contract_xsmm                  168 10.0    0.189    0.310    0.189    0.310
+ setup_time_and_frequency_minim       1  7.0    0.004    0.008    0.298    0.307
+ trafo_V_xc_R_to_kp                   1  7.0    0.007    0.007    0.305    0.305
+ d_lP_potential_RI_transform       1732 12.0    0.286    0.299    0.286    0.299
+ build_minimax_time_frequency_g       1  8.0    0.001    0.002    0.294    0.299
+ create_and_init_bs_env               1  5.0    0.009    0.009    0.297    0.297
+ fit_l_sq_weights                     3  9.0    0.291    0.295    0.291    0.295
+ potential_pw2rs                     82 10.0    0.002    0.002    0.290    0.294
+ mp_alltoall_z22v                  1553 14.1    0.260    0.292    0.260    0.292
+ cp_cfm_cholesky_invert             240  9.0    0.287    0.291    0.287    0.291
+ mp_min_iv                          160  8.0    0.138    0.290    0.138    0.290
+ compute_cfm_mo_coeff_kp_and_ei       1  6.0    0.006    0.006    0.283    0.284
+ mp_sum_root_dv                     474  9.0    0.163    0.271    0.163    0.271
+ slab_gamma_factors                   1  9.0    0.052    0.053    0.264    0.264
+ build_all_phi_k                      1  8.0    0.178    0.185    0.251    0.259
+ xc_pw_derive                       486 11.0    0.007    0.007    0.227    0.253
+ xc_rho_set_and_dset_create          81 10.0    0.034    0.035    0.228    0.248
+ self_consistency_check              79  5.0    0.014    0.014    0.230    0.238
+ cp_fm_write_unformatted            964  6.0    0.136    0.228    0.137    0.235
+ cp_cfm_copy_general               2424  7.2    0.003    0.003    0.197    0.215
+ ab_contract                       2032 11.5    0.040    0.212    0.040    0.212
+ collect_band_bloch_orbitals          1  8.0    0.089    0.093    0.206    0.211
+ cp_sm_mix                        19039  6.0    0.047    0.052    0.199    0.210
+ d_lP_charge_fourier               2866 10.0    0.194    0.210    0.194    0.210
+ dbcsr_dot_batch                    159  8.0    0.065    0.075    0.208    0.209
+ evaluate_core_matrix_traces         79  6.0    0.000    0.001    0.203    0.204
+ calculate_ptrace_kp                158  7.0    0.001    0.001    0.203    0.203
+ Sigma_groups_redistribute_Z          1  9.0    0.032    0.033    0.168    0.202
+ band_orbitals_to_groups              1  8.0    0.002    0.003    0.168    0.197
+ prepare_gapw_den                    82  8.0    0.001    0.001    0.190    0.194
+ yz_to_x                            574 13.5    0.032    0.035    0.162    0.192
+ put_rho0_on_grid                    82  9.0    0.009    0.010    0.187    0.190
+ ri_2c_lattice_to_kp                  1  9.0    0.003    0.005    0.090    0.189
+ cp_cfm_geeig_local                  79  7.0    0.157    0.182    0.157    0.182
+ dbcsr_complete_redistribute        747 10.7    0.024    0.045    0.178    0.180
+ mp_gatherv_zm2                     257 10.0    0.160    0.180    0.160    0.180
+ qs_energies_init_hamiltonians        1  3.0    0.011    0.012    0.180    0.180
+ kpoint_operator_fft_prepare         80  8.0    0.071    0.075    0.169    0.177
+ coulomb_matrix_gamma                 1 10.0    0.025    0.025    0.175    0.175
+ xc_pw_divergence                    81 10.0    0.000    0.000    0.157    0.174
+ compute_charge_leak_q0               1  9.0    0.167    0.171    0.171    0.172
+ mp_max_d                         19083  7.0    0.123    0.169    0.123    0.169
+ init_scf_run                         1  3.0    0.000    0.000    0.167    0.168
+ V_SOC_xyz_from_pseudopotential       1  6.0    0.004    0.004    0.058    0.168
+ scf_env_initial_rho_setup            1  4.0    0.003    0.005    0.166    0.167
+ gspace_mixing                       78  5.0    0.019    0.020    0.163    0.166
+ x_to_yz                            649 13.0    0.029    0.032    0.154    0.164
+ cp_cfm_cholesky_decompose          240  9.0    0.138    0.164    0.138    0.164
+ cp_cfm_start_copy_general         2424  8.2    0.019    0.037    0.135    0.155
+ qs_init_subsys                       1  2.0    0.032    0.032    0.154    0.154
+ build_2c_coulomb_matrix_kp_den       1 11.0    0.001    0.001    0.148    0.149
+ lattice_sum_dense                    1 12.0    0.037    0.038    0.148    0.148
+ alloc_cfm_double_array_1d            1  7.0    0.001    0.001    0.115    0.147
+ create_cfm_double                  404  8.0    0.002    0.002    0.114    0.146
+ dbcsr_copy                       40247  6.6    0.079    0.103    0.120    0.144
+ build_core_ppnl                      2  6.0    0.035    0.135    0.035    0.135
+ mp_mem_avail_per_rank_GB            10  9.3    0.002    0.003    0.099    0.130
+ mp_comm_split_type                  10 10.3    0.096    0.127    0.096    0.127
+ evaluate_ri_rs_fit_gradient         21 11.0    0.080    0.091    0.104    0.125
+ dbcsr_iterator_start             73146  8.6    0.110    0.115    0.120    0.124
+ compute_QP_energies                  1  8.0    0.002    0.002    0.118    0.119
+ factor_ri_rs_fit                    21 11.0    0.017    0.021    0.093    0.118
+ mp_allgather_i                    7796  9.5    0.091    0.117    0.091    0.117
+ Sigma_x_project_V_grid               1  9.0    0.061    0.062    0.107    0.113
+ add_V_L                            256 13.0    0.106    0.109    0.106    0.109
+ d_lP_T_to_q                         17 10.0    0.073    0.083    0.104    0.107
+ analyt_conti_and_print             404  9.0    0.007    0.089    0.103    0.105
+ broyden_mixing                      78  6.0    0.077    0.084    0.097    0.102
+ build_core_hamiltonian_matrix        1  4.0    0.024    0.037    0.069    0.101
+ xc_functional_eval                  81 11.0    0.007    0.007    0.079    0.100
+ mp_bcast_im                       5403  9.1    0.055    0.097    0.055    0.097
+ qs_env_update_s_mstruct              1  4.0    0.001    0.001    0.092    0.096
+ pbe_lda_eval                        81 12.0    0.072    0.094    0.072    0.094
+ gamma_ao_time_response              30  9.0    0.020    0.021    0.093    0.093
+ Sigma_x_density_grid                 1  9.0    0.009    0.009    0.090    0.092
+ mp_alltoall_d11v                  6120  9.7    0.080    0.092    0.080    0.092
+ d_lP_prepare_field_bounds          995 11.0    0.085    0.091    0.085    0.091
+ create_qs_kind_set                   1  2.0    0.002    0.002    0.088    0.089
+ read_qs_kind                         2  3.0    0.045    0.047    0.086    0.087
+ kpoint_operator_rs_plan_create      81  8.0    0.018    0.077    0.086    0.087
+ cp_dbcsr_alloc_block_from_nbl     7106  7.4    0.020    0.042    0.034    0.085
+ dbcsr_iterator_stop              73146  8.6    0.074    0.076    0.083    0.085
+ W_response_iomega_2_tau            248  8.0    0.066    0.084    0.066    0.084
+ compute_int_3c                       2  9.0    0.048    0.049    0.077    0.078
+ mp_comm_split_direct                19  8.2    0.044    0.076    0.044    0.076
+ prepare_ri_rs_gamma_correction       1  7.0    0.009    0.009    0.030    0.072
+ gamma_body_iterative_solve          30 10.0    0.039    0.041    0.071    0.071
+ calculate_rho_core                   1  5.0    0.003    0.011    0.067    0.071
+ cp_cfm_geeig_canon_local            26  7.0    0.066    0.070    0.066    0.070
+ mp_bcast_z3                        384  9.7    0.063    0.068    0.063    0.068
+ qs_env_setup                         1  3.0    0.007    0.007    0.068    0.068
+ dbcsr_set                        44703  7.5    0.022    0.023    0.038    0.067
+ factor_ri_rs_fit_dpotrf             21 12.0    0.053    0.067    0.053    0.067
+ transfer_rs2pw_90                   83  9.1    0.010    0.014    0.048    0.067
+ build_all_psi_k                      1  8.0    0.031    0.035    0.059    0.066
+ gw_gamma_transition_moments          1  9.0    0.026    0.028    0.065    0.065
+ evaluate_ri_rs_fit_residual          1 11.0    0.060    0.065    0.061    0.065
+ topology_control                     1  2.0    0.026    0.026    0.062    0.062
+ cp_cfm_scale_and_add               720  9.3    0.060    0.061    0.060    0.061
+ build_local_moment_matrix_rs_i       1  8.0    0.014    0.053    0.019    0.061
+ dbcsr_create_new                 48615  7.6    0.045    0.046    0.059    0.060
+ owned_mo_coefficients                2  9.5    0.007    0.010    0.052    0.056
+ transfer_pw2rs_90                   82 12.0    0.018    0.021    0.050    0.054
+ remove_soc_outside_energy_wind     808  8.0    0.041    0.050    0.041    0.050
+ mp_sum_root_zv                      32 10.5    0.045    0.050    0.045    0.050
+ ri_2c_lattice_to_owned_q             1  9.0    0.011    0.015    0.047    0.048
+ cp_cfm_uplo_to_full                240  9.0    0.021    0.021    0.046    0.046
+ cp_cfm_transpose                   720  9.3    0.045    0.045    0.045    0.045
+ dbcsr_zero                       44703  8.5    0.016    0.044    0.016    0.044
+ fft_wrap_pw1pw2_30                 165 10.6    0.001    0.001    0.039    0.044
+ kpoint_operator_get               1212  7.3    0.001    0.001    0.033    0.044
+ kpoint_operator_rs_build          1212  8.3    0.033    0.044    0.033    0.044
+ collect_band_mo_coefficients         1  9.0    0.000    0.000    0.043    0.043
+ get_RI_basis                         1  7.0    0.004    0.004    0.043    0.043
+ parser_read_line                 11814  4.0    0.002    0.002    0.041    0.042
+ qs_env_rebuild_pw_env                2  3.5    0.002    0.002    0.042    0.042
+ mp_sum_dm                          109  8.3    0.032    0.042    0.032    0.042
+ dbcsr_reserve_blocks              7347  8.5    0.011    0.038    0.013    0.041
+ calculate_first_density_matrix       1  5.0    0.002    0.002    0.041    0.041
+ mp_bcast_iv                       9839  9.2    0.039    0.041    0.039    0.041
+ parser_read_line_low                14  5.0    0.002    0.018    0.039    0.040
+ fft_wrap_pw1pw2_90                 165 10.6    0.001    0.001    0.033    0.040
+ mp_alltoall_i22v                  3874  9.5    0.027    0.040    0.027    0.040
+ gamma_time_transform                 1  9.0    0.040    0.040    0.040    0.040
+ calculate_atomic_block_dm            1  6.0    0.011    0.012    0.039    0.040
+ broadcast_input_information         14  6.0    0.006    0.007    0.037    0.040
+ slab_gamma_corr_cell_integrals       1  9.0    0.038    0.039    0.039    0.040
+ mp_allgatherv_iv                    79  9.0    0.032    0.040    0.032    0.040
+ pw_env_rebuild                       1  5.0    0.009    0.009    0.039    0.039
+ mp_alltoall_l22                     81  9.0    0.032    0.038    0.032    0.038
+ cp_cfm_cleanup_copy_general       2046  8.2    0.001    0.002    0.030    0.038
+ kpoint_density_matrices             79  7.0    0.032    0.034    0.035    0.037
+ dbcsr_finalize                   16670  8.6    0.006    0.008    0.026    0.037
+ mp_cart_create                     514 12.4    0.032    0.036    0.032    0.036
+ build_core_ppl                       1  5.0    0.011    0.036    0.011    0.036
+ setup_cells_3c                       1  8.0    0.031    0.033    0.034    0.034
+ rirs_grid_cluster_ao                 1 11.0    0.032    0.034    0.032    0.034
+ cp_cfm_finish_copy_general        1668  8.2    0.004    0.004    0.029    0.032
+ init_rho_atom                        1  3.0    0.011    0.011    0.032    0.032
+ pw_poisson_solve                    82  8.0    0.001    0.001    0.030    0.031
+ factor_ri_rs_fit_dsyrk              21 12.0    0.023    0.030    0.023    0.030
+ abc_contract                         4 10.0    0.028    0.029    0.028    0.029
+ zgemm_square_2                      36 10.1    0.028    0.029    0.028    0.029
+ mp_alltoall_i22                    747 11.7    0.023    0.028    0.023    0.028
+ dbcsr_add_d                        723  7.0    0.000    0.000    0.014    0.028
+ dbcsr_add_anytype                  723  8.0    0.001    0.003    0.014    0.027
+ scf_post_calculation_gpw             1  3.0    0.002    0.002    0.027    0.027
+ mp_bcast_dm                         66 10.0    0.016    0.026    0.016    0.026
+ cp_cfm_column_scale                319  9.5    0.025    0.026    0.025    0.026
+ write_available_results              1  4.0    0.000    0.000    0.024    0.024
+ mp_cart_sub                       1016 12.5    0.024    0.024    0.024    0.024
+ write_mo_free_results                1  5.0    0.004    0.004    0.024    0.024
+ copy_fm_to_dbcsr                   241  8.0    0.000    0.000    0.023    0.023
+ rs_grid_zero                       166  9.5    0.019    0.023    0.019    0.023
+ build_overlap_matrix_low             1  5.0    0.009    0.018    0.012    0.022
+ Vh_1c_gg_integrals                  82  8.0    0.002    0.002    0.015    0.022
+ calculate_rho_atom_coeff            83  6.1    0.005    0.022    0.005    0.022
+ pw_axpy                            901  9.2    0.021    0.021    0.021    0.021
+ mp_bcast_i_src                      56  7.0    0.019    0.021    0.019    0.021
+ dbcsr_merge_all                   1470 12.0    0.007    0.010    0.014    0.020
+ mp_sum_zm3                           4 10.8    0.016    0.020    0.016    0.020
+ solve_AA_eigenproblem_periodic       1  9.0    0.001    0.015    0.001    0.020
+ xz_to_yz                           166 11.1    0.010    0.011    0.018    0.019
+ pw_grid_setup                        4  6.0    0.002    0.003    0.019    0.019
+ pw_scatter_p                       813 12.2    0.018    0.018    0.018    0.018
+ connectivity_control                 1  3.0    0.002    0.002    0.017    0.017
+ Sigma_c_result_redistribution        1  9.0    0.005    0.006    0.016    0.017
+ pw_copy                           1225 10.6    0.017    0.017    0.017    0.017
+ mpools_rebuild_fm_pools              4  6.0    0.017    0.017    0.017    0.017
+ cp_cfm_set_submatrix              2232  9.0    0.017    0.017    0.017    0.017
+ pw_grid_setup_internal               4  7.0    0.001    0.003    0.016    0.016
+ dbcsr_data_release               98938  9.8    0.015    0.016    0.015    0.016
+ transfer_rs2pw_30                   83  9.1    0.003    0.004    0.011    0.015
+ qs_env_rebuild_rho                   1  5.0    0.006    0.006    0.014    0.015
+ mp_alltoall_i11v                  2244 11.7    0.011    0.015    0.011    0.015
+ calculate_atom                       2  7.0    0.000    0.000    0.014    0.014
+ calculate_atom_restricted            2  8.0    0.012    0.013    0.014    0.014
+ fft3d_s                              1  2.0    0.011    0.012    0.014    0.014
+ transform_time_to_frequency        404  9.0    0.013    0.014    0.013    0.014
+ mp_bcast_am_src                     14  7.0    0.012    0.014    0.012    0.014
+ transfer_pw2rs_30                   82 12.0    0.004    0.004    0.014    0.014
+ topology_generate_bond               1  4.0    0.001    0.001    0.014    0.014
+ update_ks_atom                      82  8.0    0.011    0.014    0.011    0.014
+ pw_derive                          732 11.4    0.013    0.014    0.013    0.014
+ fft_wrap_pw1pw2_10                 165 10.6    0.000    0.000    0.013    0.013
+ init_rho0                            1  3.0    0.013    0.013    0.013    0.013
+ qs_create_task_list                  1  5.0    0.006    0.007    0.010    0.013
+ build_kinetic_matrix_low             1  5.0    0.008    0.011    0.010    0.013
+ pw_poisson_set                      83  9.0    0.001    0.001    0.012    0.013
+ cp_cfm_scale_and_add_fm           8080  8.4    0.012    0.013    0.012    0.013
+ dbcsr_iterator_seek              73146  9.6    0.010    0.012    0.010    0.012
+ pw_gather_p                        740 11.9    0.011    0.012    0.011    0.012
+ get_fft_scratch                   1554 13.1    0.011    0.012    0.011    0.012
+ qs_scf_print_scf_summary             1  5.0    0.001    0.012    0.001    0.012
+ mp_max_iv                           89  8.1    0.009    0.012    0.009    0.012
+ dbcsr_make_index_exist           48615  8.6    0.011    0.012    0.011    0.012
+ pw_integral_ab_c1d_c1d_gs           82  9.0    0.010    0.010    0.011    0.012
+ mp_min_i                           249  8.3    0.008    0.012    0.008    0.012
+ yz_to_xz                           164 14.0    0.002    0.002    0.009    0.012
+ dbcsr_destroy                     9091  7.4    0.007    0.007    0.011    0.011
+ mulliken_population_analysis         1  6.0    0.002    0.010    0.003    0.011
+ pw_zero                            489 10.4    0.008    0.011    0.008    0.011
+ topology_generate_bond_3             1  5.0    0.001    0.001    0.011    0.011
+ calculate_hirshfeld_normalizat       1  6.0    0.000    0.003    0.010    0.011
+ distribute_d_lP_R_by_l               1 11.0    0.004    0.004    0.010    0.011
+ copy_dbcsr_to_fm_bc                506 11.5    0.006    0.009    0.008    0.010
+ cube_transpose_2                   166 11.1    0.003    0.003    0.007    0.010
+ qs_rho_rebuild                       1  6.0    0.007    0.007    0.008    0.010
+ coordinate_control                   1  3.0    0.002    0.002    0.010    0.010
+ build_fist_neighbor_lists            1  6.0    0.001    0.001    0.010    0.010
+ continuation_pade                 2424 10.0    0.005    0.006    0.008    0.010
+ mixing_allocate                      1  3.0    0.003    0.003    0.007    0.010
+ dbcsr_work_create                 1470 11.0    0.005    0.006    0.007    0.010
  -------------------------------------------------------------------------------
 
  The number of warnings for this run is : 1
  
  -------------------------------------------------------------------------------
-  **** **** ******  **  PROGRAM ENDED AT                 2026-10-20 10:31:40.163
- ***** ** ***  *** **   PROGRAM RAN ON                                    cn1823
+  **** **** ******  **  PROGRAM ENDED AT                 2026-11-05 16:08:27.466
+ ***** ** ***  *** **   PROGRAM RAN ON                                 n2lcn0161
  **    ****   ******    PROGRAM RAN BY                                  eprop2d1
- ***** **    ** ** **   PROGRAM PROCESS ID                                761007
-  **** **  *******  **  PROGRAM STOPPED IN /scratch/hpc-prf-metdyn/eprop2d1_Jan/
-                                           06_CP2K_development/tmdc_five_bases_k
-                                           12_k16_20261020_v3/runs/MoS2_02_aug-D
-                                           ZVP_T1_k16
+ ***** **    ** ** **   PROGRAM PROCESS ID                               3700245
+  **** **  *******  **  PROGRAM STOPPED IN /scratch/hpc-prf-dyncrys/eprop2d1_Jan
+                                           /02_Claude/0035_2d_vasp_compare/cases
+                                           /2D_MoS2/aug-DZ1_k16

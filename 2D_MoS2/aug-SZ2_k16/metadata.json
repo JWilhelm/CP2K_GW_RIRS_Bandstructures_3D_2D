@@ -1,112 +1,20 @@
 {
-  "case": "MoS2_01_aug-SZV_T2_k16",
   "material": "MoS2",
-  "basis": "aug-SZV-MOLOPT-GTH-tier-2",
-  "k": 16,
-  "nodes": 1,
-  "mpi_per_node": 48,
-  "omp": 4,
-  "cp2k_seconds": 62.424,
-  "slurm_seconds": 72,
-  "node_hours": 0.02,
-  "gap_soc_eV": 2.2100000000000004,
-  "vbm_soc_eV": -5.663,
-  "cbm_soc_eV": -3.453,
-  "job_id": "3771754",
-  "numerical_status": "full-spectrum reproducibility unresolved",
-  "max_rank_rss": "1444816K",
   "dimension": "2D",
+  "basis": "aug-SZ2",
   "k_mesh": "16x16x1",
-  "basis_short": "aug-SZ2",
-  "method": "G0W0+SOC path gap from printed band energies",
-  "allocated_cpus": 192,
-  "core_hours": 3.84,
-  "source_directory": "/scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v3/runs/MoS2_01_aug-SZV_T2_k16",
-  "slurm_state": "COMPLETED",
-  "slurm_exit_code": "0:0",
-  "accounting_source": "Slurm accounting for 20 October 2026 calculations",
-  "normal_cp2k_end": true,
-  "scf_converged": true,
-  "cp2k_stderr_bytes": 0,
-  "warnings": [
-    " *** WARNING in post_scf_bandstructure_utils.F:4091 :: G0W0 reorders the  ***\n *** occupied levels: the SCF valence band maximum (SCF HOMO) is level 13 ***\n *** at k-point 1, whereas the G0W0 valence band maximum (G0W0 HOMO) is   ***\n *** level 13 at k-point 50. The SCF and G0W0 band edges printed below    ***\n *** therefore belong to different orbitals; see the eigenvalues in the   ***\n *** file bandstructure_SCF_and_G0W0.                                     ***"
-  ],
-  "included_files": [
-    {
-      "name": "assets/BASIS",
-      "bytes": 24528,
-      "sha256": "c2a0ea86a6a4fac168c77874cbe27eb5153bedd2f4dbf4fb78c8835520f4f2d7"
-    },
-    {
-      "name": "assets/POTENTIALS",
-      "bytes": 254486,
-      "sha256": "cb8671959ad5dd1c0f403786a69af3f155157ed1af8e5701e63de23ec4b0742e"
-    },
-    {
-      "name": "bandstructure_DFT",
-      "bytes": 288156,
-      "sha256": "951d94866fc8cc3ef5acc3df4f1e7ded150bffb1bb8bddc59f8a2f7044cfcaa4"
-    },
-    {
-      "name": "bandstructure_DFT_plus_SOC",
-      "bytes": 540644,
-      "sha256": "0c2d4d0485e6369540b76f6e6f1449d3c1bb2d8ae3cbf6c0d7b636dce41083a4"
-    },
-    {
-      "name": "bandstructure_SCF_and_G0W0",
-      "bytes": 792984,
-      "sha256": "82b00eee593d444a0baa66f1847972aa2dae661823a4cc24f5f973adf352fa6f"
-    },
-    {
-      "name": "bandstructure_SCF_and_G0W0_plus_SOC",
-      "bytes": 790172,
-      "sha256": "cd78df5bb6bfce331a0e1cdc3ddc8074fc00cdaed75777428815c66d719f870c"
-    },
-    {
-      "name": "cp2k.stderr",
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "name": "cp2k.stdout",
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "name": "input.inp",
-      "bytes": 2626,
-      "sha256": "c071837db05e69a41e38c1519f83a7ee181351a850a021cd2544bb4524649b20"
-    },
-    {
-      "name": "ldd.txt",
-      "bytes": 5018,
-      "sha256": "0cf983a65d663a37514f6c4f0be338fae410e3cae3eeffcb7b19628a288c7a03"
-    },
-    {
-      "name": "output.out",
-      "bytes": 156708,
-      "sha256": "d878c5146630c13e404c17634e390563156728b295bb2f884077d3849e5eb3db"
-    },
-    {
-      "name": "preflight.sha256",
-      "bytes": 886,
-      "sha256": "fe14dfa1c21a296a33d5f634d736b106c87be3d54c9ceed22745768423649e27"
-    },
-    {
-      "name": "run.sbatch",
-      "bytes": 2314,
-      "sha256": "00e0c047c33f647b27ba727ba78af96cb6594fc8f49747f16ab95a27df9edb7c"
-    },
-    {
-      "name": "slurm-3771754.err",
-      "bytes": 321,
-      "sha256": "cd56e4cfe59307bacb6c4b3ddddc6f0592df579589a61bbc1b3b84614e23c054"
-    },
-    {
-      "name": "slurm-3771754.out",
-      "bytes": 594,
-      "sha256": "10b26a15c54d49b465dd17eb6725a7e1f56aa8a6ff5974114dc5339489a97b11"
-    }
-  ],
-  "limitations": "The k12 and k16 gaps differ by 29–44 meV across this series. Full-spectrum reproducibility and k convergence remain unresolved."
+  "method": "G0W0+SOC direct gap at K",
+  "gap_soc_eV": 2.352,
+  "cp2k_revision": "cp2k/cp2k#6447 @ 78f75d47d7",
+  "nodes": 1,
+  "mpi_per_node": 16,
+  "omp": 8,
+  "slurm_job": "34890227",
+  "elapsed_seconds": 93,
+  "core_hours": 3.31,
+  "reference_gaps_eV": {
+    "VASP": 2.29,
+    "old CP2K (tensor)": 2.3,
+    "source": "https://arxiv.org/html/2507.18411"
+  }
 }

@@ -9,10 +9,9 @@
 &FORCE_EVAL
   METHOD Quickstep
   &DFT
-    BASIS_SET_FILE_NAME /scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v2/data/BASIS
-    WFN_RESTART_FILE_NAME /scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v2/seed_wse2_tz2_k16/WSe2_seed-RESTART.kp
+    BASIS_SET_FILE_NAME BASIS_AUG_MOLOPT_GTH
     SORT_BASIS EXP
-    POTENTIAL_FILE_NAME /scratch/hpc-prf-metdyn/eprop2d1_Jan/06_CP2K_development/tmdc_five_bases_k12_k16_20261020_v2/data/POTENTIALS
+    POTENTIAL_FILE_NAME /scratch/hpc-prf-dyncrys/eprop2d1_Jan/02_Claude/0008_bandstructures_rerun/cases/POTENTIALS_SOC
     CHARGE 0
     &MGRID
       CUTOFF  500
@@ -28,7 +27,7 @@
       EPS_PGF_ORB 1.0E-12
     &END QS
     &SCF
-      SCF_GUESS RESTART
+      SCF_GUESS ATOMIC
       EPS_SCF 1.0E-9
       MAX_SCF 500
       &PRINT
@@ -60,11 +59,8 @@
         FREQ_MAX_FIT 27.211
         EPS_FILTER 1.0E-11
         RI_CUTOFF_ATTENUATION [bohr^-1] 0.3
-        RI_METRIC_BODY_CUTOFF 1.0E-10
         &AUTO_RI
-          OPTIMIZE_CONDNUM_RI_METRIC TRUE
           RI_AO_RATIO 3.0
-          RI_INITIAL -1
         &END AUTO_RI
         &RI_RS
           TIKHONOV 1.0E-4
